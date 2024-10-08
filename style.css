@@ -12,15 +12,25 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: url("world_cloud.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 .mainlogo{
     width:194px;
     height:208px;
+    border-bottom-left-radius: 22px;
+  
+
     /* border: 3px solid black;   */
 }
 .hilogo{
     width:240px;
     height:208px;
+    border-bottom-right-radius: 22px;
 }
 .content{
     width:100%;
@@ -32,7 +42,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding-bottom:32px;
-    background: url("WORD CLOUD WEB.jpg");
+    background: url("world_cloud.jpg");
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -102,6 +112,7 @@
     font-style: normal;
     letter-spacing: 1px;
     word-spacing: 3px;
+    
   }
   
   .pic{
@@ -129,30 +140,31 @@
     border:0px solid black;
     background-color:#9aabff;
     color:white;
-    font-size:16px;
+    font-size:20px;
     font-family: "Anton", sans-serif;
     font-weight:400;
     margin-left:15px;
     margin-top:5px;
+  
   }  
 .sub:hover{
-    filter: drop-shadow(9px 9px 1px #000000);
+    filter: drop-shadow(9px 9px 0px #000000);
     margin-bottom:7px;
     margin-right:7px;
     transition: all 0.3s ease-in-out;
 }
 #subbtn:hover{
-    background-color:#828be0;
+    background-color:#6A83FF;
     transition: all 0.3s ease-in-out;
+    filter: drop-shadow(0px 5px 8px #9aabff);
 }
 .footer{
     width:100%;
     height:70px;
-   
     background-color:#000016;
     text-align: center;
     color:whitesmoke;
-    font-size: 20px;
+    font-size: 17px;
     font-family:"Poppins", sans-serif;
     display: flex;
     justify-content: center;
@@ -169,7 +181,9 @@ span{
     align-items: center;
     justify-content: space-between;
     word-spacing: 30px;
-
+    filter:drop-shadow(0px 3px 10px #00000042);
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
 }
 nav{
     position: relative;
@@ -181,6 +195,7 @@ nav{
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     word-spacing: 20px;
+
 }
 nav a{
     position: relative;
@@ -200,49 +215,32 @@ nav a{
     bottom: 0;
     z-index: 0;
     border-radius: 7px;
-    background: linear-gradient(0deg,#828be0,#9aabff);
-    transition: all 0.5s ease 0s;
+    transition: all 0.4s ease 0s;
+    background-color: #9AABFF;
+    filter: drop-shadow(0px 5px 8px #9aabff);
+    margin-top: 8px;
  
+    width:100px;
 
 }
-
 a:nth-child(1){
     width: 100px;
-}
-nav .start-nav,a:nth-child(1):hover~.animation{
-    width: 100px;
-    left: 0;
-    
-    
-    
 }
 a:nth-child(2){
     width: 190px;
 }
-nav .start-assignment,a:nth-child(2):hover~.animation{
-    width: 190px;
-    left: 125px;
-}
 a:nth-child(3){
     width: 100px;
-}
-nav .start-task,a:nth-child(3):hover~.animation{
-    width: 100px;
-    left: 340px;
 }
 a:nth-child(4){
     width: 100px;
 }
-nav .start-about,a:nth-child(4):hover~.animation{
-    width: 100px;
-    left: 470px;
-    
-}
+
 nav a{
     color:#d0d9e0d7 ;
     font-weight:bolder;
 }
-nav a:hover{
-    color: #8e98f7;
+#navtextone{
+    color:#8e98f7;
 }
 
