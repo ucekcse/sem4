@@ -207,7 +207,7 @@ nav a{
 }
 .sub{
     width:390px;
-    height:690px;
+    height:670px;
     border-radius:16px;
     border: 4px dashed #FA005F;
     display: flex;
@@ -237,9 +237,10 @@ nav a{
     
 }
 .wingcontentsub{
-    margin-top:15px;
+   margin-bottom:40px;
+
     font-size:26px;
-    color:#3c3e50;
+   
     text-align: center;
     font-family: "Anton", sans-serif;
     font-weight: bold;
@@ -248,9 +249,10 @@ nav a{
     word-spacing: 3px;
 }
 .unitrow{
-    width:445px;
-    height:170px;
-    margin: 26px;
+    width:440px;
+    height:160px;
+    margin-left: 22px;
+  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -259,7 +261,7 @@ nav a{
 }
 .unit{
     width:200px;
-    height:100%;
+    height:130px;
     background-color:#FFC5DB;
     display: flex;
     justify-content: center;
@@ -276,9 +278,8 @@ nav a{
 }
 #boxone button{
     background-color: #20D0F7;
-    width:162px;
-    height:52px;
-    
+    width:180px;
+    height:50px;
 }
 #unitthree{
     background-color:#FAF1B4;
@@ -286,18 +287,21 @@ nav a{
   
 }
 #boxtwo button{
-    width:162px;
-    height:52px;
+    width:180px;
+    height:50px;
+ 
 }
 #boxthree button{
-    background-color:#F0D30E;
-    width:162px;
-    height:52px;
+    width:180px;
+    height:50px;
+    
+    background-color: #F0D30E
 }
 
 .unit button{
-    width:83%;
-    height:35%;
+    width:180px;
+    height:50px;
+   
     font-size:18px;
     color:white;
     font-family: 'Supercell',sans-serif;
@@ -308,8 +312,8 @@ nav a{
 }
 .unitrowthree{
 width:500px;
-    height:180px;
-    margin: 24px;
+    height:160px;
+  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -331,8 +335,9 @@ width:500px;
     font-size:40px;
     font-family:'Supercell',sans-serif;
     color:white;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 10px;
     -webkit-text-stroke-color: black;
+    paint-order: stroke fill;
     
     
 }
@@ -358,8 +363,9 @@ width:500px;
     font-size:48px;
     font-family:'Supercell',sans-serif;
     color:white;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 10px;
     -webkit-text-stroke-color: black;
+    paint-order: stroke fill;
    
 }
 #boxone{
@@ -377,6 +383,11 @@ width:500px;
  }
  #wingcontentsubone{
      display:none;
+     color:#596373;
+   
+ }
+ #wingcontentsub{
+    color:#665769
  }
 
  #coverthree{
@@ -385,8 +396,9 @@ width:500px;
     font-size:40px;
     font-family:'Supercell',sans-serif;
     color:white;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 10px;
     -webkit-text-stroke-color: black;
+    paint-order: stroke fill;
    
 }
  #boxthree{
@@ -404,34 +416,43 @@ width:500px;
  }
  #wingcontentsubthree{
      display:none;
+     color:#656365;
  }
  #boxone button:hover{
-    background-color: #30b9d8
+    
+    font-size:19.5px;
+    transition:0.4s all ease-in-out; 
+    filter: drop-shadow(0px 4px 10px #0000004f);
 }
 #boxtwo button:hover{
-    background-color: #cf1a60;
+    font-size:19.5px;
+    transition:0.4s all ease-in-out; 
+    filter: drop-shadow(0px 4px 10px #0000004f);
 }
 #boxthree button:hover{
-    background-color:#dabe0d;
+    font-size:19.5px;
+    transition:0.4s all ease-in-out; 
+    filter: drop-shadow(0px 4px 10px #0000004f);
 }
 .backhome{
-    width:115px;
+    width:105px;
     height:60px;
-    background-color: #d3d6da;
+    background-color: #ffffff98;
     border-radius: 100px;
-    right:48%;
+
+    right:43%;
     position: relative;
-    filter: drop-shadow(4px 7px 6px #0000002a);
+    filter: drop-shadow(0px 2px 12px #0000004f);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #backhome{
-    width:100px;
-    height:60px;
+    width:40px;
+    height:30px;
 
 }
 .backhome:hover{
-    filter: drop-shadow(4px 7px 6px #0000007e);
-    background-color: #8fa1ff;
+    filter: drop-shadow(0px 4px 20px #8497ff);
+    background-color: #9aabff;
 }
