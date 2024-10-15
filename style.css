@@ -223,16 +223,16 @@ nav a{
     width:100px;
 
 }
-a:nth-child(1){
+.a:nth-child(1){
     width: 100px;
 }
-a:nth-child(2){
+.a:nth-child(2){
     width: 190px;
 }
-a:nth-child(3){
+.a:nth-child(3){
     width: 100px;
 }
-a:nth-child(4){
+.a:nth-child(4){
     width: 100px;
 }
 
@@ -243,4 +243,3 @@ nav a{
 #navtextone{
     color:#8e98f7;
 }
-
