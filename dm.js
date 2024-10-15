@@ -82,6 +82,8 @@ function bigboxone(){
    document.getElementById("boxthree").style.backgroundImage="url(pyq_bg_test.jpg)";
    document.getElementById("coverthree").style.display="flex"; 
    document.getElementById("boxthree").style.border="0px";
+   document.getElementById("cover").style.fontSize="36px";
+   document.getElementById("coverthree").style.fontSize="36px";
 
 }
 function bigboxtwo(){
@@ -117,6 +119,8 @@ function bigboxtwo(){
    document.getElementById("boxthree").style.backgroundImage="url(pyq_bg_test.jpg)";
    document.getElementById("coverthree").style.display="flex"; 
    document.getElementById("boxthree").style.border="0px";
+   document.getElementById("coverone").style.fontSize="36px";
+   document.getElementById("coverthree").style.fontSize="36px";
 
 
 }
@@ -152,6 +156,9 @@ function bigboxthree(){
    document.getElementById("unitrowonethree").style.display = "flex";  
    document.getElementById("unitrowtwothree").style.display = "flex";  
    document.getElementById("unitrowthreethree").style.display = "flex";  
-   document.getElementById("wingcontentsubthree").style.display = "flex"; 
- 
+   document.getElementById("wingcontentsubthree").style.display = "flex";
+   document.getElementById("cover").style.fontSize="36px";
+   document.getElementById("coverone").style.fontSize="36px";
+
 }
+
