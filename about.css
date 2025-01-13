@@ -1,0 +1,320 @@
+:root{
+    --my-gradient: linear-gradient(0deg,#828be0,#9aabff);
+}
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("world_cloud.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.mainlogo{
+    width:194px;
+    height:208px;
+    border-bottom-left-radius: 22px;
+  
+
+    /* border: 3px solid black;   */
+}
+.hilogo{
+    width:240px;
+    height:208px;
+    border-bottom-right-radius: 22px;
+}
+.content{
+    width:100%;
+    height:980px;
+    background-color: antiquewhite;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom:32px;
+    background: url("world_cloud.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover; 
+    background-color:#ffffff;
+}
+.partone{
+    width:580px;
+    height:110px;
+    margin-top:24px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.parttwo{
+    margin-top: 16px;
+    width:1245px;
+    height:780px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   justify-content: space-between;
+   flex-direction: column;
+}
+.rowone{
+    width:100%;
+    height:375px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   justify-content: space-between;
+}
+.rowtwo{
+    width:100%;
+    height:355px;
+    margin-top:2px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   justify-content: space-between;
+   padding-bottom:30px;
+}
+.sub{
+    width:400px;
+    height:375px;
+    background-color:#f0f8ff;
+    border-radius: 20px;
+    border:2.5px solid black;
+}
+.wing{
+
+    width:100px;
+    height:125px;
+}
+.wingcontent{
+    margin-top:15px;
+    font-size:23px;
+    color:#3c3e50;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    
+  }
+  
+  .pic{
+    width: 398px;
+    height:240px;
+    border-radius: 17px 20px 0px 0px; 
+  }
+  .name{
+    font-size:24px;
+    font-family: "Poppins", sans-serif;
+    font-weight:bold;
+    color:#000016;
+    margin-left:15px;
+  }
+  .code{
+    font-size:16px;
+    font-family: "Poppins", sans-serif;
+    color:#00001694;
+    margin-left:15px;
+  }
+#subbtn{
+    width:355px;
+    height:44px;
+    border-radius:24px;
+    border:0px solid black;
+    background-color:#9aabff;
+    color:white;
+    font-size:20px;
+    font-family: "Anton", sans-serif;
+    font-weight:400;
+    margin-left:15px;
+    margin-top:5px;
+}  
+.sub:hover{
+    filter: drop-shadow(9px 9px 0px #000000);
+    margin-bottom:7px;
+    margin-right:7px;
+    transition: all 0.3s ease-in-out;
+}
+#subbtn:hover{
+    background-color:#6A83FF;
+    transition: all 0.3s ease-in-out;
+    filter: drop-shadow(0px 5px 8px #9aabff);
+}
+.footer{
+    width:100%;
+    height:70px;
+    background-color:#000016;
+    text-align: center;
+    color:whitesmoke;
+    font-size: 17px;
+    font-family:"Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-weight: 700;
+}
+.navbar{
+    width:100%;
+    height:208px;
+    background-color:#eaf5ff ;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    word-spacing: 30px;
+    filter:drop-shadow(0px 3px 10px #00000042);
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+nav{
+    position: relative;
+    margin: 15px;
+    justify-content: space-evenly;
+    width: auto;
+    font-size: 28px;
+    color:#9aabff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    word-spacing: 20px;
+
+}
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #828be0;
+    line-height: 58px;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+.animation{
+    position: absolute;
+    height: 9px;
+    bottom: 0;
+    z-index: 0;
+    border-radius: 7px;
+    transition: all 0.4s ease 0s;
+    background-color: #9AABFF;
+    filter: drop-shadow(0px 5px 8px #9aabff);
+    margin-top: 8px;
+ 
+    width:100px;
+
+}
+.a:nth-child(1){
+    width: 100px;
+}
+.a:nth-child(2){
+    width: 190px;
+}
+.a:nth-child(3){
+    width: 100px;
+}
+.a:nth-child(4){
+    width: 100px;
+}
+
+nav a{
+    color:#d0d9e0d7 ;
+    font-weight:bolder;
+}
+
+
+/* Specific for about */
+
+@font-face {
+
+    font-family: 'Supercell'; /* Choose a name for your font family */
+
+    src:url(supercell-magic-webfont.ttf) format('truetype'); /* Include multiple formats for compatibility */
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+.aboutcontent{
+    width:100%;
+    height:525px;
+    background-color: antiquewhite;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    padding-bottom:32px;
+    background: url("world_cloud.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover; 
+    background-color:#ffffff;
+}
+
+.suggestion {
+    width: 450px;
+    height: 280px;
+    padding: 10px; 
+    background-color: #f0f8ff;
+    border-radius: 20px;
+    border: 2.5px solid black;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    justify-content: center; 
+              
+}
+
+.suggestion p {
+    margin-bottom: 10px; 
+    text-align: center;
+    font-size: large;
+    font-weight: normal;
+}
+
+.suggestion input {
+    width: 90%;
+    height: 45px;
+    padding: 8px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left:18px;
+}
+
+.suggestion button {
+    width: 90%;
+    height: 60px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    border:0px solid;
+    border-radius: 0.5rem;
+    background-color:#6c2ffa;
+    color:white;
+    font-size:20px;
+    font-family: 'Supercell', sans-serif;
+}
+
