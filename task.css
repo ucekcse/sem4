@@ -238,9 +238,7 @@ nav a{
     color:#d0d9e0d7 ;
     font-weight:bolder;
 }
-#navtextone{
-    color:#8e98f7;
-}
+
 
 /* Specific for about */
 
@@ -275,13 +273,15 @@ nav a{
 .taskcontent{
     height: 602px;
     width:1204px;
-   background-color:white;
+   background-color:#FFF0EF;
     margin-top:74px;
     margin-bottom:82px;
     display:grid;
     grid-template-columns: 172px 172px 172px 172px 172px 172px 170px ;
     grid-template-rows: 86px 86px 86px 86px 86px 86px 84px;
     border:0.1px solid black;
+    border-radius:15px;
+    transition: all 0.7s ease 0s;
     
 }
 .taskcontentsmall{
@@ -292,9 +292,38 @@ nav a{
 
 .tasksidepage{
     height:650px;
-    width:380px;
-    background-color: #6A83FF;
+    width:370px;
+    background-color: #ffffff;
+   
+    border-left:16px solid #9AABFF;
+    border-top:16px solid #9AABFF;
+    border-bottom:16px solid #9AABFF;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    filter: drop-shadow(0px 5px 8px #020202c2);
+   
+    flex-direction: column;
+    justify-content: space-evenly;
+    
     display:none;
+   
+}
+.sidecontentsmain{
+    display:flex;
+    
+    align-items: center;
+    flex-direction: column;
+  
+    width:100%;
+    height:75%;
+   margin-bottom:40%;
+   position: relative;
+   top:42px;
+   padding-left:14px;
+}
+.sidecontents{
+    word-wrap: break-word;
+    width:340px;
 }
 
 
@@ -315,12 +344,18 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:none;
+    transition:none;
+   
 }
 .rowsmall{
     width:130px;
     height:71.4px;
-    
+    transition:none;
+
+
 }
+
 
 .rowone1::after {
     content: '';
@@ -333,6 +368,8 @@ nav a{
     transform: rotate(26deg);
     transform-origin: top left;
     pointer-events: none;
+    transition:none;
+
 }
 
 .rowone1 .text {
@@ -346,7 +383,8 @@ nav a{
     left: 30px;
     font-family: "Anton", sans-serif;
     font-size:21px;
-    color:#ffffff
+    color:#ffffff;
+    transition:none;
 }
 
 .rowone1 .subject {
@@ -354,13 +392,15 @@ nav a{
     right: 15px;
     font-family: "Anton", sans-serif;
     font-size:21px;
-    color:#ffffff
+    color:#ffffff;
+    transition:none;
 }
 
 
 .rowone1 span {
     position: absolute;
     z-index: 1;
+    transition:none;
 }
 .date{
     background-color: #9AABFF;
@@ -371,7 +411,7 @@ nav a{
     justify-content: space-evenly;
     font-family: "Anton", sans-serif;
     font-size:26px;
-    color:#ffffff
+    color:#ffffff;
 }
 .daydetail{
     font-family: "Anton", sans-serif;
@@ -393,3 +433,105 @@ nav a{
     background-color: #00FF67;
     color:white;
 }
+.rowtwo2:hover{
+    background-color: #00B74A;
+}
+.rowfour2:hover{
+    background-color: #00B74A;
+}
+.rowthree2:hover{
+    background-color: #00B74A;
+}
+.rowtwo3:hover{
+    background-color: #00B74A;
+}
+.rowthree4:hover{
+    background-color: #00B74A;
+}
+.rowfour4:hover{
+    background-color: #00B74A;
+}
+.rowseven2:hover{
+    background-color: #00B74A;
+}
+.rowone7{
+    border-top-right-radius:15px;
+}
+.rowseven7{
+    border-bottom-right-radius:15px;
+}
+.rowone1{
+    border-top-left-radius:15px;
+}
+.rowseven1{
+    border-bottom-left-radius:15px;
+}
+.sidecontentsubname{
+   padding-bottom:8px;
+   font-family: "Anton", sans-serif;
+font-size:32px;
+color:#000016;
+   
+}
+.sidecontentdaydate{
+    right:16px;
+    padding-bottom:27px;
+    font-family: "Anton", sans-serif;
+    font-size:24px;
+    color:#00001693;
+
+}
+#spandate{
+    padding-right:16px;
+}
+.sidecontentwork{
+    padding-bottom:8px;
+    font-family: "Anton", sans-serif;
+    font-size:20px;
+    color:#000016;
+
+}
+.sidecontentpara{
+    padding-bottom:16px;
+    font-family: "Poppins", sans-serif;
+    font-size:16px;
+    color:#3D3D44
+}
+.sidecontentdeadline{
+    padding-bottom:8px;
+    padding-bottom:8px;
+    font-family: "Anton", sans-serif;
+    font-size:20px;
+    color:#000016;
+}
+.sidecontentdate{
+    padding-bottom:16px;
+    font-family: "Anton", sans-serif;
+    font-size:16px;
+    color:#FF7069;
+}
+.sidecontentsource{
+    padding-bottom:8px;
+    padding-bottom:8px;
+    font-family: "Anton", sans-serif;
+    font-size:20px;
+    color:#FF3025;
+}
+.sidecontentdownload{
+    font-family: 'Supercell';
+    font-size:20px;
+    color:white;
+   
+    border-radius: 16px;
+    background-color: #6A83FF;
+    border:none;
+    padding-bottom:16px;
+    padding-top:16px;
+    padding-right:40px;
+    padding-left:40px;
+
+}
+.sidecontentdownload:hover{
+    background-color: #4968FF;
+}
+

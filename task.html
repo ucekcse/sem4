@@ -32,8 +32,8 @@
         <div id="taskcontainer"class="taskpage">
            <div id="taskmain" onclick ="shrink()" class="taskcontent">
               <div class=" rowone1"  id= "contentbox1" onclick="" >
-                <span class="day">DAY</span>
-    <span class="subject">SUBJECT</span>
+                <span class="day" id="daysmall">DAY</span>
+    <span class="subject" id="subsmall">SUBJECT</span>
               </div>
               <div class=" date rowone2"  id="contentbox" onclick = "" >
                 <p>OOP's</p>
@@ -55,72 +55,83 @@
               </div>
               <div class=" date rowtwo1"  id="contentbox" onclick = "" >
                 <p class="daydetail">MONDAY</p>
-                <p class="datedetail">06.09.2024</p>
+                <p class="datedetail"id="datedetail">06.09.2024</p>
               </div>
-              <div class=" indication rowtwo2"  id="contentbox" onclick = "" ><p>TO-DO :-(</p></div>
-              <div class=" indication rowtwo3"  id="contentbox" onclick = "" ><p>TO-DO :-(</p></div>
-              <div class=" indication rowtwo4"  id="contentbox" onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowtwo5"  id="contentbox" onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowtwo6"  id="contentbox" onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowtwo7"  id="contentbox" onclick = "" ><p>:-)</p></div>
+              <div class=" indication rowtwo2"  id="contentbox" onclick = " " ><p>⚠️</p></div>
+              <div class=" indication rowtwo3"  id="contentbox" onclick = "" ><p>⚠️</p></div>
+              <div class=" indication rowtwo4"  id="contentbox" onclick = "" ><p>—</p></div>
+              <div class=" indication rowtwo5"  id="contentbox" onclick = "" ><p>—</p></div>
+              <div class=" indication rowtwo6"  id="contentbox" onclick = "" ><p>—</p></div>
+              <div class=" indication rowtwo7"  id="contentbox" onclick = "" ><p>—</p></div>
               <div class=" date rowthree1"id="contentbox"   onclick = "" >
                 <p class="daydetail">MONDAY</p>
-                <p class="datedetail">06.09.2024</p>
+                <p class="datedetail" id="datedetail">06.09.2024</p>
                 
               </div>
-              <div class=" indication rowthree2"id="contentbox"   onclick = "" ><p>TO-DO :-(</p></div>
-              <div class=" indication rowthree3"id="contentbox"   onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowthree4"id="contentbox"   onclick = "" ><p>TO-DO :-(</p></div>
-              <div class=" indication rowthree5"id="contentbox"   onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowthree6"id="contentbox"   onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowthree7"id="contentbox"   onclick = "" ><p>:-)</p></div>
+              <div class=" indication rowthree2"id="contentbox"   onclick = "" ><p>⚠️</p></div>
+              <div class=" indication rowthree3"id="contentbox"   onclick = "" ><p>—</p></div>
+              <div class=" indication rowthree4"id="contentbox"   onclick = "" ><p>⚠️</p></div>
+              <div class=" indication rowthree5"id="contentbox"   onclick = "" ><p>—</p></div>
+              <div class=" indication rowthree6"id="contentbox"   onclick = "" ><p>—</p></div>
+              <div class=" indication rowthree7"id="contentbox"   onclick = "" ><p>—</p></div>
               <div class=" date rowfour1" id="contentbox"  onclick = "" >
                 <p class="daydetail">MONDAY</p>
-                <p class="datedetail">06.09.2024</p>
+                <p class="datedetail" id="datedetail">06.09.2024</p>
               
               </div>
-              <div class=" indication rowfour2" id="contentbox"  onclick = "" ><p>TO-DO :-(</p></div>
-              <div class=" indication rowfour3" id="contentbox"  onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowfour4" id="contentbox"  onclick = "" ><p>TO-DO :-(</p></div>
-              <div class=" indication rowfour5" id="contentbox"  onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowfour6" id="contentbox"  onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowfour7" id="contentbox"  onclick = "" ><p>:-)</p></div>
+              <div class=" indication rowfour2" id="contentbox"  onclick = "" ><p>⚠️</p></div>
+              <div class=" indication rowfour3" id="contentbox"  onclick = "" ><p>—</p></div>
+              <div class=" indication rowfour4" id="contentbox"  onclick = "" ><p>⚠️</p></div>
+              <div class=" indication rowfour5" id="contentbox"  onclick = "" ><p>—</p></div>
+              <div class=" indication rowfour6" id="contentbox"  onclick = "" ><p>—</p></div>
+              <div class=" indication rowfour7" id="contentbox"  onclick = "" ><p>—</p></div>
               <div class=" date rowfive1" id="contentbox"  onclick = "" >
                 <p class="daydetail">MONDAY</p>
-                <p class="datedetail">06.09.2024</p>
+                <p class="datedetail" id="datedetail">06.09.2024</p>
                
               </div>
-              <div class=" indication rowfive2" id="contentbox"  onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowfive3" id="contentbox"  onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowfive4" id="contentbox"  onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowfive5" id="contentbox"  onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowfive6" id="contentbox"  onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowfive7" id="contentbox"  onclick = "" ><p>:-)</p></div> 
+              <div class=" indication rowfive2" id="contentbox"  onclick = "" ><p>—</p></div>
+              <div class=" indication rowfive3" id="contentbox"  onclick = "" ><p>—</p></div>
+              <div class=" indication rowfive4" id="contentbox"  onclick = "" ><p>—</p></div>
+              <div class=" indication rowfive5" id="contentbox"  onclick = "" ><p>—</p></div>
+              <div class=" indication rowfive6" id="contentbox"  onclick = "" ><p>—</p></div>
+              <div class=" indication rowfive7" id="contentbox"  onclick = "" ><p>—</p></div> 
               <div class=" date rowsix1"  id="contentbox" onclick = "" >
                 <p class="daydetail">MONDAY</p>
-                <p class="datedetail">06.09.2024</p>
+                <p class="datedetail" id="datedetail">06.09.2024</p>
               </div>
-              <div class=" indication rowsix2"  id="contentbox" onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowsix3"  id="contentbox" onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowsix4"  id="contentbox" onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowsix5"  id="contentbox" onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowsix6"  id="contentbox" onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowsix7"  id="contentbox" onclick = "" ><p>:-)</p></div>
+              <div class=" indication rowsix2"  id="contentbox" onclick = "" ><p>—</p></div>
+              <div class=" indication rowsix3"  id="contentbox" onclick = "" ><p>—</p></div>
+              <div class=" indication rowsix4"  id="contentbox" onclick = "" ><p>—</p></div>
+              <div class=" indication rowsix5"  id="contentbox" onclick = "" ><p>—</p></div>
+              <div class=" indication rowsix6"  id="contentbox" onclick = "" ><p>—</p></div>
+              <div class=" indication rowsix7"  id="contentbox" onclick = "" ><p>—</p></div>
               <div class=" date rowseven1"id="contentbox"   onclick = "" >
                 <p class="daydetail">MONDAY</p>
-                <p class="datedetail">06.09.2024</p>
+                <p class="datedetail" id="datedetail">06.09.2024</p>
               
               </div>
-              <div class=" indication rowseven2"id="contentbox"   onclick = "" ><p>TO-DO :-(</p></div>
-              <div class=" indication rowseven3"id="contentbox"   onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowseven4"id="contentbox"   onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowseven5"id="contentbox"   onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowseven6"id="contentbox"   onclick = "" ><p>:-)</p></div>
-              <div class=" indication rowseven7"id="contentbox"  onclick = "" ><p>:-)</p></div>
+              <div class=" indication rowseven2"id="contentbox"   onclick = "" ><p>⚠️</p></div>
+              <div class=" indication rowseven3"id="contentbox"   onclick = "" ><p>—</p></div>
+              <div class=" indication rowseven4"id="contentbox"   onclick = "" ><p>—</p></div>
+              <div class=" indication rowseven5"id="contentbox"   onclick = "" ><p>—</p></div>
+              <div class=" indication rowseven6"id="contentbox"   onclick = "" ><p>—</p></div>
+              <div class=" indication rowseven7"id="contentbox"  onclick = "" ><p>—</p></div>
 
            </div>
            <div id="taskside" class="tasksidepage">
-
+            <div id="sidehidden" class="sidecontentsmain">
+             <p id="sidehidden" class="sidecontentsubname">OOP's</p>
+             <p id="sidehidden" class="sidecontentdaydate" ><span id="spandate">MONDAY</span>06.09.2024</p>
+             <div id="sidehidden" class="sidecontents">
+              <p id="sidehidden" class="sidecontentwork ">WORK</p>
+              <p id="sidehidden" class="sidecontentpara" >webfbhfbhwfbhuvbrvbhrbvhrvbrvbhrvbrvbrvbhhevberhvhebvhuvbhuvbhuvbhubvhebvhuvbhuve</p>
+              <p id="sidehidden" class="sidecontentdeadline">DEADLINE</p>
+              <p id="sidehidden" class="sidecontentdate">07.10.2024</p>
+              <p id="sidehidden" class="sidecontentsource">SOURCE</p>
+             </div>
+             <button id="sidehidden" class="sidecontentdownload">DOWNLOAD</button>
+            </div>
            </div>
         </div>
         <div class="footer">
