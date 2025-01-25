@@ -50,3 +50,22 @@ if (mediaQuery.matches) {
   document.getElementById("cont").style.borderBottomRightRadius="0px"
  
 }*/
+var mobilenav=document.getElementById("mobilenavwhole");
+function closenav(){
+   
+    mobilenav.style.display="none";
+    document.getElementById("hilogo").style.display="flex";
+    document.getElementById("menubar").style.display="flex";
+    document.getElementById("closeicon").style.display="none";
+    document.getElementById("content").style.display="flex";
+    document.getElementById("footer").style.display="flex";
+}
+function shownav(){
+   
+    mobilenav.style.display="flex";
+    document.getElementById("hilogo").style.display="none";
+    document.getElementById("menubar").style.display="none";
+    document.getElementById("closeicon").style.display="flex";
+    document.getElementById("content").style.display="none";
+    document.getElementById("footer").style.display="none";
+}

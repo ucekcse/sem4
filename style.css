@@ -244,9 +244,7 @@ nav a{
 #navtextone{
     color:#8e98f7;
 }
-.menubar{
-    display:none;
-}
+
 .menubarclose{
     display:none;
 }
@@ -266,6 +264,9 @@ nav a{
 .hilogomobile{
     display:none;
 }
+.menubar{
+    display:none;
+}
 @media only screen and (max-width: 630px){
     .navbar{
        height:112px; 
@@ -279,7 +280,6 @@ nav a{
        width:120px;
        height:100px;
         margin-top:11px;
-        display:none;
     }
     nav{
         display:none;
@@ -296,7 +296,7 @@ nav a{
         width:390px;
         height:1160px;
         padding-bottom:5px;
-        display:none;
+       
        
     }
     .partone{
@@ -445,7 +445,6 @@ nav a{
         font-size: 12px;
         width:100%;
         height:60;
-        display:none;
       }
       .mobilenavwhole{
             display:flex;
@@ -456,6 +455,7 @@ nav a{
             width:100%;
             height:85.5vh;
             background-color: #EAF5FA;
+            display:none;
       }
       .mobilenav{
         margin-top:30px;
@@ -502,13 +502,12 @@ nav a{
         color:#d0d9e0d7;
       }
   
-      .menubar{
-        display:none;
-    }
+   
     .menubarclose{
         display:flex;
         height:40px;
         width:45px;
         margin-right:46px;
+        display:none;
     }
 }
