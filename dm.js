@@ -43,6 +43,48 @@ function aboutline(){
 }
 line.style.width="100px";
 line.style.left="0px";
+function resetNavBarStyles() {
+    const menubar = document.getElementById("menubar");
+    const closeicon = document.getElementById("closeicon");
+    const mobilenav = document.getElementById("mobilenavwhole");
+
+    if (window.innerWidth < 900) {
+        
+         // Mobile view
+       menubar.style.display="flex"
+         closeicon.style.display = "none";
+         mobilenav.style.display = "none";
+    } else {
+// Desktop view
+menubar.style.display="none";
+closeicon.style.display = "none";
+mobilenav.style.display = "none";
+    }
+}
+var mobilenav=document.getElementById("mobilenavwhole");
+function closenav(){
+   
+    mobilenav.style.display="none";
+    document.getElementById("hilogo").style.display="flex";
+    document.getElementById("menubar").style.display="flex";
+    document.getElementById("closeicon").style.display="none";
+    document.getElementById("content").style.display="flex";
+    document.getElementById("footer").style.display="flex";
+}
+function shownav(){
+   
+    mobilenav.style.display="flex";
+    document.getElementById("hilogo").style.display="none";
+    document.getElementById("menubar").style.display="none";
+    document.getElementById("closeicon").style.display="flex";
+    document.getElementById("content").style.display="none";
+    document.getElementById("footer").style.display="none";
+}
+// Add event listener to handle resizing
+window.addEventListener("resize", resetNavBarStyles);
+
+// Initial call to set correct styles on page load
+resetNavBarStyles();
 
 var boxone = document.getElementById("boxone");
 var boxtwo = document.getElementById("boxtwo");
@@ -162,3 +204,9 @@ function bigboxthree(){
 
 }
 
+if (window.innerWidth > 630) {
+        
+    // Mobile view
+    menubar.style.display = "none";
+ 
+}

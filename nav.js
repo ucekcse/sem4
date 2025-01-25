@@ -41,15 +41,26 @@ function aboutline(){
     text2.style.color="#d0d9e0d7";
     text3.style.color="#d0d9e0d7";
 }
-
 line.style.width="100px";
 line.style.left="0px";
-/*const mediaQuery = window.matchMedia('(max-width:600px)')
-if (mediaQuery.matches) {
-  document.getElementById("ghost").style.display="flex";
-  document.getElementById("cont").style.borderBottomRightRadius="0px"
- 
-}*/
+function resetNavBarStyles() {
+    const menubar = document.getElementById("menubar");
+    const closeicon = document.getElementById("closeicon");
+    const mobilenav = document.getElementById("mobilenavwhole");
+
+    if (window.innerWidth < 900) {
+        
+         // Mobile view
+       menubar.style.display="flex"
+         closeicon.style.display = "none";
+         mobilenav.style.display = "none";
+    } else {
+// Desktop view
+menubar.style.display="none";
+closeicon.style.display = "none";
+mobilenav.style.display = "none";
+    }
+}
 var mobilenav=document.getElementById("mobilenavwhole");
 function closenav(){
    
@@ -69,26 +80,10 @@ function shownav(){
     document.getElementById("content").style.display="none";
     document.getElementById("footer").style.display="none";
 }
-function resetNavBarStyles() {
-    const menubar = document.getElementById("menubar");
-    const closeicon = document.getElementById("closeicon");
-    const mobilenav = document.getElementById("mobilenavwhole");
-
-    if (window.innerWidth > 630) {
-        // Desktop view
-        menubar.style.display = "none";
-        closeicon.style.display = "none";
-        mobilenav.style.display = "none";
-    } else {
-        // Mobile view
-        menubar.style.display = "flex";
-        closeicon.style.display = "none";
-        mobilenav.style.display = "none";
-    }
-}
-
 // Add event listener to handle resizing
 window.addEventListener("resize", resetNavBarStyles);
 
 // Initial call to set correct styles on page load
 resetNavBarStyles();
+
+
