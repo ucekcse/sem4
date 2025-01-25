@@ -360,12 +360,13 @@ nav a{
    
     }
     .sub{
-        width:370px;
+        width:340px;
         height:141px;
         background-color:#f0f8ff;
         border-radius: 20px;
         border:2.5px solid black;
         display: flex;
+        filter: drop-shadow(0px 4px 15px #00000050);
       
     }
     .pic{
@@ -413,7 +414,7 @@ nav a{
         
       }
     #subbtnmobile{
-        width:160px;
+        width:130px;
         height:43px;
         border-radius:24px;
         border:0px solid black;
@@ -434,7 +435,7 @@ nav a{
       .buttonarrow{
         width:30px;
         height:22px;
-      margin-left:10px;
+      margin-left:1px;
       margin-top: 3px;
         position: absolute;
     
