@@ -44,3 +44,9 @@ function aboutline(){
 
 line.style.width="100px";
 line.style.left="0px";
+/*const mediaQuery = window.matchMedia('(max-width:600px)')
+if (mediaQuery.matches) {
+  document.getElementById("ghost").style.display="flex";
+  document.getElementById("cont").style.borderBottomRightRadius="0px"
+ 
+}*/

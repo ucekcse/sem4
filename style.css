@@ -116,6 +116,7 @@
   }
   
   .pic{
+    display: flex;
     width: 398px;
     height:240px;
     border-radius: 17px 20px 0px 0px; 
@@ -242,4 +243,187 @@ nav a{
 }
 #navtextone{
     color:#8e98f7;
+}
+.menubar{
+    display:none;
+}
+.picmobile{
+    display:none;
+}
+.subcontentmobile{
+    display:none;
+}
+
+@media only screen and (max-width: 630px){
+    .navbar{
+       height:112px; 
+    }
+    .mainlogo{
+        width:86px;
+        height:86px;
+        margin-left:24px;
+    }
+    .hilogo{
+       width:120px;
+       height:100px;
+        margin-top:11px
+    }
+    nav{
+        display:none;
+    }
+    .menubar{
+        display:flex;
+        height:28px;
+        width:36px;
+        margin-right:46px;
+        color:#010018;
+      
+    }
+    .content{
+        width:433px;
+        height:1160px;
+        padding-bottom:5px;
+    }
+    .partone{
+        width:433px;
+        height:96px;
+        margin-top:24px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    
+    }
+    .wingtext{
+        width:310px;
+    }
+    .wingcontent{
+        font-size:20px;
+        margin-top:1px;
+        width:316px;
+    }
+    .wing{
+        width:74px;
+        height:80px;
+    }
+    .parttwo{
+        margin-top: 16px;
+        width:416px;
+        height:1010px;
+    
+        display:flex;
+        align-items: center;
+        justify-content: center;
+       justify-content: space-between;
+       
+    }
+    .rowone{
+        width:100%;
+        height:490px;
+    
+        display:flex;
+        align-items: center;
+        justify-content: center;
+       justify-content: space-between;
+       flex-direction: column;
+    }
+    .rowtwo{
+        width:100%;
+        height:490px;
+        margin-top:2px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+       justify-content: space-between;
+       padding-bottom:1px;
+       flex-direction: column;
+   
+    }
+    .sub{
+        width:412px;
+        height:141px;
+        background-color:#f0f8ff;
+        border-radius: 20px;
+        border:2.5px solid black;
+        display: flex;
+      
+    }
+    .pic{
+        display:none;
+    }
+    .picmobile{
+        width: 195px;
+        height:139px;
+        display: flex;
+      }
+      .name{
+           display:none;
+      }
+      .code{
+        display:none;
+   }
+
+   #subbtn{
+    display:none;
+}
+
+    .subcontentmobile{
+        display: flex;
+        flex-direction: column;
+        width:141px;
+      
+    }
+      .namemobile{
+        font-size:16px;
+        font-family: "Poppins", sans-serif;
+        font-weight:bold;
+        color:#000016;
+        margin-left:15px;
+        width:200px;
+        margin-top: 10px;
+        margin-bottom: 8px;
+       
+      }
+      .codemobile{
+        font-size:15px;
+        font-family: "Poppins", sans-serif;
+        color:#00001694;
+        margin-left:15px;
+        margin-bottom: 10px;
+        
+      }
+    #subbtnmobile{
+        width:160px;
+        height:43px;
+        border-radius:24px;
+        border:0px solid black;
+        background-color:#9aabff;
+        color:white;
+        font-size:20px;
+        font-family: "Anton", sans-serif;
+        font-weight:400;
+        margin-left:15px;
+       padding-top:6px;
+       padding-bottom: 7px;
+       padding-left: 19px;
+       padding-right:17px;
+      
+        
+      
+      }  
+      .buttonarrow{
+        width:30px;
+        height:22px;
+      margin-left:10px;
+      margin-top: 3px;
+        position: absolute;
+    
+    
+    }
+      .footer{
+        margin-top: 30px;
+        font-size: 13px;
+        width:95%;
+        height:60;
+      }
 }
