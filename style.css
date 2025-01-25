@@ -247,6 +247,9 @@ nav a{
 .menubar{
     display:none;
 }
+.menubarclose{
+    display:none;
+}
 .picmobile{
     display:none;
 }
@@ -254,6 +257,15 @@ nav a{
     display:none;
 }
 
+.wingmobile{
+    display:none;
+}
+.mobilenav{
+    display:none;
+}
+.hilogomobile{
+    display:none;
+}
 @media only screen and (max-width: 630px){
     .navbar{
        height:112px; 
@@ -266,7 +278,8 @@ nav a{
     .hilogo{
        width:120px;
        height:100px;
-        margin-top:11px
+        margin-top:11px;
+        display:none;
     }
     nav{
         display:none;
@@ -280,35 +293,42 @@ nav a{
       
     }
     .content{
-        width:433px;
+        width:390px;
         height:1160px;
         padding-bottom:5px;
+        display:none;
+       
     }
     .partone{
-        width:433px;
+        width:380px;
         height:96px;
         margin-top:24px;
         display:flex;
         align-items: center;
-        justify-content: space-between;
+     
     
     
     }
     .wingtext{
-        width:310px;
+        width:260px;
     }
     .wingcontent{
-        font-size:20px;
+        font-size:15px;
         margin-top:1px;
-        width:316px;
+        width:260px;
     }
     .wing{
-        width:74px;
-        height:80px;
+       
+        display:none;
+    }
+    .wingmobile{
+        display:flex;
+        width:60px;
+        height:70px;
     }
     .parttwo{
         margin-top: 16px;
-        width:416px;
+        width:390px;
         height:1010px;
     
         display:flex;
@@ -340,7 +360,7 @@ nav a{
    
     }
     .sub{
-        width:412px;
+        width:370px;
         height:141px;
         background-color:#f0f8ff;
         border-radius: 20px;
@@ -352,7 +372,7 @@ nav a{
         display:none;
     }
     .picmobile{
-        width: 195px;
+        width: 180px;
         height:139px;
         display: flex;
       }
@@ -422,8 +442,73 @@ nav a{
     }
       .footer{
         margin-top: 30px;
-        font-size: 13px;
-        width:95%;
+        font-size: 12px;
+        width:100%;
         height:60;
+        display:none;
       }
+      .mobilenavwhole{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            width:100%;
+            height:85.5vh;
+            background-color: #EAF5FA;
+      }
+      .mobilenav{
+        margin-top:30px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        width:100%;
+        height:29vh;
+      }
+      .hilogomobile{
+      
+        display:flex;
+        width:160px;
+        height:130px;
+        margin-left:53%;
+      }
+      .amobile{
+        font-size: 28px;
+    color:#9aabff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+ 
+ 
+      }
+      #navtextonemobile{
+        border-top:2px solid #9AABFF;
+        border-bottom:2px solid #9AABFF;
+       
+      }
+      #navtexttwomobile{
+        border-bottom:2px solid #d0d9e0d7;
+        color:#d0d9e0d7;
+
+      }
+      #navtextthreemobile{
+        color:#d0d9e0d7;
+      }
+      #navtextfourmobile{
+        border-top:2px solid #d0d9e0d7;
+
+        border-bottom:2px solid #d0d9e0d7;
+        color:#d0d9e0d7;
+      }
+  
+      .menubar{
+        display:none;
+    }
+    .menubarclose{
+        display:flex;
+        height:40px;
+        width:45px;
+        margin-right:46px;
+    }
 }
