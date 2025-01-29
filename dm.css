@@ -323,12 +323,7 @@ width:500px;
     border:0px;
     position: relative;
 }
-.sub img{
-    width:100%;
-    height:114%;
-    border-radius: 16px;
-    margin-top:30%;  
-}
+
 #cover{
     position: relative;
     text-align: center;
@@ -473,6 +468,15 @@ width:500px;
 .hilogomobile{
     display:none;
 }
+.sub:hover{
+    filter: drop-shadow(0px 4px 10px #00000098);
+}
+.buttonarrow{
+    display:none;
+}
+.wingcontentsub{
+    display:flex;
+}
 
 @media only screen and (max-width: 630px){
     .navbar{
@@ -567,4 +571,197 @@ width:500px;
         margin-right:46px;
         display:none;
     }
+    
+    .content{
+        width:100vw;
+        height:100vh;
+        background-color: antiquewhite;
+        display:flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        background: url("world_cloud.jpg");
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-color:#ffffff;
+    }
+    .partone{
+        width:85vw;
+        margin:0px;
+        margin-top:24px;
+        
+    }
+    
+    .backhome{
+        display:none;
+    }
+    .wing{
+        display:flex;
+        width:50px;
+        height:70px;
+    }
+    .wingcontent{
+        font-size:18px;
+    }
+    #boxone{
+        background-color: #00D0F6;
+        background-image: none;
+        background-size: contain;
+    }
+    
+    .two{
+        background-color: #ff005d;
+        background-image: none;
+        background-size: contain;
+    
+    }
+    #boxthree{
+        border: 4px dashed #F3DC3F;
+        background-color: #ffd900;
+        background-image: none;
+        background-size: contain;
+        
+    }
+    .sub{
+        width:95vw;
+        height:60px;
+        border-radius:16px;
+        border: 4px dashed #FA005F;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       flex-direction: column;
+        box-sizing: border-box;
+        
+    }
+    .parttwo{
+        flex-direction: column;
+        margin-top:10px;
+        margin-bottom:70%;
+        height:50vh;
+        justify-content:normal;
+    }
+    #coverone{
+        font-size:16px;
+        -webkit-text-stroke-width: 4px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #cover{
+        font-size:16px;
+        -webkit-text-stroke-width: 4px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #coverthree{
+        font-size:16px;
+        -webkit-text-stroke-width: 4px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttonarrow{
+        width:35px;
+        height:35px;
+        display:flex;
+        position:relative;
+    left:32% }
+    .bone{
+        left:21%;
+    }
+    .btwo{
+        left:12%;
+    }
+    .sub{
+        border-radius: 0px;
+        border-bottom-left-radius:16px ;
+        border-bottom-right-radius:16px;
+        
+    }
+   .wingcontentsub{
+    display:none;
+   }
+   
+   .unitrow{
+    width:95vw;
+    height:160px;
+    margin-left: 22px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.unit{
+    width:100px;
+    height:80px;
+    background-color:#FFC5DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Supercell', sans-serif;;
+    font-size: 10px;
+    border-radius: 16px;
+    border: 2px dashed #FA005F;
+}
+#unitone{
+    background-color:#BAF0FD;
+    border: 2px dashed #69DFFA;
+}
+#boxone button{
+    background-color: #20D0F7;
+    width:90px;
+    height:30px;
+}
+#unitthree{
+    background-color:#FAF1B4;
+    border: 2px dashed #F4E054;
+  
+}
+#boxtwo button{
+    width:90px;
+    height:30px;
+ 
+}
+#boxthree button{
+    width:90px;
+    height:30px;
+    
+    background-color: #F0D30E
+}
+
+.unit button{
+    width:90px;
+    height:30px;
+   
+    font-size:10px;
+    color:white;
+    font-family: 'Supercell',sans-serif;
+    margin-top: 20px;
+    border-radius: 16px;
+    border:0px;
+    background-color: #FF0061;
+}
+.unitrowthree{
+width:95vw;
+    height:160px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+    
 }
