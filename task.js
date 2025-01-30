@@ -63,9 +63,7 @@ function shrink(){
     taskmain.style.marginLeft="33px";
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
-    document.getElementById("daysmall").style.fontSize="18px";
-    document.getElementById("subsmall").style.fontSize="18px";
-    document.querySelectorAll("#datedetail").style.fontSize="20px";
+  
     taskcontainer.style.justifyContent="space-between";
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
@@ -80,7 +78,8 @@ function shrink(){
 daydetail.forEach(element => {
     element.style.fontSize = '18px'; // Or set a specific font size
 });
-
+   document.getElementById("daysmall").style.fontSize="18px";
+    document.getElementById("subsmall").style.fontSize="18px"
 }
 
 
@@ -165,12 +164,13 @@ function showallsubcontent(){
     subsmall.style.top="2px"
     subsmall.style.right="3px";
     daysmall.style.bottom="2px";
-    document.getElementById("daysmall").style.fontSize="18px";
-    document.getElementById("subsmall").style.fontSize="18px";
+
   
     taskcontainer.style.justifyContent="space-between";
-    document.querySelectorAll("#datedetail").style.fontSize="20px";
+    
     document.getElementById("allsubside").style.display="flex";
+    document.getElementById("daysmall").style.fontSize="18px";
+    document.getElementById("subsmall").style.fontSize="18px";
     
     
 }
