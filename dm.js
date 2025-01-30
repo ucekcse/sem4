@@ -252,6 +252,8 @@ function bigboxone(){
    arrowdownone.style.display="flex";
    arrowdowntwo.style.display="none";
    arrowdownthree.style.display="none";
+   document.getElementById("boxtwo").style.backgroundColor= "#ff005d";
+   document.getElementById("boxthree").style.backgroundColor="#F0D30E";
  
 
 }
@@ -328,12 +330,65 @@ function bigboxthree(){
    document.getElementById("unitrowtwothree").style.display = "flex";  
    document.getElementById("unitrowthreethree").style.display = "flex";  
    document.getElementById("wingcontentsubthree").style.display = "none";
+   document.getElementById("boxone").style.backgroundColor="#00D0F6";
+
    document.getElementById("boxtwo").style.backgroundColor= "#ff005d";
    arrowdownone.style.display="none";
    arrowdowntwo.style.display="none";
    arrowdownthree.style.display="flex";
+   document.getElementById("boxone").style.backgroundSize="cover";
+  document.getElementById("unitrowoneone").style.display = "none";  
+   document.getElementById("unitrowtwoone").style.display = "none";  
+   document.getElementById("unitrowthreeone").style.display = "none";  
+   document.getElementById("wingcontentsubone").style.display = "none"; 
+   document.getElementById("coverone").style.display="flex"; 
+   document.getElementById("boxone").style.border="0px"; 
 }
-    
+function bigboxonemobile() {
+    if (boxone.style.height === "398px") {
+        // Shrink boxone
+        boxone.style.height = "60px";
+        document.getElementById("unitrowoneone").style.display = "none";
+        document.getElementById("unitrowtwoone").style.display = "none";
+        document.getElementById("unitrowthreeone").style.display = "none";
+        document.getElementById("boxone").style.backgroundColor = "#00D0F6";
+        document.getElementById("boxone").style.border = "0px";
+        arrowdownone.style.display = "flex";
+        alert("jooo");
+    } else {
+        bigboxone(); // Expand if not already expanded
+    }
+}
+
+function bigboxtwomobile() {
+    if (boxtwo.style.height === "398px") {
+        // Shrink boxtwo
+        boxtwo.style.height = "60px";
+        document.getElementById("unitrowone").style.display = "none";
+        document.getElementById("unitrowtwo").style.display = "none";
+        document.getElementById("unitrowthree").style.display = "none";
+        document.getElementById("boxtwo").style.backgroundColor = "#ff005d";
+        document.getElementById("boxtwo").style.border = "0px";
+        arrowdowntwo.style.display = "flex";
+    } else {
+        bigboxtwo(); // Expand if not already expanded
+    }
+}
+
+function bigboxthreemobile() {
+    if (boxthree.style.height === "398px") {
+        // Shrink boxthree
+        boxthree.style.height = "60px";
+        document.getElementById("unitrowonethree").style.display = "none";
+        document.getElementById("unitrowtwothree").style.display = "none";
+        document.getElementById("unitrowthreethree").style.display = "none";
+        document.getElementById("boxthree").style.backgroundColor = "#F0D30E";
+        document.getElementById("boxthree").style.border = "0px";
+        arrowdownthree.style.display = "flex";
+    } else {
+        bigboxthree(); // Expand if not already expanded
+    }
+}
     
     }
  else {
