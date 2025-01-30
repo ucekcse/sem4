@@ -204,7 +204,10 @@ function bigboxthree(){
 
 }
 
-var arrowdown=document.getElementById("coveronead");
+
+var arrowdownone=document.getElementById("coveronead");
+var arrowdowntwo=document.getElementById("covertwoad");
+var arrowdownthree=document.getElementById("coverthreead");
 
 console.log("Current Width:", window.innerWidth);
 
@@ -214,7 +217,7 @@ if (window.innerWidth < 1000) {
        
 
 function bigboxone(){
-    boxone.style.height="300px";
+    boxone.style.height="398px";
    boxone.style.transition="0.4s all ease-in-out";  
    boxtwo.style.height="60px"
    boxtwo.style.transition="0.4s all ease-in-out";
@@ -229,7 +232,10 @@ function bigboxone(){
    document.getElementById("cover").style.display="flex"; 
    document.getElementById("boxtwo").style.border="0px";
    document.getElementById("boxone").style.backgroundColor="#DEF8FE";
-   document.getElementById("boxone").style.border ="4px dashed #5ADCF9";
+   document.getElementById("boxone").style.borderBottom="4px dashed #69DFFA";
+   document.getElementById("boxone").style.borderRight="4px dashed #69DFFA";
+   document.getElementById("boxone").style.borderLeft="4px dashed #69DFFA";
+ 
    document.getElementById("boxone").style.backgroundImage="none";
    document.getElementById("coverone").style.display="none";
    document.getElementById("unitrowoneone").style.display = "flex";  
@@ -243,19 +249,25 @@ function bigboxone(){
    document.getElementById("wingcontentsubthree").style.display = "none"; 
    document.getElementById("coverthree").style.display="flex"; 
    document.getElementById("boxthree").style.border="0px";
-   arrowdown.style.display="flex";
+   arrowdownone.style.display="flex";
+   arrowdowntwo.style.display="none";
+   arrowdownthree.style.display="none";
  
 
 }
 function bigboxtwo(){
-    boxtwo.style.height="300px";
+
+    boxtwo.style.height="398px";
    boxtwo.style.transition="0.4s all ease-in-out";  
    boxone.style.height="60px"
    boxone.style.transition="0.4s all ease-in-out";
    boxthree.style.height="60px"
    boxthree.style.transition="0.4 sall ease-in-out";  
    document.getElementById("boxtwo").style.backgroundColor="#FFD9E7";
-   document.getElementById("boxtwo").style.border = "4px dashed #FA005F";
+ 
+   document.getElementById("boxtwo").style.borderBottom="4px dashed #FA005F";
+   document.getElementById("boxtwo").style.borderRight="4px dashed #FA005F";
+   document.getElementById("boxtwo").style.borderLeft="4px dashed #FA005F";
    document.getElementById("boxtwo").style.backgroundImage="none";
    document.getElementById("cover").style.display="none";
    document.getElementById("unitrowone").style.display = "flex";  
@@ -276,12 +288,17 @@ function bigboxtwo(){
    document.getElementById("wingcontentsubthree").style.display = "none"; 
    document.getElementById("coverthree").style.display="flex"; 
    document.getElementById("boxthree").style.border="0px";
+document.getElementById("boxone").style.backgroundColor="#00D0F6";
+document.getElementById("boxthree").style.backgroundColor="#F0D30E";
 
+arrowdownone.style.display="none";
+arrowdowntwo.style.display="flex";
+arrowdownthree.style.display="none";
 
 
 }
 function bigboxthree(){
-    boxthree.style.height="300px";
+    boxthree.style.height="398px";
    boxthree.style.transition="0.4s all ease-in-out";
    boxone.style.height="60px"
    boxone.style.transition="0.4s all ease-in-out";  
@@ -302,14 +319,19 @@ function bigboxthree(){
    document.getElementById("coverthree").style.display="flex"; 
    document.getElementById("boxthree").style.border="0px"; 
    document.getElementById("boxthree").style.backgroundColor="#FDF8DB";
-   document.getElementById("boxthree").style.border ="4px dashed #F3DC3F";
+   document.getElementById("boxthree").style.borderBottom="4px dashed #F3DC3F";
+   document.getElementById("boxthree").style.borderRight="4px dashed #F3DC3F";
+   document.getElementById("boxthree").style.borderLeft="4px dashed #F3DC3F";
    document.getElementById("boxthree").style.backgroundImage="none";
    document.getElementById("coverthree").style.display="none";
    document.getElementById("unitrowonethree").style.display = "flex";  
    document.getElementById("unitrowtwothree").style.display = "flex";  
    document.getElementById("unitrowthreethree").style.display = "flex";  
    document.getElementById("wingcontentsubthree").style.display = "none";
-   
+   document.getElementById("boxtwo").style.backgroundColor= "#ff005d";
+   arrowdownone.style.display="none";
+   arrowdowntwo.style.display="none";
+   arrowdownthree.style.display="flex";
 }
     
     

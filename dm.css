@@ -480,6 +480,12 @@ width:500px;
 .bigonemobile{
     display:none;
 }
+.bigtwomobile{
+    display:none;
+}
+.bigthreemobile{
+    display:none;
+}
 
 @media only screen and (max-width: 630px){
     *{
@@ -705,9 +711,9 @@ width:500px;
    
    .unitrow{
     width:93vw;
-    height:160px;
+    height:90px;
     margin-left: 0px;
-  
+  margin-top:10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -727,10 +733,7 @@ width:500px;
     border-radius: 10px;
     border: 2px dashed #FA005F;
 }
-#unitone{
-    background-color:#BAF0FD;
-    border: 2px dashed #69DFFA;
-}
+
 #boxone button{
     background-color: #20D0F7;
     width:118px;
@@ -767,11 +770,13 @@ width:500px;
 }
 .unitrowthree{
 width:95vw;
-    height:160px;
+    height:95px;
   
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 7px;
+    margin-top:10px;
    
 }
 #boxone button:hover{
@@ -828,9 +833,88 @@ width:95vw;
     paint-order: stroke fill;
     
 }
+
+.bigtwomobile{
+    background-color: #ff005d;
+        background-image: none;
+        background-size: contain;
+        width:95vw;
+        height:60px;
+        border-radius: 0px;
+        border-bottom-left-radius:16px ;
+        border-bottom-right-radius:16px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+}
+
+#covertwomobile{
+    font-size:16px;
+    -webkit-text-stroke-width: 4px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+   
+    font-family:'Supercell',sans-serif;
+    color:white;
+    
+    -webkit-text-stroke-color: black;
+    paint-order: stroke fill;
+    
+}
+.bigthreemobile{
+    background-color: #F0D30E;
+        background-image: none;
+        background-size: contain;
+        width:95vw;
+        height:60px;
+        border-radius: 0px;
+        border-bottom-left-radius:16px ;
+        border-bottom-right-radius:16px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+}
+
+#coverthreemobile{
+    font-size:16px;
+    -webkit-text-stroke-width: 4px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+   
+    font-family:'Supercell',sans-serif;
+    color:white;
+    
+    -webkit-text-stroke-color: black;
+    paint-order: stroke fill;
+    
+}
 #coveronead{
     display:none;
 }
+#covertwoad{
+    display:none;
+}
+#coverthreead{
+    display:none;
+}
+.bthree{
+    width:35px;
+    height:35px;
+    display:flex;
+    position:relative;
+left:32% }
+
+
 
     
 }
