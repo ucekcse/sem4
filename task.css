@@ -294,7 +294,7 @@ nav a{
     height:650px;
     width:370px;
     background-color: #ffffff;
-   
+
     border-left:16px solid #9AABFF;
     border-top:16px solid #9AABFF;
     border-bottom:16px solid #9AABFF;
@@ -306,6 +306,7 @@ nav a{
     justify-content: space-evenly;
     
     display:none;
+    overflow-x:scroll;
    
 }
 .sidecontentsmain{
@@ -636,10 +637,11 @@ nav a{
 }
 .allsubside{
     width:360px;
-    height:600px;
+    height:150vh;
     display:flex;
     align-items: center;
     flex-direction: column;
+   
 
 }
 .allsub{
@@ -647,6 +649,7 @@ nav a{
     height:50px;
     display:flex;
     align-items: center; 
+   
    
   
     border-bottom: 5px solid #9F9FD6;
