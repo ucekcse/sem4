@@ -204,6 +204,8 @@ function bigboxthree(){
 
 }
 
+var arrowdown=document.getElementById("coveronead");
+
 console.log("Current Width:", window.innerWidth);
 
 if (window.innerWidth < 1000) {
@@ -218,6 +220,7 @@ function bigboxone(){
    boxtwo.style.transition="0.4s all ease-in-out";
    boxthree.style.height="60px"
    boxthree.style.transition="0.4s all ease-in-out";  
+  
    document.getElementById("boxtwo").style.backgroundSize="cover";
    document.getElementById("unitrowone").style.display = "none";  
    document.getElementById("unitrowtwo").style.display = "none";  
@@ -240,6 +243,7 @@ function bigboxone(){
    document.getElementById("wingcontentsubthree").style.display = "none"; 
    document.getElementById("coverthree").style.display="flex"; 
    document.getElementById("boxthree").style.border="0px";
+   arrowdown.style.display="flex";
  
 
 }
