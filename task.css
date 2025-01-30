@@ -382,7 +382,7 @@ nav a{
     bottom: 10px;
     left: 30px;
     font-family: "Anton", sans-serif;
-    font-size:19px;
+    font-size:20px;
     color:#ffffff;
     transition:none;
 }
@@ -391,7 +391,7 @@ nav a{
     top: 8px;
     right: 15px;
     font-family: "Anton", sans-serif;
-    font-size:19px;
+    font-size:20px;
     color:#ffffff;
     transition:none;
 }
@@ -453,6 +453,24 @@ nav a{
 }
 .rowseven2:hover{
     background-color: #00B74A;
+}
+.rowtwo1:hover{
+    background-color:#6A84FF;
+}
+.rowthree1:hover{
+    background-color:#6A84FF;
+}
+.rowfour1:hover{
+    background-color:#6A84FF;
+}
+.rowfive1:hover{
+    background-color:#6A84FF;
+}
+.rowsix1:hover{
+    background-color:#6A84FF;
+}
+.rowseven1:hover{
+    background-color:#6A84FF;
 }
 .rowone7{
     border-top-right-radius:15px;
