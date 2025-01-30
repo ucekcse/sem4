@@ -16,21 +16,39 @@
 </head>
 <body>
     <div class="container">
-        <div class="navbar">
-            <img class="mainlogo"src="cse_logo_1.png"/>
-            <!-- <div class="navcontents"> -->
-                <nav>
-                    <a class="a"id="navtextone" onclick ="homeline()" href="index.html">Home</a>
-                    <a class="a" id="navtexttwo" onclick ="assignline()" href="assignment.html">Assignment</a>
-                    <a class="a" id="navtextthree"  onclick ="taskline()" href="task.html">Task</a>
-                    <a class="a" id="navtextfour" onclick ="aboutline()" href="about.html">About</a>
-                    <div id="navbar" class="animation start-nav"></div>
-                </nav>
-            <!-- </div> -->
-            <img class="hilogo"src="hi.gif">
-        </div>
+      <div class="navbar">
+        <img class="mainlogo"src="cse_logo_1.png"/>
+        <!-- <div class="navcontents"> -->
+            <nav>
+                <a class="a"id="navtextone" onclick ="homeline()" href="index.html">Home</a>
+                <a class="a" id="navtexttwo" onclick ="assignline()" href="assignment.html">Assignment</a>
+                <a class="a" id="navtextthree"  onclick ="taskline()" href="task.html">Task</a>
+                <a class="a" id="navtextfour" onclick ="aboutline()" href="about.html">About</a>
+              
+                <div id="navbar" class="animation start-nav"></div>
+            </nav>
+
+        <!-- </div> -->
+        <img class="hilogo" id="hilogo"src="hi.gif">
+        <img class="menubar" id="menubar" onclick="shownav()" src="icon-menu.svg"/>
+        <img class="menubarclose" id="closeicon" onclick="closenav()" src="close-icon.png"/>
+    </div>
+   <div class="mobilenavwhole" id="mobilenavwhole">
+
+  
+    <div class="mobilenav">
+        <a class="amobile"id="navtextonemobile" onclick ="homeline()" href="index.html">Home</a>
+        <a class="amobile" id="navtexttwomobile" onclick ="assignline()" href="assignment.html">Assignment</a>
+        <a class="amobile" id="navtextthreemobile"  onclick ="taskline()" href="task.html">Task</a>
+        <a class="amobile" id="navtextfourmobile" onclick ="aboutline()" href="about.html">About</a>
+      
+     
+    </div>
+    <img class="hilogomobile"src="hi.gif">
+</div>
+
         <div id="taskcontainer"class="taskpage">
-           <div id="taskmain" onclick ="shrink()" class="taskcontent">
+           <div id="taskmain"  class="taskcontent">
               <div class=" rowone1"  id= "contentbox1" onclick="" >
                 <span class="day" id="daysmall">DAY</span>
     <span class="subject" id="subsmall">SUBJECT</span>
@@ -53,39 +71,39 @@
               <div class=" date rowone7"  id="contentbox" onclick = "" >
                 <p>LAB</p>
               </div>
-              <div class=" date rowtwo1"  id="contentbox" onclick = "" >
+              <div class=" date rowtwo1"  id="contentbox" onclick = "showallsubcontent()" >
                 <p class="daydetail">MONDAY</p>
                 <p class="datedetail"id="datedetail">06.09.2024</p>
               </div>
-              <div class=" indication rowtwo2"  id="contentbox" onclick = " " ><p>⚠️</p></div>
-              <div class=" indication rowtwo3"  id="contentbox" onclick = "" ><p>⚠️</p></div>
+              <div class=" indication rowtwo2"    id="contentbox" onclick = "shrink()" ><p>⚠️</p></div>
+              <div class=" indication rowtwo3"    id="contentbox" onclick = "shrink()" ><p>⚠️</p></div>
               <div class=" indication rowtwo4"  id="contentbox" onclick = "" ><p>—</p></div>
               <div class=" indication rowtwo5"  id="contentbox" onclick = "" ><p>—</p></div>
               <div class=" indication rowtwo6"  id="contentbox" onclick = "" ><p>—</p></div>
               <div class=" indication rowtwo7"  id="contentbox" onclick = "" ><p>—</p></div>
-              <div class=" date rowthree1"id="contentbox"   onclick = "" >
+              <div class=" date rowthree1"id="contentbox"   onclick = "showallsubcontent()" >
                 <p class="daydetail">MONDAY</p>
                 <p class="datedetail" id="datedetail">06.09.2024</p>
                 
               </div>
-              <div class=" indication rowthree2"id="contentbox"   onclick = "" ><p>⚠️</p></div>
+              <div class=" indication rowthree2" id="contentbox"   onclick = "shrink()" ><p>⚠️</p></div>
               <div class=" indication rowthree3"id="contentbox"   onclick = "" ><p>—</p></div>
-              <div class=" indication rowthree4"id="contentbox"   onclick = "" ><p>⚠️</p></div>
+              <div class=" indication rowthree4" id="contentbox"   onclick = "shrink()" ><p>⚠️</p></div>
               <div class=" indication rowthree5"id="contentbox"   onclick = "" ><p>—</p></div>
               <div class=" indication rowthree6"id="contentbox"   onclick = "" ><p>—</p></div>
               <div class=" indication rowthree7"id="contentbox"   onclick = "" ><p>—</p></div>
-              <div class=" date rowfour1" id="contentbox"  onclick = "" >
+              <div class=" date rowfour1" id="contentbox"  onclick = "showallsubcontent()" >
                 <p class="daydetail">MONDAY</p>
                 <p class="datedetail" id="datedetail">06.09.2024</p>
               
               </div>
-              <div class=" indication rowfour2" id="contentbox"  onclick = "" ><p>⚠️</p></div>
+              <div class=" indication rowfour2"   id="contentbox"  onclick = "shrink()" ><p>⚠️</p></div>
               <div class=" indication rowfour3" id="contentbox"  onclick = "" ><p>—</p></div>
-              <div class=" indication rowfour4" id="contentbox"  onclick = "" ><p>⚠️</p></div>
+              <div class=" indication rowfour4"   id="contentbox"  onclick = "shrink()" ><p>⚠️</p></div>
               <div class=" indication rowfour5" id="contentbox"  onclick = "" ><p>—</p></div>
               <div class=" indication rowfour6" id="contentbox"  onclick = "" ><p>—</p></div>
               <div class=" indication rowfour7" id="contentbox"  onclick = "" ><p>—</p></div>
-              <div class=" date rowfive1" id="contentbox"  onclick = "" >
+              <div class=" date rowfive1"id="contentbox"  onclick = "showallsubcontent()" >
                 <p class="daydetail">MONDAY</p>
                 <p class="datedetail" id="datedetail">06.09.2024</p>
                
@@ -96,7 +114,7 @@
               <div class=" indication rowfive5" id="contentbox"  onclick = "" ><p>—</p></div>
               <div class=" indication rowfive6" id="contentbox"  onclick = "" ><p>—</p></div>
               <div class=" indication rowfive7" id="contentbox"  onclick = "" ><p>—</p></div> 
-              <div class=" date rowsix1"  id="contentbox" onclick = "" >
+              <div class=" date rowsix1"  id="contentbox" onclick = "showallsubcontent()" >
                 <p class="daydetail">MONDAY</p>
                 <p class="datedetail" id="datedetail">06.09.2024</p>
               </div>
@@ -106,12 +124,12 @@
               <div class=" indication rowsix5"  id="contentbox" onclick = "" ><p>—</p></div>
               <div class=" indication rowsix6"  id="contentbox" onclick = "" ><p>—</p></div>
               <div class=" indication rowsix7"  id="contentbox" onclick = "" ><p>—</p></div>
-              <div class=" date rowseven1"id="contentbox"   onclick = "" >
+              <div class=" date rowseven1"id="contentbox"   onclick = "showallsubcontent()" >
                 <p class="daydetail">MONDAY</p>
                 <p class="datedetail" id="datedetail">06.09.2024</p>
               
               </div>
-              <div class=" indication rowseven2"id="contentbox"   onclick = "" ><p>⚠️</p></div>
+              <div class=" indication rowseven2" id="contentbox"   onclick = "shrink()" ><p>⚠️</p></div>
               <div class=" indication rowseven3"id="contentbox"   onclick = "" ><p>—</p></div>
               <div class=" indication rowseven4"id="contentbox"   onclick = "" ><p>—</p></div>
               <div class=" indication rowseven5"id="contentbox"   onclick = "" ><p>—</p></div>
@@ -120,6 +138,43 @@
 
            </div>
            <div id="taskside" class="tasksidepage">
+            <div class="allsubside" id="allsubside">
+              <div class="allsub one" onclick="expandone()" id="allsubone">
+
+                <p id="allsubpara" class="allsubpara" >OOP's </p>
+                <img class="buttonarrow" id="arrow" src="arrow_forward.png"/>
+                 
+              </div>
+               <div class="allsubsidehide" id="allsubsidehide">
+             <div id="allsubsidehidden" class="sidecontents">
+              <p id="allsubsidehidden" class="sidecontentwork ">WORK</p>
+              <p id="allsubsidehidden" class="sidecontentpara" >webfbhfbhwfbhuvbrvbhrbvhrvbrvbhrvbrvbrvbhhevberhvhebvhuvbhuvbhuvbhubvhebvhuvbhuve</p>
+              <p id="allsubsidehidden" class="sidecontentdeadline">DEADLINE</p>
+              <p id="allsubsidehidden" class="sidecontentdate">07.10.2024</p>
+              <p id="allsubsidehidden" class="sidecontentsource">SOURCE</p>
+             </div>
+             <button id="allsubsidehidden" class="sidecontentdownload allsubbtn">DOWNLOAD</button>
+               </div>
+              <div class="allsub tw" onclick="expandtwo()" id="allsubtwo">
+                <p id="allsubpara" class="allsubpara" >FDS </p>
+                <img class="buttonarrow" id="arrowtwo" class="arrow" src="arrow_forward.png"/>
+                 
+              </div>
+              <div class="allsubsidehide" id="allsubsidehidetwo">
+                <div id="allsubsidehidden" class="sidecontents">
+                 <p id="allsubsidehidden" class="sidecontentwork ">WORK</p>
+                 <p id="allsubsidehidden" class="sidecontentpara" >webfbhfbhwfbhuvbrvbhrbvhrvbrvbhrvbrvbrvbhhevberhvhebvhuvbhuvbhuvbhubvhebvhuvbhuve</p>
+                 <p id="allsubsidehidden" class="sidecontentdeadline">DEADLINE</p>
+                 <p id="allsubsidehidden" class="sidecontentdate">07.10.2024</p>
+                 <p id="allsubsidehidden" class="sidecontentsource">SOURCE</p>
+                </div>
+                <button id="allsubsidehidden" class="sidecontentdownload allsubbtn">DOWNLOAD</button>
+                  </div>
+              <div class="allsub three"></div>
+              <div class="allsub four"></div>
+              <div class="allsub five"></div>
+              <div class="allsub six"></div>
+            </div>
             <div id="sidehidden" class="sidecontentsmain">
              <p id="sidehidden" class="sidecontentsubname">OOP's</p>
              <p id="sidehidden" class="sidecontentdaydate" ><span id="spandate">MONDAY</span>06.09.2024</p>
@@ -130,7 +185,7 @@
               <p id="sidehidden" class="sidecontentdate">07.10.2024</p>
               <p id="sidehidden" class="sidecontentsource">SOURCE</p>
              </div>
-             <button id="sidehidden" class="sidecontentdownload">DOWNLOAD</button>
+             <button id="sidehidden" class="sidecontentdownload ">DOWNLOAD</button>
             </div>
            </div>
         </div>

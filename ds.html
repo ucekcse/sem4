@@ -16,6 +16,7 @@
 </head>
 <body>
     <div class="container">
+  
         <div class="navbar">
             <img class="mainlogo"src="cse_logo_1.png"/>
             <!-- <div class="navcontents"> -->
@@ -24,120 +25,148 @@
                     <a class="a" id="navtexttwo" onclick ="assignline()" href="assignment.html">Assignment</a>
                     <a class="a" id="navtextthree"  onclick ="taskline()" href="task.html">Task</a>
                     <a class="a" id="navtextfour" onclick ="aboutline()" href="about.html">About</a>
+                  
                     <div id="navbar" class="animation start-nav"></div>
                 </nav>
+
             <!-- </div> -->
-            <img class="hilogo"src="hi.gif">
+            <img class="hilogo" id="hilogo"src="hi.gif">
+            <img class="menubar" id="menubar" onclick="shownav()" src="icon-menu.svg"/>
+            <img class="menubarclose" id="closeicon" onclick="closenav()" src="close-icon.png"/>
         </div>
-        <div class="content">
-            <div class="partone">
-           <a class="backhome" href="index.html"><img id="backhome" src="Vector.png"></a>
-                <img class="wing leftwing" src="wingsleft.png">
-                <div class="wingtext">
-                    <p class="wingcontent">DATA STRUCTURE</p>
-                </div>
-                <img class="wing rightwing" src="wingsright.png">
-            </div>
-            <div class="parttwo">   
-                <div onclick="bigboxone()" id="boxone" class="sub one">
-                    <p id="coverone">CLASS <br>WORK</p>
-                    <p id="wingcontentsubone" class="wingcontentsub">Class Work</p>
-                    <div id="unitrowoneone" class="unitrow ">
-                        <div id="unitone" class="unit">
-                            <p>Unit 1</p>
-                           <a href=" https://drive.google.com/file/d/1ehO4Az9dn8XND7RdsjurCATzIuexwPLM/view?usp=drive_link" target="_blank" ><button>DOWNLOAD</button></a>
-                        </div>
-                        <div id="unitone" class="unit">
-                            <p>Unit 2</p>
-                           <a href=" https://drive.google.com/file/d/1elImKd36yFbaIbMCXWWM3nDFyXvkXISp/view?usp=drive_link" target="_blank" ><button>DOWNLOAD</button></a>
-                        </div>
-                    </div>
-                    <div  id="unitrowtwoone" class="unitrow ">
-                        <div id="unitone" class="unit">
-                            <p>Unit 3</p>
-                           <a href="https://drive.google.com/file/d/1emiJEL6emIt6eXA2lAK-K5RNdDx0tzlP/view?usp=drive_link " target="_blank" ><button>DOWNLOAD</button></a>
-                        </div>
-                        <div id="unitone" class="unit">
-                            <p>Unit 4</p>
-                           <a href="#" ><button>DOWNLOAD</button></a>
-                        </div>
-                    </div>
-                    <div id="unitrowthreeone" class="unitrowthree">
-                        <div id="unitone" class="unit">
-                            <p>Unit 5</p>
-                           <a href="#" ><button>DOWNLOAD</button></a>
-                        </div>
-                    </div>
+       <div class="mobilenavwhole" id="mobilenavwhole">
 
-                </div> 
-                <div onclick="bigboxtwo()" id="boxtwo" class="sub two">
-                  
-                    <p id="cover">STUDY <br>MATERIALS</p>
-                    <p id="wingcontentsub" class="wingcontentsub">Study Materials</p>
-                    <div id="unitrowone" class="unitrow ">
-                        <div class="unit">
-                            <p>Unit 1</p>
-                           <a href="https://drive.google.com/file/d/13BQiWuDmTt5hKCe2hgIu-k0Wtg1sC4hY/view?usp=drive_link " target="_blank" ><button>DOWNLOAD</button></a>
-                        </div>
-                        <div class="unit">
-                            <p>Unit 2</p>
-                           <a href="https://drive.google.com/file/d/13BQiWuDmTt5hKCe2hgIu-k0Wtg1sC4hY/view?usp=drive_link " target="_blank" ><button>DOWNLOAD</button></a>
-                        </div>
-                    </div>
-                    <div  id="unitrowtwo" class="unitrow ">
-                        <div class="unit">
-                            <p>Unit 3</p>
-                           <a href=" https://drive.google.com/file/d/13BQiWuDmTt5hKCe2hgIu-k0Wtg1sC4hY/view?usp=drive_link" target="_blank" ><button>DOWNLOAD</button></a>
-                        </div>
-                        <div class="unit">
-                            <p>Unit 4</p>
-                           <a href="https://drive.google.com/file/d/13BQiWuDmTt5hKCe2hgIu-k0Wtg1sC4hY/view?usp=drive_link " target="_blank" ><button>DOWNLOAD</button></a>
-                        </div>
-                    </div>
-                    <div id="unitrowthree" class="unitrowthree">
-                        <div class="unit">
-                            <p>Unit 5</p>
-                           <a href=" https://drive.google.com/file/d/13BQiWuDmTt5hKCe2hgIu-k0Wtg1sC4hY/view?usp=drive_link" target="_blank" ><button>DOWNLOAD</button></a>
-                        </div>
-                    </div>
-                </div> 
-                <div  onclick="bigboxthree()" id="boxthree"class="sub three">
-                   
-                    <p id="coverthree">PREVIOUS YEAR <br>QUESTION'S</p>
-                    <p id="wingcontentsubthree" class="wingcontentsub">Previous Year Question's</p>
-                    <div id="unitrowonethree" class="unitrow ">
-                        <div id="unitthree" class="unit">
-                            <p>NOV-DEC 21</p>
-                           <a href="#" ><button>DOWNLOAD</button></a>
-                        </div>
-                        <div id="unitthree" class="unit">
-                            <p>APR-MAY 21</p>
-                           <a href="#" ><button>DOWNLOAD</button></a>
-                        </div>
-                    </div>
-                    <div  id="unitrowtwothree" class="unitrow ">
-                        <div id="unitthree" class="unit">
-                            <p>NOV-DEC 22</p>
-                           <a href="https://drive.google.com/file/d/1SrdHDmzHRjTeby8JHDRidXWAj-mXd1_Q/view?usp=drive_link " target="_blank" ><button>DOWNLOAD</button></a>
-                        </div>
-                        <div id="unitthree" class="unit">
-                            <p>APR-MAY 23</p>
-                           <a href=" https://drive.google.com/file/d/1PfqLLmUGkLHMz0zNve_ZJaYF1lAVJ--X/view?usp=drive_link" target="_blank" ><button>DOWNLOAD</button></a>
-                        </div>
-                    </div>
-                    <div id="unitrowthreethree" class="unitrowthree">
-                        <div id="unitthree" class="unit">
-                            <p>NOV-DEC 23</p>
-                    <a href="https://drive.google.com/file/d/12yW4u4_G3QV3RlBk2w5jkNoYqbZFDxtE/view?usp=drive_link " target="_blank" ><button>DOWNLOAD</button></a>
-                        </div>
-                    </div>
-
-                </div> 
+      
+        <div class="mobilenav">
+            <a class="amobile"id="navtextonemobile" onclick ="homeline()" href="index.html">Home</a>
+            <a class="amobile" id="navtexttwomobile" onclick ="assignline()" href="assignment.html">Assignment</a>
+            <a class="amobile" id="navtextthreemobile"  onclick ="taskline()" href="task.html">Task</a>
+            <a class="amobile" id="navtextfourmobile" onclick ="aboutline()" href="about.html">About</a>
+          
+         
         </div>
-        <div class="footer">
-            <p>Any suggestion or problem contact via "<span>ucekcse2327@gmail.com"</span></p>
-        </div>
+        <img class="hilogomobile"src="hi.gif">
     </div>
-    <script src="dm.js"></script>
+  
+    <div class="content" id="content">
+        <div class="partone">
+       <a class="backhome" href="index.html"><img id="backhome" src="Vector.png"></a>
+            <img class="wing leftwing" src="wingsleft.png">
+            <div class="wingtext">
+                <p class="wingcontent">DISCRETE MATHEMATICS</p>
+            </div>
+            <img class="wing rightwing" src="wingsright.png">
+        </div>
+        <div class="parttwo">  
+            
+            <div onclick="bigboxone()" id="boxone" class="sub one">
+                <div onclick="bigboxonemobile()" class="bigonemobile" id="coveronead">
+                    <p id="coveronemobile">CLASS WORK <img class="buttonarrowmobile bone" src="arrow_forward.png"> </p>
+                </div>
+                <p id="coverone">CLASS WORK <img class="buttonarrow bone" src="arrow_forward.png"> </p>
+                <p id="wingcontentsubone" class="wingcontentsub">Class Work</p>
+                <div id="unitrowoneone" class="unitrow ">
+                    <div id="unitone" class="unit">
+                        <p>Unit 1</p>
+                       <a href="#" ><button>DOWNLOAD</button></a>
+                    </div>
+                    <div id="unitone" class="unit">
+                        <p>Unit 2</p>
+                       <a href="#" ><button>DOWNLOAD</button></a>
+                    </div>
+                </div>
+                <div  id="unitrowtwoone" class="unitrow ">
+                    <div id="unitone" class="unit">
+                        <p>Unit 3</p>
+                       <a href="#" ><button>DOWNLOAD</button></a>
+                    </div>
+                    <div id="unitone" class="unit">
+                        <p>Unit 4</p>
+                       <a href="#" ><button>DOWNLOAD</button></a>
+                    </div>
+                </div>
+                <div id="unitrowthreeone" class="unitrowthree">
+                    <div id="unitone" class="unit">
+                        <p>Unit 5</p>
+                       <a href="#" ><button>DOWNLOAD</button></a>
+                    </div>
+                </div>
+
+            </div> 
+            <div onclick="bigboxtwo()" id="boxtwo" class="sub two">
+                <div onclick="bigboxtwomobile()" class="bigtwomobile" id="covertwoad">
+                    <p id="covertwomobile">STUDY MATERIALS <img class="buttonarrowmobile btwo" src="arrow_forward.png"> </p>
+                </div>
+              
+                <p id="cover">STUDY MATERIALS <img class="buttonarrow btwo"src="arrow_forward.png"></p>
+                <p id="wingcontentsub" class="wingcontentsub">Study Materials</p>
+                <div id="unitrowone" class="unitrow ">
+                    <div class="unit">
+                        <p>Unit 1</p>
+                       <a href="https://drive.google.com/file/d/1NsWRhLUV-37tYpDFw_fJDoUvBbCPiobR/view?usp=drive_link" target="_blank" ><button>DOWNLOAD</button></a>
+                    </div>
+                    <div class="unit">
+                        <p>Unit 2</p>
+                       <a href=" https://drive.google.com/file/d/1NsWRhLUV-37tYpDFw_fJDoUvBbCPiobR/view?usp=drive_link" target="_blank" ><button>DOWNLOAD</button></a>
+                    </div>
+                </div>
+                <div  id="unitrowtwo" class="unitrow ">
+                    <div class="unit">
+                        <p>Unit 3</p>
+                       <a href="https://drive.google.com/file/d/1NsWRhLUV-37tYpDFw_fJDoUvBbCPiobR/view?usp=drive_link " target="_blank" ><button>DOWNLOAD</button></a>
+                    </div>
+                    <div class="unit">
+                        <p>Unit 4</p>
+                       <a href=" https://drive.google.com/file/d/1NsWRhLUV-37tYpDFw_fJDoUvBbCPiobR/view?usp=drive_link" target="_blank" ><button>DOWNLOAD</button></a>
+                    </div>
+                </div>
+                <div id="unitrowthree" class="unitrowthree">
+                    <div class="unit">
+                        <p>Unit 5</p>
+                       <a href="https://drive.google.com/file/d/1NsWRhLUV-37tYpDFw_fJDoUvBbCPiobR/view?usp=drive_link " target="_blank" ><button>DOWNLOAD</button></a>
+                    </div>
+                </div>
+            </div> 
+            <div  onclick="bigboxthree()" id="boxthree"class="sub three">
+                <div onclick="bigboxthreemobile()" class="bigthreemobile" id="coverthreead">
+                    <p id="coverthreemobile">PYQ's <img class="buttonarrowmobile bthree" src="arrow_forward.png"> </p>
+                </div>
+               
+                <p id="coverthree">PYQ's <img class="buttonarrow"src="arrow_forward.png"></p>
+                <p id="wingcontentsubthree" class="wingcontentsub">Previous Year Question's</p>
+                <div id="unitrowonethree" class="unitrow ">
+                    <div id="unitthree" class="unit">
+                        <p>NOV-DEC 21</p>
+                       <a href="#" ><button>DOWNLOAD</button></a>
+                    </div>
+                    <div id="unitthree" class="unit">
+                        <p>APR-MAY 22</p>
+                       <a href="#" ><button>DOWNLOAD</button></a>
+                    </div>
+                </div>
+                <div  id="unitrowtwothree" class="unitrow ">
+                    <div id="unitthree" class="unit">
+                        <p>NOV-DEC 22</p>
+                       <a href="https://drive.google.com/file/d/1-1MwpeUM7GrzAxk1WMalsQENFtdIbIgx/view?usp=drive_link" target="_blank" ><button>DOWNLOAD</button></a>
+                    </div>
+                    <div id="unitthree" class="unit">
+                        <p>APR-MAY 23</p>
+                       <a href="https://drive.google.com/file/d/1-0RLHlC2xdRfvXlVIQcuQ1jOMJ3-P5K_/view?usp=drive_link" target="_blank" ><button>DOWNLOAD</button></a>
+                    </div>
+                </div>
+                <div id="unitrowthreethree" class="unitrowthree">
+                    <div id="unitthree" class="unit">
+                        <p>NOV-DEC 23</p>
+                <a href=" https://drive.google.com/file/d/1-5eW8AFV_Iu8bZ8ZEba0tyMeB-OSecdu/view?usp=drive_link" target="_blank" ><button>DOWNLOAD</button></a>
+                    </div>
+                </div>
+
+            </div> 
+    </div>
+    <div class="footer">
+        <p>Any suggestion or problem contact via "<span>ucekcse2327@gmail.com"</span></p>
+    </div>
+</div>
+<script src="dm.js"></script>
 </body>
 </html>

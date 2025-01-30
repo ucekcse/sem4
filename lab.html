@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="lab.css"/>
 </head>
 <body>
-    <div class="container">
+    <div class="container" >
         <div class="navbar">
             <img class="mainlogo"src="cse_logo_1.png"/>
             <!-- <div class="navcontents"> -->
@@ -24,12 +24,30 @@
                     <a class="a" id="navtexttwo" onclick ="assignline()" href="assignment.html">Assignment</a>
                     <a class="a" id="navtextthree"  onclick ="taskline()" href="task.html">Task</a>
                     <a class="a" id="navtextfour" onclick ="aboutline()" href="about.html">About</a>
+                  
                     <div id="navbar" class="animation start-nav"></div>
                 </nav>
+
             <!-- </div> -->
-            <img class="hilogo"src="hi.gif">
+            <img class="hilogo" id="hilogo"src="hi.gif">
+            <img class="menubar" id="menubar" onclick="shownav()" src="icon-menu.svg"/>
+            <img class="menubarclose" id="closeicon" onclick="closenav()" src="close-icon.png"/>
         </div>
-        <div class="content">
+       <div class="mobilenavwhole" id="mobilenavwhole">
+
+      
+        <div class="mobilenav">
+            <a class="amobile"id="navtextonemobile" onclick ="homeline()" href="index.html">Home</a>
+            <a class="amobile" id="navtexttwomobile" onclick ="assignline()" href="assignment.html">Assignment</a>
+            <a class="amobile" id="navtextthreemobile"  onclick ="taskline()" href="task.html">Task</a>
+            <a class="amobile" id="navtextfourmobile" onclick ="aboutline()" href="about.html">About</a>
+          
+         
+        </div>
+        <img class="hilogomobile"src="hi.gif">
+    </div>
+  
+        <div class="content" id="content">
             <div class="partone">
            <a class="backhome" href="index.html"><img id="backhome" src="Vector.png"></a>
                 <img class="wing leftwing" src="wingsleft.png">

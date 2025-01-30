@@ -301,7 +301,8 @@ nav a{
     border: 2px solid black;
     border-radius: 0.5rem;
     font-size: 1rem;
-    font-weight: bold;
+    font-family:"Poppins", sans-serif;
+
     padding-left:18px;
 }
 
@@ -427,6 +428,68 @@ nav a{
         margin-right:46px;
         display:none;
     }
+    .aboutcontent{
+        width:100%;
+        height:100vh;
+        background-color: antiquewhite;
+        display:flex; 
+        justify-content: center;
+        align-items: center;
+        padding-bottom:32px;
+        background: url("world_cloud.jpg");
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+        background-size: cover; 
+        background-color:#ffffff;
+    }
+    .suggestion {
+        width: 90vw;
+        height: 40vh;
+        padding: 10px; 
+        background-color: #f0f8ff;
+        border-radius: 20px;
+        border: 2.5px solid black;
+        color: black;
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        flex-direction: column;  
+        align-items: center;     
+        justify-content: center; 
+                  
+    }
+    
+    .suggestion p {
+        margin-bottom: 10px; 
+        text-align: center;
+        font-size:16px;
+    }
+    
+    .suggestion input {
+        width: 80%;
+        height: 45px;
+        padding: 8px;
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        font-family:"Poppins", sans-serif;
+        padding-left:18px;
+    }
+    
+    .suggestion button {
+        width: 80%;
+        height: 50px;
+        padding: 10px;
+        border-radius: 0.5rem;
+        border:0px solid;
+        border-radius: 0.5rem;
+        background-color:#6c2ffa;
+        color:white;
+        font-size:18px;
+        font-family: 'Supercell', sans-serif;
+    }
+    
 }
 
 

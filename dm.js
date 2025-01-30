@@ -354,7 +354,7 @@ function bigboxonemobile() {
         document.getElementById("boxone").style.backgroundColor = "#00D0F6";
         document.getElementById("boxone").style.border = "0px";
         arrowdownone.style.display = "flex";
-        alert("jooo");
+      
     } else {
         bigboxone(); // Expand if not already expanded
     }

@@ -434,3 +434,187 @@ nav a{
 .animation .start-nav{
     width: 100px;
      left: 190px;}
+
+     .navbar{
+        width:100%;
+        height:208px;
+        background-color:#eaf5ff ;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        word-spacing: 30px;
+        filter:drop-shadow(0px 3px 10px #00000042);
+        border-bottom-left-radius: 22px;
+        border-bottom-right-radius: 22px;
+    }
+    nav{
+        position: relative;
+        margin: 15px;
+        justify-content: space-evenly;
+        width: auto;
+        font-size: 28px;
+        color:#9aabff;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        word-spacing: 20px;
+    
+    }
+    nav a{
+        position: relative;
+        display: inline-block;
+        font-size: 0.9em;
+        font-weight: 500;
+        color: #828be0;
+        line-height: 58px;
+        z-index: 1;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    .animation{
+        position: absolute;
+        height: 9px;
+        bottom: 0;
+        z-index: 0;
+        border-radius: 7px;
+        transition: all 0.4s ease 0s;
+        background-color: #9AABFF;
+        filter: drop-shadow(0px 5px 8px #9aabff);
+        margin-top: 8px;
+     
+        width:100px;
+    
+    }
+    .a:nth-child(1){
+        width: 100px;
+    }
+    .a:nth-child(2){
+        width: 190px;
+    }
+    .a:nth-child(3){
+        width: 100px;
+    }
+    .a:nth-child(4){
+        width: 100px;
+    }
+    
+    nav a{
+        color:#d0d9e0d7 ;
+        font-weight:bolder;
+    }
+    #navtextone{
+        color:#8e98f7;
+    }
+    
+    
+    .picmobile{
+        display:none;
+    }
+    .subcontentmobile{
+        display:none;
+    }
+    
+    .wingmobile{
+        display:none;
+    }
+    .mobilenav{
+        display:none;
+    }
+    .hilogomobile{
+        display:none;
+    }
+    @media only screen and (max-width: 630px){
+        .navbar{
+           height:112px; 
+           width:100vw;
+        }
+        .mainlogo{
+            width:86px;
+            height:86px;
+            margin-left:24px;
+        }
+        .hilogo{
+           width:120px;
+           height:100px;
+            margin-top:11px;
+        }
+        nav{
+            display:none;
+        }
+        .menubar{
+            display:flex;
+            height:28px;
+            width:36px;
+            margin-right:46px;
+            color:#010018;
+          
+        }
+       
+          .mobilenavwhole{
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                justify-content: space-between;
+                width:100%;
+                height:85.5vh;
+                background-color: #EAF5FA;
+                display:none;
+          }
+          .mobilenav{
+            margin-top:30px;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+            width:100%;
+            height:29vh;
+          }
+          .hilogomobile{
+          
+            display:flex;
+            width:160px;
+            height:130px;
+            margin-left:53%;
+            margin-bottom:22%;
+          }
+          .amobile{
+            font-size: 28px;
+        color:#9aabff;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+     
+     
+          }
+          #navtextonemobile{
+            border-top:2px solid #d0d9e0d7;
+            border-bottom:2px solid #9AABFF;
+            color:#d0d9e0d7;
+           
+          }
+          #navtexttwomobile{
+            border-bottom:2px solid #9AABFF;
+           
+    
+          }
+          #navtextthreemobile{
+            color:#d0d9e0d7;
+          }
+          #navtextfourmobile{
+            border-top:2px solid #d0d9e0d7;
+    
+            border-bottom:2px solid #d0d9e0d7;
+            color:#d0d9e0d7;
+          }
+      
+       
+        .menubarclose{
+            display:flex;
+            height:40px;
+            width:45px;
+            margin-right:46px;
+            display:none;
+        }
+    }
+        
