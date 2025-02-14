@@ -134,8 +134,8 @@ function expandone(){
    document.getElementById("allsubone").style.border="0px";
    document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
    document.getElementById("allsubsidehidetwo").style.display="none";
-    document.getElementById("arrow").style.transform = "rotate(90deg)";
-    document.getElementById("arrowtwo").style.transform = "rotate(0deg)";
+    document.getElementById("arrow").style.transform = "rotate(0deg)";
+    document.getElementById("arrowtwo").style.transform = "rotate(-90deg)";
     document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";
 
     
@@ -148,8 +148,8 @@ function expandtwo(){
    document.getElementById("allsubtwo").style.border="0px";
    document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
    document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
-    document.getElementById("arrowtwo").style.transform = "rotate(90deg)";
-    document.getElementById("arrow").style.transform = "rotate(0deg)";
+    document.getElementById("arrowtwo").style.transform = "rotate(0deg)";
+    document.getElementById("arrow").style.transform = "rotate(-90deg)";
 }
 
 function showallsubcontent(){

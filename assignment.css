@@ -77,7 +77,7 @@
 .th1{
     font-size: 28px;
     background-color: aliceblue;
-    color: darkgrey;
+   
     height: 75px;
  
 }
@@ -577,7 +577,7 @@ nav a{
             width:160px;
             height:130px;
             margin-left:53%;
-            margin-bottom:22%;
+            margin-bottom:5%;
           }
           .amobile{
             font-size: 28px;

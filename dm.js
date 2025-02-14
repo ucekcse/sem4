@@ -89,122 +89,6 @@ resetNavBarStyles();
 var boxone = document.getElementById("boxone");
 var boxtwo = document.getElementById("boxtwo");
 var boxthree = document.getElementById("boxthree");
-
-
-function bigboxone(){
-    boxone.style.width="780px";
-   boxone.style.transition="0.4s all ease-in-out";  
-   boxtwo.style.width="194px";
-   boxtwo.style.transition="0.4s all ease-in-out";
-   boxthree.style.width="194px";
-   boxthree.style.transition="0.4s all ease-in-out";  
-   document.getElementById("boxtwo").style.backgroundSize="cover";
-   document.getElementById("cover").style.transform = "rotate(270deg)";
-   document.getElementById("unitrowone").style.display = "none";  
-   document.getElementById("unitrowtwo").style.display = "none";  
-   document.getElementById("unitrowthree").style.display = "none";  
-   document.getElementById("wingcontentsub").style.display = "none"; 
-   document.getElementById("boxtwo").style.backgroundImage="url(sd_mat_bg_test.jpg)";
-   document.getElementById("cover").style.display="flex"; 
-   document.getElementById("boxtwo").style.border="0px";
-   document.getElementById("boxone").style.backgroundColor="#DEF8FE";
-   document.getElementById("boxone").style.border ="4px dashed #5ADCF9";
-   document.getElementById("boxone").style.backgroundImage="none";
-   document.getElementById("coverone").style.display="none";
-   document.getElementById("unitrowoneone").style.display = "flex";  
-   document.getElementById("unitrowtwoone").style.display = "flex";  
-   document.getElementById("unitrowthreeone").style.display = "flex";  
-   document.getElementById("wingcontentsubone").style.display = "flex"; 
-   document.getElementById("boxthree").style.backgroundSize="cover";
-   document.getElementById("coverthree").style.transform = "rotate(270deg)";
-   document.getElementById("unitrowonethree").style.display = "none";  
-   document.getElementById("unitrowtwothree").style.display = "none";  
-   document.getElementById("unitrowthreethree").style.display = "none";  
-   document.getElementById("wingcontentsubthree").style.display = "none"; 
-   document.getElementById("boxthree").style.backgroundImage="url(pyq_bg_test.jpg)";
-   document.getElementById("coverthree").style.display="flex"; 
-   document.getElementById("boxthree").style.border="0px";
-   document.getElementById("cover").style.fontSize="36px";
-   document.getElementById("coverthree").style.fontSize="36px";
-
-}
-function bigboxtwo(){
-    boxtwo.style.width="780px";
-   boxtwo.style.transition="0.4s all ease-in-out";  
-   boxone.style.width="194px";
-   boxone.style.transition="0.4s all ease-in-out";
-   boxthree.style.width="194px"
-   boxthree.style.transition="0.4 sall ease-in-out";  
-   document.getElementById("boxtwo").style.backgroundColor="#FFD9E7";
-   document.getElementById("boxtwo").style.border = "4px dashed #FA005F";
-   document.getElementById("boxtwo").style.backgroundImage="none";
-   document.getElementById("cover").style.display="none";
-   document.getElementById("unitrowone").style.display = "flex";  
-   document.getElementById("unitrowtwo").style.display = "flex";  
-   document.getElementById("unitrowthree").style.display = "flex";  
-   document.getElementById("wingcontentsub").style.display = "flex"; 
-   document.getElementById("boxone").style.backgroundSize="cover";
-   document.getElementById("coverone").style.transform = "rotate(270deg)";
-   document.getElementById("unitrowoneone").style.display = "none";  
-   document.getElementById("unitrowtwoone").style.display = "none";  
-   document.getElementById("unitrowthreeone").style.display = "none";  
-   document.getElementById("wingcontentsubone").style.display = "none"; 
-   document.getElementById("boxone").style.backgroundImage="url(class_bg.jpg)";
-   document.getElementById("coverone").style.display="flex"; 
-   document.getElementById("boxone").style.border="0px"; 
-   document.getElementById("boxthree").style.backgroundSize="cover";
-   document.getElementById("coverthree").style.transform = "rotate(270deg)";
-   document.getElementById("unitrowonethree").style.display = "none";  
-   document.getElementById("unitrowtwothree").style.display = "none";  
-   document.getElementById("unitrowthreethree").style.display = "none";  
-   document.getElementById("wingcontentsubthree").style.display = "none"; 
-   document.getElementById("boxthree").style.backgroundImage="url(pyq_bg_test.jpg)";
-   document.getElementById("coverthree").style.display="flex"; 
-   document.getElementById("boxthree").style.border="0px";
-   document.getElementById("coverone").style.fontSize="36px";
-   document.getElementById("coverthree").style.fontSize="36px";
-
-
-}
-function bigboxthree(){
-    boxthree.style.width="780px";
-   boxthree.style.transition="0.4s all ease-in-out";
-   boxone.style.width="194px";
-   boxone.style.transition="0.4s all ease-in-out";  
-   boxtwo.style.width="194px";;
-   boxtwo.style.transition="0.4s all ease-in-out";
-   document.getElementById("boxtwo").style.backgroundSize="cover";
-   document.getElementById("cover").style.transform = "rotate(270deg)";
-   document.getElementById("unitrowone").style.display = "none";  
-   document.getElementById("unitrowtwo").style.display = "none";  
-   document.getElementById("unitrowthree").style.display = "none";  
-   document.getElementById("wingcontentsub").style.display = "none";
-   document.getElementById("boxtwo").style.backgroundImage="url(sd_mat_bg_test.jpg)";
-   document.getElementById("cover").style.display="flex"; 
-   document.getElementById("boxtwo").style.border="0px";
-   document.getElementById("boxone").style.backgroundSize="cover";
-   document.getElementById("coverone").style.transform = "rotate(270deg)";
-   document.getElementById("unitrowoneone").style.display = "none";  
-   document.getElementById("unitrowtwoone").style.display = "none";  
-   document.getElementById("unitrowthreeone").style.display = "none";  
-   document.getElementById("wingcontentsubone").style.display = "none"; 
-   document.getElementById("boxthree").style.backgroundImage="url(pyq_bg_test.jpg)";
-   document.getElementById("coverthree").style.display="flex"; 
-   document.getElementById("boxthree").style.border="0px"; 
-   document.getElementById("boxthree").style.backgroundColor="#FDF8DB";
-   document.getElementById("boxthree").style.border ="4px dashed #F3DC3F";
-   document.getElementById("boxthree").style.backgroundImage="none";
-   document.getElementById("coverthree").style.display="none";
-   document.getElementById("unitrowonethree").style.display = "flex";  
-   document.getElementById("unitrowtwothree").style.display = "flex";  
-   document.getElementById("unitrowthreethree").style.display = "flex";  
-   document.getElementById("wingcontentsubthree").style.display = "flex";
-   document.getElementById("cover").style.fontSize="36px";
-   document.getElementById("coverone").style.fontSize="36px";
-
-}
-
-
 var arrowdownone=document.getElementById("coveronead");
 var arrowdowntwo=document.getElementById("covertwoad");
 var arrowdownthree=document.getElementById("coverthreead");
@@ -217,6 +101,8 @@ if (window.innerWidth < 1000) {
        
 
 function bigboxone(){
+
+    if(arrowdownone.style.display==="none"){
     boxone.style.height="398px";
    boxone.style.transition="0.4s all ease-in-out";  
    boxtwo.style.height="60px"
@@ -253,12 +139,27 @@ function bigboxone(){
    arrowdowntwo.style.display="none";
    arrowdownthree.style.display="none";
    document.getElementById("boxtwo").style.backgroundColor= "#ff005d";
-   document.getElementById("boxthree").style.backgroundColor="#F0D30E";
+   document.getElementById("boxthree").style.backgroundColor="#F0D30E";}
+   else {
+    document.getElementById("wingcontentsub").style.display = "none"; 
+    document.getElementById("boxone").style.backgroundSize="cover";
+   document.getElementById("unitrowoneone").style.display = "none";  
+    document.getElementById("unitrowtwoone").style.display = "none";  
+    document.getElementById("unitrowthreeone").style.display = "none";  
+    document.getElementById("wingcontentsubone").style.display = "none"; 
+    document.getElementById("coverone").style.display="flex"; 
+    document.getElementById("boxone").style.border="0px"; 
+    arrowdownone.style.display="none";
+     boxone.style.height="60px"
+     document.getElementById("boxone").style.backgroundColor="#00D0F6";
+
+   }
+  
  
 
 }
 function bigboxtwo(){
-
+if(arrowdowntwo.style.display==="none"){
     boxtwo.style.height="398px";
    boxtwo.style.transition="0.4s all ease-in-out";  
    boxone.style.height="60px"
@@ -266,12 +167,14 @@ function bigboxtwo(){
    boxthree.style.height="60px"
    boxthree.style.transition="0.4 sall ease-in-out";  
    document.getElementById("boxtwo").style.backgroundColor="#FFD9E7";
- 
+   document.getElementById("boxtwo").style.border="0px"
    document.getElementById("boxtwo").style.borderBottom="4px dashed #FA005F";
    document.getElementById("boxtwo").style.borderRight="4px dashed #FA005F";
    document.getElementById("boxtwo").style.borderLeft="4px dashed #FA005F";
    document.getElementById("boxtwo").style.backgroundImage="none";
    document.getElementById("cover").style.display="none";
+
+
    document.getElementById("unitrowone").style.display = "flex";  
    document.getElementById("unitrowtwo").style.display = "flex";  
    document.getElementById("unitrowthree").style.display = "flex";  
@@ -295,11 +198,26 @@ document.getElementById("boxthree").style.backgroundColor="#F0D30E";
 
 arrowdownone.style.display="none";
 arrowdowntwo.style.display="flex";
-arrowdownthree.style.display="none";
+arrowdownthree.style.display="none";}
+else{
+    document.getElementById("cover").style.display="flex"; 
+    boxtwo.style.height="60px"
+    boxtwo.style.transition="0.4s all ease-in-out"; 
+    document.getElementById("boxtwo").style.backgroundSize="cover";
+    document.getElementById("unitrowone").style.display = "none";  
+    document.getElementById("unitrowtwo").style.display = "none";  
+    document.getElementById("unitrowthree").style.display = "none";  
+    document.getElementById("wingcontentsub").style.display = "none"; 
+   
+    document.getElementById("boxtwo").style.border="0px";
+    arrowdowntwo.style.display="none";
+    document.getElementById("boxtwo").style.backgroundColor= "#ff005d";
+}
 
 
 }
 function bigboxthree(){
+    if(arrowdownthree.style.display==="none"){
     boxthree.style.height="398px";
    boxthree.style.transition="0.4s all ease-in-out";
    boxone.style.height="60px"
@@ -342,53 +260,25 @@ function bigboxthree(){
    document.getElementById("unitrowthreeone").style.display = "none";  
    document.getElementById("wingcontentsubone").style.display = "none"; 
    document.getElementById("coverone").style.display="flex"; 
-   document.getElementById("boxone").style.border="0px"; 
-}
-function bigboxonemobile() {
-    if (boxone.style.height === "398px") {
-        // Shrink boxone
-        boxone.style.height = "60px";
-        document.getElementById("unitrowoneone").style.display = "none";
-        document.getElementById("unitrowtwoone").style.display = "none";
-        document.getElementById("unitrowthreeone").style.display = "none";
-        document.getElementById("boxone").style.backgroundColor = "#00D0F6";
-        document.getElementById("boxone").style.border = "0px";
-        arrowdownone.style.display = "flex";
-      
-    } else {
-        bigboxone(); // Expand if not already expanded
-    }
+   document.getElementById("boxone").style.border="0px"; }
+   else{
+
+    document.getElementById("boxthree").style.backgroundSize="cover";
+    document.getElementById("unitrowonethree").style.display = "none";  
+    document.getElementById("unitrowtwothree").style.display = "none";  
+    document.getElementById("unitrowthreethree").style.display = "none";  
+    document.getElementById("wingcontentsubthree").style.display = "none"; 
+    document.getElementById("coverthree").style.display="flex"; 
+    document.getElementById("boxthree").style.border="0px";
+ document.getElementById("boxthree").style.backgroundColor="#F0D30E";
+ arrowdownthree.style.display="none";
+ boxthree.style.height="60px"
+ document.getElementById("boxthree").style.backgroundColor="#F0D30E";
+
+   }
 }
 
-function bigboxtwomobile() {
-    if (boxtwo.style.height === "398px") {
-        // Shrink boxtwo
-        boxtwo.style.height = "60px";
-        document.getElementById("unitrowone").style.display = "none";
-        document.getElementById("unitrowtwo").style.display = "none";
-        document.getElementById("unitrowthree").style.display = "none";
-        document.getElementById("boxtwo").style.backgroundColor = "#ff005d";
-        document.getElementById("boxtwo").style.border = "0px";
-        arrowdowntwo.style.display = "flex";
-    } else {
-        bigboxtwo(); // Expand if not already expanded
-    }
-}
 
-function bigboxthreemobile() {
-    if (boxthree.style.height === "398px") {
-        // Shrink boxthree
-        boxthree.style.height = "60px";
-        document.getElementById("unitrowonethree").style.display = "none";
-        document.getElementById("unitrowtwothree").style.display = "none";
-        document.getElementById("unitrowthreethree").style.display = "none";
-        document.getElementById("boxthree").style.backgroundColor = "#F0D30E";
-        document.getElementById("boxthree").style.border = "0px";
-        arrowdownthree.style.display = "flex";
-    } else {
-        bigboxthree(); // Expand if not already expanded
-    }
-}
     
     }
  else {

@@ -78,7 +78,7 @@
 }
 .wingcontent{
     margin-top:15px;
-    font-size:26px;
+    font-size:29px;
     color:#3c3e50;
     text-align: center;
     font-family: "Anton", sans-serif;
@@ -239,11 +239,11 @@ nav a{
 .wingcontentsub{
    margin-bottom:40px;
 
-    font-size:26px;
+    font-size:32px;
    
     text-align: center;
     font-family: "Anton", sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     font-style: normal;
     letter-spacing: 1px;
     word-spacing: 3px;
@@ -549,7 +549,7 @@ width:500px;
         width:160px;
         height:130px;
         margin-left:53%;
-        margin-bottom:22%;
+        margin-bottom:5%;
       }
       .amobile{
         font-size: 28px;
@@ -920,6 +920,10 @@ left:32% }
     height:60;
   }
 
+
+  .toggleone{
+    
+  }
 
     
 }

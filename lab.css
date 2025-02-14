@@ -82,7 +82,7 @@
     color:#3c3e50;
     text-align: center;
     font-family: "Anton", sans-serif;
-    font-weight: bold;
+  
     font-style: normal;
     letter-spacing: 1px;
     word-spacing: 3px;
@@ -151,7 +151,7 @@ nav a{
     position: relative;
     display: inline-block;
     font-size: 0.9em;
-    font-weight: 500;
+ 
     color: #828be0;
     line-height: 58px;
     z-index: 1;
@@ -188,7 +188,7 @@ nav a{
 
 nav a{
     color:#d0d9e0d7 ;
-    font-weight:bolder;
+
 }
 #navtextone{
     color:#8e98f7;
@@ -319,7 +319,7 @@ button:hover{
         width:160px;
         height:130px;
         margin-left:53%;
-        margin-bottom:22%;
+        margin-bottom:5%;
       }
       .amobile{
         font-size: 28px;
