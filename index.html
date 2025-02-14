@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.transparentpng.com/thumb/anonymous-mask/anonymous-mask-icon-png-25.png" alt="anonymous mask icon png @transparentpng.com ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">   
+<title>Home</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img class="mainlogo"src="cse_logo_1.png"/>
+            <!-- <div class="navcontents"> -->
+                <nav>
+                    <a class="a"id="navtextone" onclick ="homeline()" href="index.html">Home</a>
+                    <a class="a" id="navtexttwo" onclick ="assignline()" href="assignment.html">Assignment</a>
+                    <a class="a" id="navtextthree"  onclick ="taskline()" href="task.html">Task</a>
+                    <a class="a" id="navtextfour" onclick ="aboutline()" href="about.html">About</a>
+                  
+                    <div id="navbar" class="animation start-nav"></div>
+                </nav>
+
+            <!-- </div> -->
+            <img class="hilogo" id="hilogo"src="hi.gif">
+            <img class="menubar" id="menubar" onclick="shownav()" src="icon-menu.svg"/>
+            <img class="menubarclose" id="closeicon" onclick="closenav()" src="close-icon.png"/>
+        </div>
+       <div class="mobilenavwhole" id="mobilenavwhole">
+
+      
+        <div class="mobilenav">
+            <a class="amobile"id="navtextonemobile" onclick ="homeline()" href="index.html">Home</a>
+            <a class="amobile" id="navtexttwomobile" onclick ="assignline()" href="assignment.html">Assignment</a>
+            <a class="amobile" id="navtextthreemobile"  onclick ="taskline()" href="task.html">Task</a>
+            <a class="amobile" id="navtextfourmobile" onclick ="aboutline()" href="about.html">About</a>
+          
+         
+        </div>
+        <img class="hilogomobile"src="hi.gif">
+    </div>
+        <div class="content" id="content">
+            <div class="partone">
+                <img class="wing leftwing" src="wingsleft.png">
+                <img class="wingmobile leftwingmobile" src="left wings mobile .png">
+                <div class="wingtext">
+                    <p class="wingcontent">COMPUTER SCIENCE AND ENGINEERING</p>
+                    <p class="wingcontent">4th Semester (R-21) NOTES</p>
+                </div>
+                <img class="wing rightwing" src="wingsright.png">
+                <img class="wingmobile rightwingmobile" src="right wings mobile.png">
+            </div>
+            <div class="parttwo">
+                <div class="rowone">
+              <a href="toc.html">
+                <div class="sub one">
+                        <img class="pic" src="TOC__pc.png" />
+                        <img class="picmobile" src="TOC.png" />
+                        <p class="dm name">Theory of Computation</p>
+                        <p class="code">CS3452</p>
+                        <button id="subbtn">GO HERE ----> </button>
+                        <div class="subcontentmobile">
+                            <p class="dm namemobile">TOC</p>
+                            <p class="codemobile">CS3452</p>
+                            <button id="subbtnmobile">GO HERE <img class="buttonarrow"src="arrow_forward.svg"> </button>
+                        </div>
+                    </div>
+                </a>
+                <a href="aiml.html">
+                    <div class="sub two">
+                        <img class="pic" src="AIML_pc.png" />
+                        <img class="picmobile" src="AIML.png" />
+                        <p class="dm name">AIML</p>
+                        <p class="code">CS3491</p>
+                        <button id="subbtn">GO HERE ----> </button>
+                        <div class="subcontentmobile">
+                            <p class="dm namemobile">AIML</p>
+                            <p class="codemobile">CS3491</p>
+                            <button id="subbtnmobile">GO HERE <img class="buttonarrow"src="arrow_forward.svg"> </button>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="dbms.html">
+                    <div class="sub three">
+                        <img class="pic" src="DBMS__pc.png" />
+                        <img class="picmobile" src="DBMS.png" />
+                        <p class="dm name">DBMS</p>
+                        <p class="code">CS3492</p>
+                        <button id="subbtn">GO HERE ----> </button>
+                        <div class="subcontentmobile">
+                            <p class="dm namemobile">DBMS</p>
+                            <p class="codemobile">CS3492</p>
+                            <button id="subbtnmobile">GO HERE <img class="buttonarrow"src="arrow_forward.svg"> </button>
+                        </div>
+                    </div>
+                </a>
+                </div>
+
+                <div class="rowtwo">
+                    <a href="os.html">
+                    <div class="sub four">
+                        <img class="pic" src="os__pc.png" />
+                        <img class="picmobile" src="os.png" />
+                        <p class="dm name">Operating System</p>
+                        <p class="code">CS3451</p>
+                        <button id="subbtn">GO HERE ----> </button>
+                        <div class="subcontentmobile">
+                            <p class="dm namemobile">OS</p>
+                            <p class="codemobile">CS3451</p>
+                            <button id="subbtnmobile">GO HERE <img class="buttonarrow"src="arrow_forward.svg"> </button>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="algorithm.html">
+                    <div class="sub five">
+                        <img class="pic" src="ALGORITHM_pc.png" />
+                        <img class="picmobile" src="ALGORITHM.png" />
+                        <p class="dm name">Algorithms</p>
+                        <p class="code">CS3401</p>
+                        <button id="subbtn">GO HERE ----> </button>
+                        <div class="subcontentmobile">
+                            <p class="dm namemobile">Algorithms</p>
+                            <p class="codemobile">CS3401</p>
+                            <button id="subbtnmobile">GO HERE <img class="buttonarrow"src="arrow_forward.svg"> </button>
+                        </div>
+                    </div>
+                </a>
+                    <a href="evs.html">
+                    <div class="sub six">
+                        <img class="pic" src="EVS__pc.png" />
+                        <img class="picmobile" src="EVS.png" />
+                        <p class="dm name">EVS</p>
+                        <p class="code">GE3451</p>
+                        <button id="subbtn">GO HERE ----> </button>
+                        <div class="subcontentmobile">
+                            <p class="dm namemobile">EVS</p>
+                            <p class="codemobile">GE3451</p>
+                            <button id="subbtnmobile">GO HERE <img class="buttonarrow"src="arrow_forward.svg"> </button>
+                        </div>
+                    </div>
+                </a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer" id="footer">
+            <p>Any suggestion or problem contact via "<span>ucekcse2327@gmail.com"</span></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
