@@ -33,7 +33,6 @@
     border-bottom-right-radius: 22px;
 }
 .content{
-   
     width:100%;
     height:980px;
     background-color: antiquewhite;
@@ -176,8 +175,6 @@ span{
     font-weight: 700;
 }
 .navbar{
-   
-    overflow: visible;
     width:100%;
     height:208px;
     background-color:#eaf5ff ;
@@ -188,8 +185,6 @@ span{
     filter:drop-shadow(0px 3px 10px #00000042);
     border-bottom-left-radius: 22px;
     border-bottom-right-radius: 22px;
-  top:0px;
-  
 }
 nav{
     position: relative;
@@ -283,8 +278,6 @@ nav a{
     .navbar{
        height:112px; 
        width:100vw;
-       position: fixed;
-      
     }
     .mainlogo{
         width:86px;
@@ -308,7 +301,6 @@ nav a{
       
     }
     .content{
-       
         width:100vw;
         height:1160px;
         padding-bottom:5px;
@@ -593,7 +585,7 @@ nav a{
          width:160px;
          height:130px;
          margin-left:53%;
-         margin-bottom:5%;
+         margin-bottom:15%;
        }
        .amobile{
          font-size: 28px;
