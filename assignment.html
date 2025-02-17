@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assignment.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.transparentpng.com/thumb/anonymous-mask/anonymous-mask-icon-png-25.png" alt="anonymous mask icon png @transparentpng.com ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">   
+<title>Assignment</title>
+    <style>
+        .mobile-view {
+            display: none; 
+        }
+        @media (min-width: 600px) {
+            .popup {
+                display: none;
+            }
+        }
+        
+@media (max-width: 600px) {
+    table {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+    .assignment-card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 400px;
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        .assignment-card h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .assignment-card p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+
+        .download-btn {
+            background: #6c63ff;
+            color: white;
+            border: none;
+            padding: 30px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    
+        .popup {
+            position: fixed;
+            bottom: -100%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 400px;
+            background: #6c63ff;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            border-radius: 15px 15px 0 0;
+            transition: bottom 0.3s ease-in-out;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .popup-content {
+            text-align: left;
+            background-color: #ffffff;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .work-title,
+        .deadline-title,
+        .source-title {
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .deadline {
+            color: #ffcccb;
+            font-weight: bold;
+        }
+
+        .download-popup {
+            background: #6c63ff;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100%;
+            font-weight: bold;
+            cursor: pointer;
+        }
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img class="mainlogo"src="cse_logo_1.png"/>
+                <nav>
+                    <a class="a"id="navtextone" onclick ="homeline()" href="index.html">Home</a>
+                    <a class="a" id="navtexttwo" onclick ="assignline()" href="assignment.html">Assignment</a>
+                    <a class="a" id="navtextthree"  onclick ="taskline()" href="task.html">Task</a>
+                    <a class="a" id="navtextfour" onclick ="aboutline()" href="about.html">About</a>
+                  
+                    <div id="navbar" class="animation start-nav"></div>
+                </nav>
+
+    
+            <img class="hilogo" id="hilogo"src="hi.gif">
+            <img class="menubar" id="menubar" onclick="shownav()" src="icon-menu.svg"/>
+            <img class="menubarclose" id="closeicon" onclick="closenav()" src="close-icon.png"/>
+        </div>
+       <div class="mobilenavwhole" id="mobilenavwhole">
+
+      
+        <div class="mobilenav">
+            <a class="amobile"id="navtextonemobile" onclick ="homeline()" href="index.html">Home</a>
+            <a class="amobile" id="navtexttwomobile" onclick ="assignline()" href="assignment.html">Assignment</a>
+            <a class="amobile" id="navtextthreemobile"  onclick ="taskline()" href="task.html">Task</a>
+            <a class="amobile" id="navtextfourmobile" onclick ="aboutline()" href="about.html">About</a>
+          
+         
+        </div>
+        <img class="hilogomobile"src="hi.gif">
+    </div>
+  
+           
+        
+    
+        <div class="box" id="content">
+            <table border="1" class="table">
+                <tr class="tablerowone">
+                    <th class="t1" id="left_top">S.NO</th>
+                    <th class="t2">SUBJECT</th>
+                    <th class="t3">WORK</th>
+                    <th class="t4">DEADLINE</th>
+                    <th class="t5" id="right_top">SOURCE</th>
+                </tr>
+                <tr >
+                    <th class="th1">1</th>
+                    <th class="th2">OOP's</th>
+                    <td class="th3"><p>ewfebhbfhebfhbfhebhfbhwebfhjewbfhfwfhuwhfuwhfuhfuhf</p></td>
+                    <td class="th4">23-09-2024</td>
+                    <th class="th5"><p id="DB">DOWNLOAD</p></th>
+                </tr>
+                <tr>
+                    <th class="th1">2</th>
+                    <th class="th2">DPCO</th>
+                    <td class="th3"><p>ewfebhbfhebfhbfhebhfbhwebfhjewbfhfwfhuwhfuwhfuhfuhf</p></td>
+                    <td class="th4">23-09-2024</td>
+                    <th class="th5"><p id="DB">DOWNLOAD</p></th>
+                </tr>
+                <tr>
+                    <th class="th1">3</th>
+                    <th class="th2">DM</th>
+                    <td class="th3"><p>eebhbfhebfhbfhebhfbhwebfhjewbfhfwfhuwhfuwhfuhfuhf</p></td>
+                    <td class="th4">23-09-2024</td>
+                    <th class="th5"><p id="DB">DOWNLOAD</p></th>
+                </tr>
+                <tr>
+                    <th class="th1">4</th>
+                    <th class="th2">FDS</th>
+                    <td class="th3"><p>eqhbfhebfhbfhebhfbhwebfhjewbfhfwfhuwhfuwhfuhfuhf</p></td>
+                    <td class="th4">23-09-2024</td>
+                    <th class="th5"><p id="DB">DOWNLOAD</p></th>
+                </tr>
+                <tr>
+                    <th class="th1">5</th>
+                    <th class="th2">DS</th>
+                    <td class="th3"><p>eqfbiewfehbfhebhfbhwebfhjewbfhfwfhuwhfuwhfuhfuhf</p></td>
+                    <td class="th4">23-09-2024</td>
+                    <th class="th5"><p id="DB">DOWNLOAD</p></th>
+                </tr>
+                <tr>
+                    <th class="th1">6</th>
+                    <th class="th2">-</th>
+                    <td class="th3" >-</td>
+                    <th class="th4">-</th>
+                    <th class="th5">-</th>
+                </tr>
+                <tr>
+                    <th class="th1" id="left_bottom">7</th>
+                    <th class="th2">-</th>
+                    <td class="th3">-</td>
+                    <th class="th4">-</th>
+                    <th class="th5" id="right_bottom">-</th>
+                </tr>
+        
+            </table>
+        </div>
+
+        <div class="mobile-view" id="mobile-view">
+            <div class="assignment-card" onclick="openPopup('oop')">
+                <div class="card-content">
+                    <h3>OOP’s</h3>
+                    <p>Brief description of the assignment...</p>
+                    <p><strong>Deadline:</strong> 23.09.2005</p>
+                </div>
+                <button class="download-btn">Download</button>
+            </div>
+        
+            <div class="assignment-card" onclick="openPopup('DPCO')">
+                <div class="card-content">
+                    <h3>DPCO</h3>
+                    <p>Brief description of the assignment...</p>
+                    <p><strong>Deadline:</strong> 16.10.2024</p>
+                </div>
+                <button class="download-btn">Download</button>
+            </div>
+            <div class="assignment-card" onclick="openPopup('DM')">
+                <div class="card-content">
+                    <h3>DM</h3>
+                    <p>Brief description of the assignment...</p>
+                    <p><strong>Deadline:</strong> 23.09.2005</p>
+                </div>
+                <button class="download-btn">Download</button>
+            </div>
+            <div class="assignment-card" onclick="openPopup('DS')">
+                <div class="card-content">
+                    <h3>DS</h3>
+                    <p>Brief description of the assignment...</p>
+                    <p><strong>Deadline:</strong> 23.09.2005</p>
+                </div>
+                <button class="download-btn">Download</button>
+            </div>
+            <div class="assignment-card" onclick="openPopup('FDS')">
+                <div class="card-content">
+                    <h3>FDS</h3>
+                    <p>Brief description of the assignment...</p>
+                    <p><strong>Deadline:</strong> 23.09.2005</p>
+                </div>
+                <button class="download-btn">Download</button>
+            </div>
+        
+        
+        </div>
+        
+        <div class="footer">
+            <p>Any suggestion or problem contact via "<span>ucekcse2327@gmail.com"</span></p>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h2 id="popup-title">OOP’s</h2>
+            <p class="work-title"><strong>WORK</strong></p>
+            <p id="popup-desc">Detailed work description goes here.</p>
+            <p class="deadline-title"><strong>DEADLINE</strong></p>
+            <p id="popup-deadline" class="deadline">16.10.2024</p>
+            <p class="source-title"><strong>SOURCE</strong></p>
+            <button class="download-popup">DOWNLOAD</button>
+        </div>
+    </div>
+    
+
+    <script>
+        function openPopup(assignment) {
+            let title = document.getElementById("popup-title");
+            let desc = document.getElementById("popup-desc");
+            let deadline = document.getElementById("popup-deadline");
+
+    
+            if (assignment === "oop") {
+                title.innerText = "OOP’s";
+                desc.innerText = "Detailed explanation about Object-Oriented Programming assignment.";
+                deadline.innerText = "23.09.2005";
+            } else if (assignment === "DPCO") {
+                title.innerText = "DPCO";
+                desc.innerText = "Detailed explanation about Digital Principle computer organization assignment.";
+                deadline.innerText = "16.10.2024";
+            }else if (assignment === "DM") {
+                title.innerText = "DISCRETE MATHEMATICS";
+                desc.innerText = "Detailed explanation about discrete mathematics assignment.";
+                deadline.innerText = "16.10.2024";
+            }else if (assignment === "DS") {
+                title.innerText = "DATA STRUCTURES";
+                desc.innerText = "Detailed explanation about DATA STRUCTURES assignment.";
+                deadline.innerText = "16.10.2024";
+            }else if(assignment === "DSI") {
+                title.innerText = "FOUNDATION OF DATA SCIENCE";
+                desc.innerText = "Detailed explanation about FOUNDATION OF DATA SCIENCE assignment.";
+                deadline.innerText = "16.10.2024";
+            }else if(assignment === "DSSS") {
+                title.innerText = "FOUNDATION OF DATA SCIENCE";
+                desc.innerText = "Detailed explanation about FOUNDATION OF DATA SCIENCE assignment.";
+                deadline.innerText = "16.10.2024";
+            }
+
+    
+            document.getElementById("popup").style.bottom = "0";
+        }
+
+        function closePopup() {
+            document.getElementById("popup").style.bottom = "-100%";
+        }
+    </script>
+
+    <script>
+        var line = document.getElementById("navbar");
+var text1 = document.getElementById("navtextone");
+var text2= document.getElementById("navtexttwo");
+var text3 = document.getElementById("navtextthree");
+var text4 = document.getElementById("navtextfour");
+ var line = document.getElementById("navbar");
+    line.style.width="190px"
+function homeline(){
+    line.style.width="100px";
+    line.style.left="0px";
+    text1.style.color="#8e98f7";
+     text2.style.color="#d0d9e0d7";
+    text3.style.color="#d0d9e0d7"; 
+    text4.style.color="#d0d9e0d7";
+}
+ 
+function assignline(){
+    var line = document.getElementById("navbar");
+    line.style.width="190px";
+    line.style.left="125px";
+    text2.style.color="#8e98f7";
+    text1.style.color="#d0d9e0d7";
+    text3.style.color="#d0d9e0d7";
+    text4.style.color="#d0d9e0d7";
+}
+
+function taskline(){
+    var line = document.getElementById("navbar");
+    line.style.width="100px";
+    line.style.left="340px";
+    text3.style.color="#8e98f7";
+    text1.style.color="#d0d9e0d7";
+    text2.style.color="#d0d9e0d7";
+    text4.style.color="#d0d9e0d7";
+}
+
+function aboutline(){
+    var line = document.getElementById("navbar");
+    line.style.width="100px";
+    line.style.left="470px";
+    text4.style.color="#8e98f7";
+    
+    text2.style.color="#d0d9e0d7";
+    text3.style.color="#d0d9e0d7";
+}
+
+line.style.width="190px";
+text2.style.color="#8e98f7";
+text1.style.color="#d0d9e0d7";
+var line = document.getElementById("navbar");
+var text1 = document.getElementById("navtextone");
+var text2= document.getElementById("navtexttwo");
+var text3 = document.getElementById("navtextthree");
+var text4 = document.getElementById("navtextfour");
+function homeline(){
+    line.style.width="100px";
+    line.style.left="0px";
+    text1.style.color="#8e98f7";
+     text2.style.color="#d0d9e0d7";
+    text3.style.color="#d0d9e0d7"; 
+    text4.style.color="#d0d9e0d7";
+}
+ 
+function assignline(){
+    var line = document.getElementById("navbar");
+    line.style.width="190px";
+    line.style.left="125px";
+    text2.style.color="#8e98f7";
+    text1.style.color="#d0d9e0d7";
+    text3.style.color="#d0d9e0d7";
+    text4.style.color="#d0d9e0d7";
+}
+
+function taskline(){
+    var line = document.getElementById("navbar");
+    line.style.width="100px";
+    line.style.left="340px";
+    text3.style.color="#8e98f7";
+    text1.style.color="#d0d9e0d7";
+    text2.style.color="#d0d9e0d7";
+    text4.style.color="#d0d9e0d7";
+}
+
+function aboutline(){
+    var line = document.getElementById("navbar");
+    line.style.width="100px";
+    line.style.left="470px";
+    text4.style.color="#8e98f7";
+    text1.style.color="#d0d9e0d7";
+    text2.style.color="#d0d9e0d7";
+    text3.style.color="#d0d9e0d7";
+}
+
+function resetNavBarStyles() {
+    const menubar = document.getElementById("menubar");
+    const closeicon = document.getElementById("closeicon");
+    const mobilenav = document.getElementById("mobilenavwhole");
+
+    if (window.innerWidth < 900) {
+        
+       menubar.style.display="flex"
+         closeicon.style.display = "none";
+         mobilenav.style.display = "none";
+    } else {
+menubar.style.display="none";
+closeicon.style.display = "none";
+mobilenav.style.display = "none";
+    }
+}
+var mobilenav=document.getElementById("mobilenavwhole");
+function closenav(){
+   
+    mobilenav.style.display="none";
+    document.getElementById("hilogo").style.display="flex";
+    document.getElementById("menubar").style.display="flex";
+    document.getElementById("closeicon").style.display="none";
+    document.getElementById("mobile-view").style.display="grid";
+    document.getElementById("footer").style.display="flex";
+}
+function shownav(){
+   
+    mobilenav.style.display="flex";
+    document.getElementById("hilogo").style.display="none";
+    document.getElementById("menubar").style.display="none";
+    document.getElementById("closeicon").style.display="flex";
+    document.getElementById("mobile-view").style.display="none";
+    document.getElementById("footer").style.display="none";
+}
+
+window.addEventListener("resize", resetNavBarStyles);
+resetNavBarStyles();
+
+/*9AABFF
+drop shadow for about page
+x axis=0 
+y axis=6
+blur= 8.50*/
+    </script>
+</body>
+</html>

@@ -205,10 +205,107 @@
             </div>
            </div>
         </div>
+
+      <!--mobile html start here-->
+         <div class="taskmobile" id="taskmobile">
+          <div class="partone">
+                 <img class="wing leftwing" src="wingsleft.png">
+                 <div class="wingtext">
+                     <p class="wingcontent">Task</p>
+                 </div>
+                 <img class="wing rightwing" src="wingsright.png">
+             </div>
+
+             <div class="parttwomobile">
+              <div class="daybox monday" id="mondaybox" onclick="mondaypopup()">
+                <p class="subbox submonday" id="taskday">MONDAY</p>
+                <p  class="subbox submonday "id="taskdate">03.06.2009</p>
+              </div>
+              <div class="daybox tuesday" id="tuesdaybox">
+                <p class="subbox subtuesday" id="taskday"  onclick="tuesdaypopup()">TUESDAY</p>
+                <p  class="subbox subtuesday "id="taskdate">03.06.2009</p>
+              </div>
+              <div class="daybox wednesday" id="wednesdaybox">
+                <p class="subbox subwednesday" id="taskday"  onclick="wednesdaypopup()">WEDNESDAY</p>
+                <p  class="subbox subwednesday "id="taskdate">03.06.2009</p>
+              </div>
+              <div class="daybox thursday"  id="thursdaybox">
+                <p class="subbox subthursday" id="taskday"  onclick="thursdaypopup()">THURSDAY</p>
+                <p  class="subbox subthursday "id="taskdate">03.06.2009</p>
+              </div>
+              <div class="daybox friday" id="fridaybox">
+                <p class="subbox subfriday" id="taskday"  onclick="fridaypopup()">FRIDAY</p>
+                <p  class="subbox subfriday "id="taskdate">03.06.2009</p>
+              </div>
+              <div class="daybox saturday"  id="saturdaybox">
+                <p class="subbox subsaturday" id="taskday"  onclick="saturdaypopup()">SATURDAY</p>
+                <p  class="subbox subsaturday "id="taskdate">03.06.2009</p>
+              </div>
+              <div class="daybox sunday" id="sundaybox">
+                <p class="subbox subsunday" id="taskday"  onclick="sundaypopup()">SUNDAY</p>
+                <p  class="subbox  subsunday"id="taskdate">03.06.2009</p>
+              </div>
+             </div>
+         </div>
+         <div id="popup" class="popuppage ">
+          <img onclick="popdown()"  id="sliderarrow" src="slider arrow.svg">
+
+          <div class="allsubside" id="allsubside">
+            <div class="popupboxday">
+              <p class="subbox submonday" id="taskdayinner"></p>
+              <p  class="subbox submonday "id="taskdateinner">03.06.2009</p>
+            </div>
+          
+            <div class="allsub one" onclick="expandonepop()" id="allsubone">
+            
+              <p id="allsubpara" class="allsubpara" >OOP's </p>
+              <img class="buttonarrow" id="arrowone" src="arrow_up.svg">
+               
+            </div>
+             <div class="allsubsidehide" id="allsubsidehidepopone">
+           <div id="allsubsidehidden" class="sidecontents">
+            <p id="allsubsidehidden" class="sidecontentwork ">WORK</p>
+            <p id="allsubsidehidden" class="sidecontentpara" >webfbhfbhwfbhuvbrvbhrbvhrvb
+              rvbhrvbrvbrvbhhevberhvhebvhuvbhuvbhuvbhub
+              vhebvhuvbhuve bhrvbrvbrvbhhevberhvhebvhuvbhuv
+             </p>
+            <p id="allsubsidehidden" class="sidecontentdeadline">DEADLINE</p>
+            <p id="allsubsidehidden" class="sidecontentdate">07.10.2024</p>
+            <p id="allsubsidehidden" class="sidecontentsource">SOURCE</p>
+            <button id="allsubsidehidden" class="sidecontentdownload allsubbtn">DOWNLOAD</button>
+
+           </div>
+             </div>
+
+             <div class="allsub two" onclick="expandtwopop()" id="allsubtwo">
+            
+              <p id="allsubpara" class="allsubpara" >FDS </p>
+              <img class="buttonarrow" id="arrtwo" src="arrow_up.svg">
+               
+            </div>
+             <div class="allsubsidehide" id="allsubsidehidepoptwo">
+           <div id="allsubsidehidden" class="sidecontents">
+            <p id="allsubsidehidden" class="sidecontentwork ">WORK</p>
+            <p id="allsubsidehidden" class="sidecontentpara" >webfbhfbhwfbhuvbrvbhrbvhrvb
+              rvbhrvbrvbrvbhhevberhvhebvhuvbhuvbhuvbhub
+              vhebvhuvbhuve bhrvbrvbrvbhhevberhvhebvhuvbhuv
+             </p>
+            <p id="allsubsidehidden" class="sidecontentdeadline">DEADLINE</p>
+            <p id="allsubsidehidden" class="sidecontentdate">07.10.2024</p>
+            <p id="allsubsidehidden" class="sidecontentsource">SOURCE</p>
+            <button id="allsubsidehidden" class="sidecontentdownload allsubbtn">DOWNLOAD</button>
+
+           </div>
+             </div>
+          </div>
+            
+        
+        </div>
+
         <div class="footer" id="footer">
             <p>Any suggestion or problem contact via "<span>ucekcse2327@gmail.com"</span></p>
         </div>
-    </div>
+   
     <script src="task.js">
         
     </script>

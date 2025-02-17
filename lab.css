@@ -43,7 +43,7 @@
 }
 .content{
     width:100%;
-    height:1100px;
+    height:800px;
     background-color: antiquewhite;
     display:flex; 
     justify-content: center;
@@ -66,7 +66,8 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin-right:9%;
+    margin-right:12%;
+    margin-left:3%;
 
 
 }
@@ -78,11 +79,11 @@
 }
 .wingcontent{
     margin-top:15px;
-    font-size:29px;
+    font-size:32px;
     color:#3c3e50;
     text-align: center;
     font-family: "Anton", sans-serif;
-    font-weight: bold;
+  
     font-style: normal;
     letter-spacing: 1px;
     word-spacing: 3px;
@@ -151,7 +152,7 @@ nav a{
     position: relative;
     display: inline-block;
     font-size: 0.9em;
-    font-weight: 500;
+ 
     color: #828be0;
     line-height: 58px;
     z-index: 1;
@@ -188,247 +189,23 @@ nav a{
 
 nav a{
     color:#d0d9e0d7 ;
-    font-weight:bolder;
+
 }
 #navtextone{
     color:#8e98f7;
 }
 
 .parttwo{
-    margin-top: 64px;
+    margin-top: 30px;
     width:1220px;
-    height:690px;
+    height:290px;
     display:flex;
     align-items: center;
     justify-content: center;
-   justify-content: space-between;
-   margin-bottom: 64px;
+   margin-bottom: 30px;
    
 }
-.sub{
-    width:390px;
-    height:670px;
-    border-radius:16px;
-    border: 4px dashed #FA005F;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    box-sizing: border-box;
-    
-}
-#boxone{
-    border: 4px dashed #5ADCF9;
-    background-image: url(class_bg.jpg);
-    background-size: contain;
-}
 
-.two{
-    background-color: #FFD9E7;
-    background-image: url(sd_mat_bg_test.jpg);
-    background-size: contain;
-
-}
-#boxthree{
-    border: 4px dashed #F3DC3F;
-    background-color: #FDF8DB;
-    background-image: url(pyq_bg_test.jpg);
-    background-size: contain;
-    
-}
-.wingcontentsub{
-   margin-bottom:40px;
-
-    font-size:32px;
-   
-    text-align: center;
-    font-family: "Anton", sans-serif;
-    font-weight: bolder;
-    font-style: normal;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-}
-.unitrow{
-    width:440px;
-    height:160px;
-    margin-left: 22px;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    
-}
-.unit{
-    width:200px;
-    height:130px;
-    background-color:#FFC5DB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Supercell', sans-serif;;
-    font-size: 20px;
-    border-radius: 16px;
-    border: 2px dashed #FA005F;
-}
-#unitone{
-    background-color:#BAF0FD;
-    border: 2px dashed #69DFFA;
-}
-#boxone button{
-    background-color: #20D0F7;
-    width:180px;
-    height:50px;
-}
-#unitthree{
-    background-color:#FAF1B4;
-    border: 2px dashed #F4E054;
-  
-}
-#boxtwo button{
-    width:180px;
-    height:50px;
- 
-}
-#boxthree button{
-    width:180px;
-    height:50px;
-    
-    background-color: #F0D30E
-}
-
-.unit button{
-    width:180px;
-    height:50px;
-   
-    font-size:18px;
-    color:white;
-    font-family: 'Supercell',sans-serif;
-    margin-top: 20px;
-    border-radius: 16px;
-    border:0px;
-    background-color: #FF0061;
-}
-.unitrowthree{
-width:500px;
-    height:160px;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-}
-.sub{
-    border:0px;
-    position: relative;
-}
-
-#cover{
-    position: relative;
-    text-align: center;
-    font-size:40px;
-    font-family:'Supercell',sans-serif;
-    color:white;
-    -webkit-text-stroke-width: 10px;
-    -webkit-text-stroke-color: black;
-    paint-order: stroke fill;
-    
-    
-}
-.two{
-    background-color:rgba(0, 0, 0, 0);
-}
-#unitrowone{
-    display:none;
- }
- #unitrowtwo{
-    display:none;
- }
- #unitrowthree{
-     display:none;
- }
- #wingcontentsub{
-     display:none;
- }
-
- #coverone{
-    position: relative;
-    text-align: center;
-    font-size:48px;
-    font-family:'Supercell',sans-serif;
-    color:white;
-    -webkit-text-stroke-width: 10px;
-    -webkit-text-stroke-color: black;
-    paint-order: stroke fill;
-   
-}
-#boxone{
-    background-color:rgba(0, 0, 0, 0);
-    border: 0px;
-}
-#unitrowoneone{
-    display:none;
- }
- #unitrowtwoone{
-    display:none;
- }
- #unitrowthreeone{
-     display:none;
- }
- #wingcontentsubone{
-     display:none;
-     color:#596373;
-   
- }
- #wingcontentsub{
-    color:#665769
- }
-
- #coverthree{
-    position: relative;
-    text-align: center;
-    font-size:40px;
-    font-family:'Supercell',sans-serif;
-    color:white;
-    -webkit-text-stroke-width: 10px;
-    -webkit-text-stroke-color: black;
-    paint-order: stroke fill;
-   
-}
- #boxthree{
-    background-color:rgba(0, 0, 0, 0);
-    border: 0px;
-}
-#unitrowonethree{
-    display:none;
- }
- #unitrowtwothree{
-    display:none;
- }
- #unitrowthreethree{
-     display:none;
- }
- #wingcontentsubthree{
-     display:none;
-     color:#656365;
- }
- #boxone button:hover{
-    
-    font-size:19.5px;
-    transition:0.4s all ease-in-out; 
-    filter: drop-shadow(0px 4px 10px #0000004f);
-}
-#boxtwo button:hover{
-    font-size:19.5px;
-    transition:0.4s all ease-in-out; 
-    filter: drop-shadow(0px 4px 10px #0000004f);
-}
-#boxthree button:hover{
-    font-size:19.5px;
-    transition:0.4s all ease-in-out; 
-    filter: drop-shadow(0px 4px 10px #0000004f);
-}
 .backhome{
     width:105px;
     height:60px;
@@ -451,42 +228,37 @@ width:500px;
     filter: drop-shadow(0px 4px 20px #8497ff);
     background-color: #9aabff;
 }
-
-.picmobile{
-    display:none;
-}
-.subcontentmobile{
-    display:none;
-}
-
-.wingmobile{
-    display:none;
-}
-.mobilenav{
-    display:none;
-}
-.hilogomobile{
-    display:none;
-}
-.sub:hover{
-    filter: drop-shadow(0px 4px 10px #00000098);
-}
-.buttonarrow{
-    display:none;
-}
-.wingcontentsub{
+.pracsub{
+    width:400px;
+    height:300px;
+    background-color: #EAF5FA;
     display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:24px;
+    flex-direction: column;
+    font-family: 'Supercell', sans-serif;
+    text-align: center;
+    border-radius: 16px;
+    border:4px dashed #6a83ffcb;
+    justify-content: space-evenly;
+    margin-bottom:180px;
 }
-.bigonemobile{
-    display:none;
+button{
+    background-color: #6A83FF;
+    width:180px;
+    height:50px;
+    font-size:18px;
+    font-family:'Supercell', sans-serif;
+    border:none;
+    color:white;
+    border-radius: 16px;
 }
-.bigtwomobile{
-    display:none;
+button:hover{
+    font-size:19.5px;
+    transition:0.4s all ease-in-out; 
+    filter: drop-shadow(0px 4px 10px #0000004f);
 }
-.bigthreemobile{
-    display:none;
-}
-
 @media only screen and (max-width: 630px){
     *{
         padding:0px;
@@ -499,18 +271,6 @@ width:500px;
        height:112px; 
        width:100vw;
     }
-    .navbar{
-        position: fixed;
-        top:0;
-      
-       z-index: 1000;}
-     
-     .content{
-         margin-top:112px;
-     }
-   .mobilenavwhole{
-     margin-top:112px;
-   }
     .mainlogo{
         width:86px;
         height:86px;
@@ -602,7 +362,7 @@ width:500px;
     
     .content{
         width:100vw;
-        height:100vh;
+        height:90vh;
         background-color: antiquewhite;
         display:flex; 
         justify-content: center;
@@ -622,6 +382,7 @@ width:500px;
         width:85vw;
         margin:0px;
         margin-top:24px;
+        margin-right:0px;
         
     }
     
@@ -671,7 +432,7 @@ width:500px;
         flex-direction: column;
         margin-top:10px;
         margin-bottom:10%;
-        height:75vh;
+        height:60vh;
         justify-content:normal;
         width:100vw;
     }
@@ -931,11 +692,38 @@ left:32% }
     width:100%;
     height:60;
   }
+  .pracsub{
+    width:90vw;
+    height:500px;
+    background-color: #EAF5FA;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:24px;
+    flex-direction: column;
+    font-family: 'Supercell', sans-serif;
+    text-align: center;
+    border-radius: 16px;
+    border:4px dashed #6a83ffcb;
+    justify-content: space-evenly;
+}
+.pracsub p {
+    font-size:14px;
+}
+button{
+    background-color: #6A83FF;
+    width:160px;
+    height:40px;
+    font-size:16px;
+    font-family:'Supercell', sans-serif;
+    border:none;
+    color:white;
+    border-radius: 10px;
+}
+button:hover{
+    font-size:15px;
+    transition:0.4s all ease-in-out; 
+    filter: drop-shadow(0px 4px 10px #0000004f);
+}
 
-
-  .toggleone{
-    
-  }
-
-    
 }
