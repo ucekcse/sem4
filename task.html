@@ -23,36 +23,41 @@
 
 <body>
     <div class="container">
-      <div class="navbar">
+   
+      <nav>
         <img class="mainlogo"src="cse_logo_1.png"/>
-        <!-- <div class="navcontents"> -->
-            <nav>
-                <a class="a"id="navtextone" onclick ="homeline()" href="index.html">Home</a>
-                <a class="a" id="navtexttwo" onclick ="assignline()" href="assignment.html">Assignment</a>
-                <a class="a" id="navtextthree"  onclick ="taskline()" href="task.html">Task</a>
-                <a class="a" id="navtextfour" onclick ="aboutline()" href="about.html">About</a>
-              
-                <div id="navbar" class="animation start-nav"></div>
-            </nav>
-
-        <!-- </div> -->
+        <div class="navbar">
+            <a class="a"id="navtextone" onclick ="homeline()" href="index.html">Home</a>
+            <a class="a" id="navtexttwo" onclick ="assignline()" href="assignment.html">Assignment</a>
+            <a class="a" id="navtextthree"  onclick ="taskline()" href="task.html">Task</a>
+            <a class="a" id="navtextfour" onclick ="aboutline()" href="about.html">About</a>
+            <div id="navbar" class="animation start-nav"></div>
+        </div>
         <img class="hilogo" id="hilogo"src="hi.gif">
-        <img class="menubar" id="menubar" onclick="shownav()" src="icon-menu.svg"/>
-        <img class="menubarclose" id="closeicon" onclick="closenav()" src="close-icon.png"/>
-    </div>
+        <div class="burger_menu">
+            <div class="hamburger-menu">
+                <div class="hambar bar-top"></div> 
+                <div class="hambar bar-middle"></div> 
+                <div class="hambar bar-bottom"></div>
+            </div>
+        </div>
+        <!-- <img class="menubar" id="menubar" onclick="shownav()" src="icon-menu.svg"/>
+        <img class="menubarclose" id="closeicon" onclick="closenav()" src="close-icon.png"/> -->
+    </nav>
    <div class="mobilenavwhole" id="mobilenavwhole">
 
-  
+
     <div class="mobilenav">
         <a class="amobile"id="navtextonemobile" onclick ="homeline()" href="index.html">Home</a>
         <a class="amobile" id="navtexttwomobile" onclick ="assignline()" href="assignment.html">Assignment</a>
         <a class="amobile" id="navtextthreemobile"  onclick ="taskline()" href="task.html">Task</a>
         <a class="amobile" id="navtextfourmobile" onclick ="aboutline()" href="about.html">About</a>
-      
-     
     </div>
     <img class="hilogomobile"src="hi.gif">
 </div>
+
+
+
 
         <div id="taskcontainer"class="taskpage">
            <div id="taskmain"  class="taskcontent">
@@ -228,28 +233,28 @@
                 <p class="subbox submonday" id="taskday">MONDAY</p>
                 <p  class="subbox submonday "id="taskdate">03.06.2009</p>
               </div>
-              <div class="daybox tuesday" id="tuesdaybox">
-                <p class="subbox subtuesday" id="taskday"  onclick="tuesdaypopup()">TUESDAY</p>
+              <div class="daybox tuesday" id="tuesdaybox" onclick="tuesdaypopup()">
+                <p class="subbox subtuesday" id="taskday"  >TUESDAY</p>
                 <p  class="subbox subtuesday "id="taskdate">03.06.2009</p>
               </div>
-              <div class="daybox wednesday" id="wednesdaybox">
-                <p class="subbox subwednesday" id="taskday"  onclick="wednesdaypopup()">WEDNESDAY</p>
+              <div class="daybox wednesday" id="wednesdaybox"   onclick="wednesdaypopup()">
+                <p class="subbox subwednesday" id="taskday"  >WEDNESDAY</p>
                 <p  class="subbox subwednesday "id="taskdate">03.06.2009</p>
               </div>
-              <div class="daybox thursday"  id="thursdaybox">
-                <p class="subbox subthursday" id="taskday"  onclick="thursdaypopup()">THURSDAY</p>
+              <div class="daybox thursday"  id="thursdaybox" onclick="thursdaypopup()">
+                <p class="subbox subthursday" id="taskday"  >THURSDAY</p>
                 <p  class="subbox subthursday "id="taskdate">03.06.2009</p>
               </div>
-              <div class="daybox friday" id="fridaybox">
-                <p class="subbox subfriday" id="taskday"  onclick="fridaypopup()">FRIDAY</p>
+              <div class="daybox friday" id="fridaybox" onclick="fridaypopup()">
+                <p class="subbox subfriday" id="taskday"  >FRIDAY</p>
                 <p  class="subbox subfriday "id="taskdate">03.06.2009</p>
               </div>
-              <div class="daybox saturday"  id="saturdaybox">
-                <p class="subbox subsaturday" id="taskday"  onclick="saturdaypopup()">SATURDAY</p>
+              <div class="daybox saturday"  id="saturdaybox"  onclick="saturdaypopup()">
+                <p class="subbox subsaturday" id="taskday"  >SATURDAY</p>
                 <p  class="subbox subsaturday "id="taskdate">03.06.2009</p>
               </div>
-              <div class="daybox sunday" id="sundaybox">
-                <p class="subbox subsunday" id="taskday"  onclick="sundaypopup()">SUNDAY</p>
+              <div class="daybox sunday" id="sundaybox" onclick="sundaypopup()">
+                <p class="subbox subsunday" id="taskday"  >SUNDAY</p>
                 <p  class="subbox  subsunday"id="taskdate">03.06.2009</p>
               </div>
              </div>
@@ -304,6 +309,111 @@
 
            </div>
              </div>
+
+
+
+
+
+             <div class="allsub two" onclick="expandthreepop()" id="allsubthree">
+            
+              <p id="allsubpara" class="allsubpara" >FDS </p>
+              <img class="buttonarrow" id="arrthree" src="arrow_up.svg">
+               
+            </div>
+             <div class="allsubsidehide" id="allsubsidehidepopthree">
+           <div id="allsubsidehidden" class="sidecontents">
+            <p id="allsubsidehidden" class="sidecontentwork ">WORK</p>
+            <p id="allsubsidehidden" class="sidecontentpara" >webfbhfbhwfbhuvbrvbhrbvhrvb
+              rvbhrvbrvbrvbhhevberhvhebvhuvbhuvbhuvbhub
+              vhebvhuvbhuve bhrvbrvbrvbhhevberhvhebvhuvbhuv
+             </p>
+            <p id="allsubsidehidden" class="sidecontentdeadline">DEADLINE</p>
+            <p id="allsubsidehidden" class="sidecontentdate">07.10.2024</p>
+            <p id="allsubsidehidden" class="sidecontentsource">SOURCE</p>
+            <button id="allsubsidehidden" class="sidecontentdownload allsubbtn">DOWNLOAD</button>
+
+           </div>
+             </div>
+
+
+
+
+             <div class="allsub two" onclick="expandfourpop()" id="allsubfour">
+            
+              <p id="allsubpara" class="allsubpara" >FDS </p>
+              <img class="buttonarrow" id="arrfour" src="arrow_up.svg">
+               
+            </div>
+             <div class="allsubsidehide" id="allsubsidehidepopfour">
+           <div id="allsubsidehidden" class="sidecontents">
+            <p id="allsubsidehidden" class="sidecontentwork ">WORK</p>
+            <p id="allsubsidehidden" class="sidecontentpara" >webfbhfbhwfbhuvbrvbhrbvhrvb
+              rvbhrvbrvbrvbhhevberhvhebvhuvbhuvbhuvbhub
+              vhebvhuvbhuve bhrvbrvbrvbhhevberhvhebvhuvbhuv
+             </p>
+            <p id="allsubsidehidden" class="sidecontentdeadline">DEADLINE</p>
+            <p id="allsubsidehidden" class="sidecontentdate">07.10.2024</p>
+            <p id="allsubsidehidden" class="sidecontentsource">SOURCE</p>
+            <button id="allsubsidehidden" class="sidecontentdownload allsubbtn">DOWNLOAD</button>
+
+           </div>
+             </div>
+
+
+
+
+             <div class="allsub two" onclick="expandfivepop()" id="allsubfive">
+            
+              <p id="allsubpara" class="allsubpara" >FDS </p>
+              <img class="buttonarrow" id="arrfive" src="arrow_up.svg">
+               
+            </div>
+             <div class="allsubsidehide" id="allsubsidehidepopfive">
+           <div id="allsubsidehidden" class="sidecontents">
+            <p id="allsubsidehidden" class="sidecontentwork ">WORK</p>
+            <p id="allsubsidehidden" class="sidecontentpara" >webfbhfbhwfbhuvbrvbhrbvhrvb
+              rvbhrvbrvbrvbhhevberhvhebvhuvbhuvbhuvbhub
+              vhebvhuvbhuve bhrvbrvbrvbhhevberhvhebvhuvbhuv
+             </p>
+            <p id="allsubsidehidden" class="sidecontentdeadline">DEADLINE</p>
+            <p id="allsubsidehidden" class="sidecontentdate">07.10.2024</p>
+            <p id="allsubsidehidden" class="sidecontentsource">SOURCE</p>
+            <button id="allsubsidehidden" class="sidecontentdownload allsubbtn">DOWNLOAD</button>
+
+           </div>
+             </div>
+
+
+
+             <div class="allsub two" onclick="expandsixpop()" id="allsubsix">
+            
+              <p id="allsubpara" class="allsubpara" >FDS </p>
+              <img class="buttonarrow" id="arrsix" src="arrow_up.svg">
+               
+            </div>
+             <div class="allsubsidehide" id="allsubsidehidepopsix">
+           <div id="allsubsidehidden" class="sidecontents">
+            <p id="allsubsidehidden" class="sidecontentwork ">WORK</p>
+            <p id="allsubsidehidden" class="sidecontentpara" >webfbhfbhwfbhuvbrvbhrbvhrvb
+              rvbhrvbrvbrvbhhevberhvhebvhuvbhuvbhuvbhub
+              vhebvhuvbhuve bhrvbrvbrvbhhevberhvhebvhuvbhuv
+             </p>
+            <p id="allsubsidehidden" class="sidecontentdeadline">DEADLINE</p>
+            <p id="allsubsidehidden" class="sidecontentdate">07.10.2024</p>
+            <p id="allsubsidehidden" class="sidecontentsource">SOURCE</p>
+            <button id="allsubsidehidden" class="sidecontentdownload allsubbtn">DOWNLOAD</button>
+
+           </div>
+             </div>
+
+
+
+
+
+
+
+
+
           </div>
             
         
