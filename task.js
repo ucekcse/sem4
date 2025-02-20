@@ -1,3 +1,15 @@
+const hamMenu = document.querySelector('.hamburger-menu');
+hamMenu.addEventListener('click', () => {
+    hamMenu.classList.toggle('active');
+    if (hamMenu.classList.contains('active')) {
+        shownav();
+    } else {
+        closenav();
+    }
+});
+
+
+
 var line = document.getElementById("navbar");
 var text1 = document.getElementById("navtextone");
 var text2= document.getElementById("navtexttwo");
@@ -221,6 +233,104 @@ function expandtwopop(){
   }
 
 
+  function expandthreepop(){
+    if( document.getElementById("allsubsidehidepopthree").style.display==="none"){
+        document.getElementById("arrthree").style.transform = "rotate(0deg)";
+
+        document.getElementById("allsubone").style.borderBottom="0px solid #9F9FD6";
+    document.getElementById("allsubsidehidepopthree").style.display="flex";
+    document.getElementById("allsubsidehide").style.flexDirection = "column";
+   document.getElementById("allsubone").style.border="0px";
+   document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
+   document.getElementById("allsubsidehidetwo").style.display="none";
+    
+    document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";
+    }
+    else{
+        document.getElementById("allsubsidehidepopthree").style.display="none";
+        document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
+        document.getElementById("arrthree").style.transform = "rotate(-90deg)";
+
+    }
+  }
+
+
+  function expandfourpop(){
+    if( document.getElementById("allsubsidehidepopfour").style.display==="none"){
+        document.getElementById("arrfour").style.transform = "rotate(0deg)";
+
+        document.getElementById("allsubone").style.borderBottom="0px solid #9F9FD6";
+    document.getElementById("allsubsidehidepopfour").style.display="flex";
+    document.getElementById("allsubsidehide").style.flexDirection = "column";
+   document.getElementById("allsubone").style.border="0px";
+   document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
+   document.getElementById("allsubsidehidetwo").style.display="none";
+    
+    document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";
+    }
+    else{
+        document.getElementById("allsubsidehidepopfour").style.display="none";
+        document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
+        document.getElementById("arrfour").style.transform = "rotate(-90deg)";
+
+    }
+  }
+
+
+  function expandfivepop(){
+    if( document.getElementById("allsubsidehidepopfive").style.display==="none"){
+        document.getElementById("arrfive").style.transform = "rotate(0deg)";
+
+        document.getElementById("allsubone").style.borderBottom="0px solid #9F9FD6";
+    document.getElementById("allsubsidehidepopfive").style.display="flex";
+    document.getElementById("allsubsidehide").style.flexDirection = "column";
+   document.getElementById("allsubone").style.border="0px";
+   document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
+   document.getElementById("allsubsidehidetwo").style.display="none";
+    
+    document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";
+    }
+    else{
+        document.getElementById("allsubsidehidepopfive").style.display="none";
+        document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
+        document.getElementById("arrthree").style.transform = "rotate(-90deg)";
+
+    }
+  }
+
+
+  function expandsixpop(){
+    if( document.getElementById("allsubsidehidepopsix").style.display==="none"){
+        document.getElementById("arrsix").style.transform = "rotate(0deg)";
+
+        document.getElementById("allsubone").style.borderBottom="0px solid #9F9FD6";
+    document.getElementById("allsubsidehidepopsix").style.display="flex";
+    document.getElementById("allsubsidehide").style.flexDirection = "column";
+   document.getElementById("allsubone").style.border="0px";
+   document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
+   document.getElementById("allsubsidehidetwo").style.display="none";
+    
+    document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";
+    }
+    else{
+        document.getElementById("allsubsidehidepopsix").style.display="none";
+        document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
+        document.getElementById("arrsix").style.transform = "rotate(-90deg)";
+
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 function popdown(){
     document.getElementById("popup").style.display="none";
@@ -230,7 +340,7 @@ function popdown(){
   function mondaypopup(){
     document.getElementById("popup").style.display="flex";
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
-    document.getElementById("popup").style.height="900px";
+    document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="MONDAY";
 
     
@@ -239,7 +349,7 @@ function popdown(){
   function tuesdaypopup(){
     document.getElementById("popup").style.display="flex";
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
-    document.getElementById("popup").style.height="900px";
+    document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="TUESDAY";
 
   }
@@ -247,7 +357,7 @@ function popdown(){
   function wednesdaypopup(){
     document.getElementById("popup").style.display="flex";
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
-    document.getElementById("popup").style.height="900px";
+    document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="WEDNESDAY";
 
   }
@@ -256,7 +366,7 @@ function popdown(){
   function thursdaypopup(){
     document.getElementById("popup").style.display="flex";
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
-    document.getElementById("popup").style.height="900px";
+    document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="THURSDAY";
 
   }
@@ -265,7 +375,7 @@ function popdown(){
   function fridaypopup(){
     document.getElementById("popup").style.display="flex";
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
-    document.getElementById("popup").style.height="900px";
+    document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="FRIDAY";
 
   }
@@ -274,7 +384,7 @@ function popdown(){
   function saturdaypopup(){
     document.getElementById("popup").style.display="flex";
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
-    document.getElementById("popup").style.height="900px";
+    document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="SATURDAY";
 
   }
@@ -283,10 +393,44 @@ function popdown(){
   function sundaypopup(){
     document.getElementById("popup").style.display="flex";
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
-    document.getElementById("popup").style.height="900px";
+    document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="SUNDAY";
 
   }
+
+
+
+var mobilenav=document.getElementById("mobilenavwhole");
+
+function closenav(){
+
+    mobilenav.style.opacity = "0";
+    setTimeout(() => {
+        mobilenav.style.display = "none";
+    }, 500);
+    document.getElementById("hilogo").style.display="flex";
+    document.getElementById("menubar").style.display="flex";
+    document.getElementById("closeicon").style.display="none";
+    document.getElementById("mobile-view").style.display="grid";
+    document.getElementById("footer").style.display="flex";
+}
+function shownav(){
+
+    mobilenav.style.display = "flex";
+    setTimeout(() => {
+        mobilenav.style.opacity = "1";
+    }, 10);
+    mobilenav.style.display="flex";
+    mobilenav.style.transition="0.5s";
+    document.getElementById("hilogo").style.display="none";
+    document.getElementById("menubar").style.display="none";
+    document.getElementById("closeicon").style.display="flex";
+    document.getElementById("mobile-view").style.display="none";
+    document.getElementById("footer").style.display="none";
+}
+
+window.addEventListener("resize", resetNavBarStyles);
+resetNavBarStyles();
 
  
 

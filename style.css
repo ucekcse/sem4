@@ -184,7 +184,20 @@
 span{
     font-weight: 700;
 }
+
+
 .navbar{
+    position: relative;
+    margin: 15px;
+    justify-content: space-between;
+    width: auto;
+    font-size: 28px;
+    color:#9aabff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    word-spacing: 20px;
+}
+nav{
     width:100%;
     height:208px;
     background-color:#eaf5ff ;
@@ -195,30 +208,23 @@ span{
     filter:drop-shadow(0px 3px 10px #00000042);
     border-bottom-left-radius: 22px;
     border-bottom-right-radius: 22px;
-}
-nav{
-    position: relative;
-    margin: 15px;
-    justify-content: space-evenly;
-    width: auto;
-    font-size: 28px;
-    color:#9aabff;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    word-spacing: 20px;
+    padding: 1rem;
 
 }
-nav a{
+.navbar > a{
     position: relative;
     display: inline-block;
     font-size: 0.9em;
-  
+    font-weight: 500;
     color: #828be0;
     line-height: 58px;
     z-index: 1;
     text-align: center;
     align-items: center;
     text-decoration: none;
+    color:#d0d9e0d7 ;
+    font-weight:bolder;
+
 }
 .animation{
     position: absolute;
@@ -230,7 +236,7 @@ nav a{
     background-color: #9AABFF;
     filter: drop-shadow(0px 5px 8px #9aabff);
     margin-top: 8px;
- 
+      
     width:100px;
 
 }
@@ -247,17 +253,27 @@ nav a{
     width: 100px;
 }
 
-nav a{
-    color:#d0d9e0d7 ;
-   
-}
-#navtextone{
-    color:#8e98f7;
-}
 
-.menubarclose{
-    display:none;
+.start-nav{
+    left:125px;
 }
+.animation .start-nav{
+    width: 100px;
+     left: 190px;}
+
+     
+    
+    #navtextone{
+        color:#8e98f7;
+    }
+    
+    
+
+
+
+
+
+
 .picmobile{
     display:none;
 }
@@ -287,21 +303,22 @@ nav a{
         text-decoration: none;
        
     }
-    .navbar{
-       height:112px; 
-       width:100vw;
-       position: fixed;
-       top:0;
-     
-      z-index: 1000;
+
+
+    nav{
+        height:112px; 
+        width:100vw;
+        position: fixed;
+        top:0;
       
-    }
-    .content{
-        margin-top:112px;
-    }
-  .mobilenavwhole{
-    margin-top:112px;
-  }
+       z-index: 1000;}
+     
+     .content{
+         margin-top:112px;
+     }
+   .mobilenavwhole{
+     margin-top:112px;
+   }
     .mainlogo{
         width:86px;
         height:86px;
@@ -312,17 +329,89 @@ nav a{
        height:100px;
         margin-top:11px;
     }
-    nav{
+    .navbar {
         display:none;
     }
-    .menubar{
+    /* .menubar{
         display:flex;
         height:28px;
         width:36px;
         margin-right:46px;
         color:#010018;
       
-    }
+    } */
+   
+      .mobilenavwhole{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            width:100%;
+            height:85.5vh;
+            background-color: #EAF5FA;
+            display:none;
+            transition: all 0.5s ease;
+      }
+      .mobilenav{
+        margin-top:30px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        width:100%;
+        height:29vh;
+      }
+      .hilogomobile{
+      
+        display:flex;
+        width:160px;
+        height:130px;
+        margin-left:53%;
+        margin-bottom:25%;
+      }
+      .amobile{
+        font-size: 28px;
+    color:#9aabff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+ 
+ 
+      }
+      #navtextonemobile{
+        border-top:2px solid #9AABFF;
+        border-bottom:2px solid #9AABFF;
+       
+       
+      }
+      #navtexttwomobile{
+        border-bottom:2px solid #d0d9e0d7;
+        color:#d0d9e0d7
+       
+
+      }
+      #navtextthreemobile{
+        color:#d0d9e0d7;
+      }
+      #navtextfourmobile{
+        border-top:2px solid #d0d9e0d7;
+
+        border-bottom:2px solid #d0d9e0d7;
+        color:#d0d9e0d7;
+      }
+  
+    
+
+
+
+
+
+
+
+
+
+
     .content{
         width:100vw;
         height:1550px;
@@ -497,164 +586,74 @@ nav a{
         width:100%;
         height:60;
       }
-      .mobilenavwhole{
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            justify-content: space-between;
-            width:100%;
-            height:85.5vh;
-            background-color: #EAF5FA;
-            display:none;
-      }
-      .mobilenav{
-        margin-top:30px;
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-evenly;
-        width:100%;
-        height:29vh;
-      }
-      .hilogomobile{
-      
-        display:flex;
-        width:160px;
-        height:130px;
-        margin-left:53%;
-      }
-      .amobile{
-        font-size: 28px;
-    color:#9aabff;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
- 
- 
-      }
-      #navtextonemobile{
-        border-top:2px solid #9AABFF;
-        border-bottom:2px solid #9AABFF;
-       
-      }
-      #navtexttwomobile{
-        border-bottom:2px solid #d0d9e0d7;
-        color:#d0d9e0d7;
+     
 
-      }
-      #navtextthreemobile{
-        color:#d0d9e0d7;
-      }
-      #navtextfourmobile{
-        border-top:2px solid #d0d9e0d7;
 
-        border-bottom:2px solid #d0d9e0d7;
-        color:#d0d9e0d7;
-      }
-  
-   
-    .menubarclose{
-        display:flex;
-        height:40px;
-        width:45px;
-        margin-right:46px;
-        display:none;
-    }
-    a{
+
+
+}
+
+
+
+
+.burger_menu{
+    padding: 0.5rem;
+    display: flex;
+    display: none;
+    /* border: 1px solid #000; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+}
+.hamburger-menu{
+    /* border: 1px solid red; */
+    height: 20px;
+    width: 20px;
+    position: relative;
+    cursor: pointer;
+    padding: 1rem;
+}
+.hambar{
+    width: 70%;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform .6s, opacity .8s, top .6s;
+}
+.bar-top{
+    /* border: 1px solid red; */
+    top: 25%;
+}
+.bar-bottom{
+    top: 75%;
+}
+.hamburger-menu.active .bar-top{
+    /* border: 1px solid red; */
+    transform: translate(-50%, -50%) rotate(-315deg);
+    top: 50%;
+    background-color: #fc4448;
+}
+.hamburger-menu.active .bar-middle{
+    /* border: 1px solid red; */
+    background-color: #fc4448;
+    opacity: 0;
+}
+.hamburger-menu.active .bar-bottom{
+    /* border: 1px solid red; */
+    transform: translate(-50%, -50%) rotate(-225deg);
+    top: 50%;
+    background-color: #fc4448;
+}
+
+/* Show hamburger menu only in mobile view */
+@media only screen and (max-width: 630px) {
+    .burger_menu {
         display: flex;
-        justify-content: center;
-        align-items: center;
     }
-    .navbar{
-        height:112px; 
-        width:100vw;
-     }
-     .mainlogo{
-         width:86px;
-         height:86px;
-         margin-left:24px;
-     }
-     .hilogo{
-        width:120px;
-        height:100px;
-         margin-top:11px;
-     }
-     nav{
-         display:none;
-     }
-     .menubar{
-         display:flex;
-         height:28px;
-         width:36px;
-         margin-right:46px;
-         color:#010018;
-       
-     }
-    
-       .mobilenavwhole{
-             display:flex;
-             flex-direction: column;
-             justify-content: center;
-             align-items: center;
-             justify-content: space-between;
-             width:100%;
-             height:85.5vh;
-             background-color: #EAF5FA;
-             display:none;
-       }
-       .mobilenav{
-         margin-top:30px;
-         display:flex;
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         justify-content: space-evenly;
-         width:100%;
-         height:29vh;
-       }
-       .hilogomobile{
-       
-         display:flex;
-         width:160px;
-         height:130px;
-         margin-left:53%;
-         margin-bottom:25%;
-       }
-       .amobile{
-         font-size: 28px;
-     color:#9aabff;
-     font-family: "Poppins", sans-serif;
-     font-weight: 800;
-  
-  
-       }
-       #navtextonemobile{
-         border-top:2px solid #9AABFF;
-         border-bottom:2px solid #9AABFF;
-        
-       }
-       #navtexttwomobile{
-         border-bottom:2px solid #d0d9e0d7;
-         color:#d0d9e0d7;
- 
-       }
-       #navtextthreemobile{
-         color:#d0d9e0d7;
-       }
-       #navtextfourmobile{
-         border-top:2px solid #d0d9e0d7;
- 
-         border-bottom:2px solid #d0d9e0d7;
-         color:#d0d9e0d7;
-       }
-   
-    
-     .menubarclose{
-         display:flex;
-         height:40px;
-         width:45px;
-         margin-right:46px;
-         display:none;
-     }
+    .navbar {
+        display: none;
+    }
 }
