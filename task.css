@@ -688,12 +688,15 @@ color:#000016;
          margin-top:112px;
      }
    .mobilenavwhole{
+
+    
      margin-top:112px;
+   
    }
     .mainlogo{
         width:86px;
         height:86px;
-        margin-left:24px;
+      
     }
     .hilogo{
        width:120px;
@@ -719,10 +722,11 @@ color:#000016;
             align-items: center;
             justify-content: space-between;
             width:100%;
-            height:85.5vh;
+            height:90vh;
             background-color: #EAF5FA;
             display:none;
             transition: all 0.5s ease;
+          
       }
       .mobilenav{
         margin-top:30px;
@@ -732,7 +736,7 @@ color:#000016;
         align-items: center;
         justify-content: space-evenly;
         width:100%;
-        height:29vh;
+        height:23vh;
       }
       .hilogomobile{
       
@@ -812,7 +816,7 @@ color:#000016;
     }
     .wingcontent{
         margin-top:15px;
-        font-size:32px;
+        font-size:34px;
         color:#3c3e50;
         text-align: center;
         font-family: "Anton", sans-serif;
@@ -845,7 +849,7 @@ color:#000016;
       }
 
      .subbox{
-        font-size:30px;
+        font-size:28px;
         font-family: "Anton", sans-serif;
      }
      #popup{
@@ -891,7 +895,6 @@ color:#000016;
             min-height:0px;
             position: absolute;
 
-            border:1px solid red;
           
         
         }
@@ -1032,15 +1035,15 @@ color:#000016;
             }
             .hamburger-menu{
                 /* border: 1px solid red; */
-                height: 20px;
-                width: 20px;
+                height: 30px;
+                width: 30px;
                 position: relative;
                 cursor: pointer;
                 padding: 1rem;
             }
             .hambar{
-                width: 70%;
-                height: 4px;
+                width: 90%;
+                height: 4.3px;
              background-color: rgb(0, 0, 0);
                 border-radius: 25px;
                 position: absolute;

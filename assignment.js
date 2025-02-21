@@ -3,8 +3,14 @@ hamMenu.addEventListener('click', () => {
     hamMenu.classList.toggle('active');
     if (hamMenu.classList.contains('active')) {
         shownav();
+        document.getElementById("mobile-view").style.display="none";
+        document.getElementById("popup").style.display="none";
+        document.getElementById("footer").style.display="none";
     } else {
         closenav();
+        document.getElementById("mobile-view").style.display="flex";
+        document.getElementById("popup").style.display="flex";
+        document.getElementById("footer").style.display="flex";
     }
 });
 
@@ -157,12 +163,11 @@ const mobilenav = document.getElementById("mobilenavwhole");
 
 if (window.innerWidth < 900) {
 
-menubar.style.display="flex"
- closeicon.style.display = "none";
+
+;
  mobilenav.style.display = "none";
 } else {
-menubar.style.display="none";
-closeicon.style.display = "none";
+;
 mobilenav.style.display = "none";
 }
 }
@@ -176,10 +181,7 @@ function closenav(){
         mobilenav.style.display = "none";
     }, 500);
     document.getElementById("hilogo").style.display="flex";
-    document.getElementById("menubar").style.display="flex";
-    document.getElementById("closeicon").style.display="none";
-    document.getElementById("mobile-view").style.display="grid";
-    document.getElementById("footer").style.display="flex";
+;
 }
 function shownav(){
 
@@ -190,11 +192,44 @@ function shownav(){
     mobilenav.style.display="flex";
     mobilenav.style.transition="0.5s";
     document.getElementById("hilogo").style.display="none";
-    document.getElementById("menubar").style.display="none";
-    document.getElementById("closeicon").style.display="flex";
-    document.getElementById("mobile-view").style.display="none";
-    document.getElementById("footer").style.display="none";
+  
 }
 
 window.addEventListener("resize", resetNavBarStyles);
 resetNavBarStyles();
+
+
+
+function expandonepop(){
+    if( document.getElementById("allsubsidehidepopone").style.display==="none"){
+        document.getElementById("arrowone").style.transform = "rotate(0deg)";
+
+    document.getElementById("allsubsidehidepopone").style.display="flex";
+    document.getElementById("allsubsidehide").style.flexDirection = "column";
+   document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
+   document.getElementById("allsubsidehidetwo").style.display="none";
+   document.getElementById("allsubone").style.borderBottom="0px solid #9F9FD6";
+
+    document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";
+    }
+    else{
+        document.getElementById("allsubsidehidepopone").style.display="none";
+        document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
+        document.getElementById("arrowone").style.transform = "rotate(-90deg)";
+
+    }
+  }
+  function popdown(){
+    document.getElementById("popup").style.display="none";
+    document.getElementById("popup").style.transition="0.4s all ease-in-out";
+  }
+
+  function mondaypopup(){
+    document.getElementById("popup").style.display="flex";
+    document.getElementById("popup").style.transition="0.4s all ease-in-out";
+    document.getElementById("popup").style.height="800px";
+    document.getElementById("taskdayinner").innerText="MONDAY";
+
+    
+
+  }
