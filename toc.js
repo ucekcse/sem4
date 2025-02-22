@@ -370,6 +370,9 @@ function bigboxthree(){
        document.getElementById("unitrowtwo").style.display = "none";  
        document.getElementById("unitrowthree").style.display = "none";  
        document.getElementById("wingcontentsub").style.display = "none";
+       document.getElementById("boxone").style.backgroundImage="url(class_bg.jpg)";
+       document.getElementById("coverone").style.display="flex"; 
+       document.getElementById("boxone").style.border="0px";
        document.getElementById("boxtwo").style.backgroundImage="url(sd_mat_bg_test.jpg)";
        document.getElementById("cover").style.display="flex"; 
        document.getElementById("boxtwo").style.border="0px";

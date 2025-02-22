@@ -11,6 +11,9 @@
     border-radius: 22px;
     
 }
+.allsubside{
+    display:none;
+}
 @font-face {
 
     font-family: 'Supercell'; /* Choose a name for your font family */
@@ -686,9 +689,11 @@ nav{
                
             }
             .allsubside{
-                width:100%;
+                width:90%;
                 height:65vh;
                 display:flex;
+                justify-content: center;
+                align-items: center;
                 flex-direction: column;
                 overflow-y:auto;
                 margin-bottom:5%;
@@ -772,6 +777,7 @@ nav{
         .sidecontentdownload{
             width:100px;
             height:100px;
+           
         }
     
         .allsubbtn{
@@ -780,7 +786,9 @@ nav{
         }
         .sidecontents{
             word-wrap: break-word;
-            width:310px;
+            width:280px;
+            padding-left:20px;
+            padding-right:20px;
         }
         .sidecontentdownload{
             display:flex;
@@ -952,13 +960,16 @@ table {
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 320px;
+        width:320px;
+        height:120px;
         background: white;
        
         border: 1px solid black;
         margin: 10px 0;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        filter: drop-shadow(0px 2px 7px #0000007e);
+
         cursor: pointer;
         
     }
@@ -969,8 +980,8 @@ table {
         background: #6c63ff;
         color: white;
         border: none;
-       height:120px;
-       width:95px;
+       height:118px;
+       width:94px;
         font-family:  "Anton", sans-serif;
        
         font-size: 16px;

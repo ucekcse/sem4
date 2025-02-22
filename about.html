@@ -82,7 +82,7 @@
     </div>
   
         <div class="aboutcontent" id="content">
-            <div class="suggestion">
+            <div class="suggestion" id="suggestion">
                 <p>The about page is under development.
                     Share your thoughts and opinion to add in page to make it more funnier!</p>
                 <input type="text" id="suggested" placeholder="Type here.....">
@@ -100,8 +100,14 @@ hamMenu.addEventListener('click', () => {
     hamMenu.classList.toggle('active');
     if (hamMenu.classList.contains('active')) {
         shownav();
+        document.getElementById("content").style.display="none";
+        document.getElementById("suggestion").style.display="none";
+        document.getElementById("footer").style.display="none";
     } else {
         closenav();
+        document.getElementById("content").style.display="flex";
+        document.getElementById("suggestion").style.display="flex";
+        document.getElementById("footer").style.display="flex";
     }
 });
 
@@ -180,10 +186,7 @@ function closenav(){
         mobilenav.style.display = "none";
     }, 500);
     document.getElementById("hilogo").style.display="flex";
-    document.getElementById("menubar").style.display="flex";
-    document.getElementById("closeicon").style.display="none";
-    document.getElementById("mobile-view").style.display="grid";
-    document.getElementById("footer").style.display="flex";
+  
 }
 function shownav(){
 
@@ -194,10 +197,7 @@ function shownav(){
     mobilenav.style.display="flex";
     mobilenav.style.transition="0.5s";
     document.getElementById("hilogo").style.display="none";
-    document.getElementById("menubar").style.display="none";
-    document.getElementById("closeicon").style.display="flex";
-    document.getElementById("mobile-view").style.display="none";
-    document.getElementById("footer").style.display="none";
+  
 }
 
 window.addEventListener("resize", resetNavBarStyles);
