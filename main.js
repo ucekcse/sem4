@@ -3,8 +3,14 @@ hamMenu.addEventListener('click', () => {
     hamMenu.classList.toggle('active');
     if (hamMenu.classList.contains('active')) {
         shownav();
+        document.getElementById("content").style.display="none";
+        document.getElementById("footer").style.display="none";
+
     } else {
         closenav();
+        document.getElementById("content").style.display="flex";
+        document.getElementById("footer").style.display="flex";
+
     }
 });
 
@@ -67,10 +73,6 @@ function closenav(){
         mobilenav.style.display = "none";
     }, 500);
     document.getElementById("hilogo").style.display="flex";
-    document.getElementById("menubar").style.display="flex";
-    document.getElementById("closeicon").style.display="none";
-    document.getElementById("mobile-view").style.display="grid";
-    document.getElementById("footer").style.display="flex";
 }
 function shownav(){
 
@@ -81,10 +83,7 @@ function shownav(){
     mobilenav.style.display="flex";
     mobilenav.style.transition="0.5s";
     document.getElementById("hilogo").style.display="none";
-    document.getElementById("menubar").style.display="none";
-    document.getElementById("closeicon").style.display="flex";
-    document.getElementById("mobile-view").style.display="none";
-    document.getElementById("footer").style.display="none";
+   
 }
 
 window.addEventListener("resize", resetNavBarStyles);
