@@ -43,6 +43,52 @@ function aboutline(){
 }
 line.style.width="100px";
 line.style.left="0px";
+
+function bigboxoneopen(){
+  document.getElementById("backgroundone").style.display="flex";
+  document.getElementById("coveroneadcover").style.display="none";
+   document.getElementById("backgroundtwo").style.display="none";
+    document.getElementById("covertwoadcover").style.display="flex";
+    document.getElementById("backgroundthree").style.display="none";
+    document.getElementById("coverthreeadcover").style.display="flex";
+}
+function bigboxoneclose(){
+    document.getElementById("backgroundone").style.display="none";
+    document.getElementById("coveroneadcover").style.display="flex";
+
+}
+
+function bigboxtwoopen(){
+    document.getElementById("backgroundtwo").style.display="flex";
+    document.getElementById("covertwoadcover").style.display="none";
+    document.getElementById("backgroundone").style.display="none";
+    document.getElementById("coveroneadcover").style.display="flex";
+    document.getElementById("backgroundthree").style.display="none";
+    document.getElementById("coverthreeadcover").style.display="flex";
+  }
+  function bigboxtwoclose(){
+      document.getElementById("backgroundtwo").style.display="none";
+      document.getElementById("covertwoadcover").style.display="flex";
+  
+  }
+
+  
+function bigboxthreeopen(){
+    document.getElementById("backgroundthree").style.display="flex";
+    document.getElementById("coverthreeadcover").style.display="none";
+    document.getElementById("backgroundtwo").style.display="none";
+    document.getElementById("covertwoadcover").style.display="flex";
+    document.getElementById("backgroundone").style.display="none";
+    document.getElementById("coveroneadcover").style.display="flex";
+  }
+  function bigboxthreeclose(){
+      document.getElementById("backgroundthree").style.display="none";
+      document.getElementById("coverthreeadcover").style.display="flex";
+  
+  }
+  
+
+
 function resetNavBarStyles() {
     const menubar = document.getElementById("menubar");
     const closeicon = document.getElementById("closeicon");
