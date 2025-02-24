@@ -367,16 +367,16 @@ width:500px;
     border: 0px;
 }
 #unitrowoneone{
-    display:flex;
+    display:none;
  }
  #unitrowtwoone{
-    display:flex;
+    display:none;
  }
  #unitrowthreeone{
-     display:flex;
+     display:none;
  }
  #wingcontentsubone{
-     display:flex;
+     display:none;
      color:#596373;
    
  }
@@ -481,11 +481,15 @@ width:500px;
 }
 .bigtwomobile{
     display:none;
+
 }
 .bigthreemobile{
     display:none;
 }
 .parttwo{
+    display:flex;
+}
+.parttwomobile{
     display:none;
 }
 
@@ -495,9 +499,16 @@ width:500px;
         margin:0px;
         box-sizing:border-box;
         text-decoration: none;
-        height:auto;
-        transition: 0.4s ease-in-out;
+       
+       
     }
+    .parttwo{
+        display:none;
+    }
+    .parttwomobile{
+        display:flex;
+    }
+  
     .background{
         display:flex;
         justify-content: center;
@@ -511,10 +522,37 @@ width:500px;
         border-bottom-color: rgb(105, 223, 250);
         border-left-color: rgb(105, 223, 250);
         display:none;
+        height:0px;
         transition: 0.4s ease-in-out;
+
+        border-bottom-right-radius:16px ;
+        border-bottom-left-radius:16px ;
+        filter: drop-shadow(0px 4px 10px #00000098);
+   
+    }
+    .parttwomobile{
+       
+       
+        top:40%;
+        margin-bottom:50vh;
     }
     .cardone{
         transition: 0.4s ease-in-out;
+    }
+    #backgroundtwo{
+        background-color: #FFD9E7;
+        border-right-color: #FF005D;
+        border-bottom-color: #FF005D;
+        border-left-color: #FF005D;
+    }
+    #backgroundthree{
+        background-color: #FDF8DB;
+        border-right-color: #F0D30E;
+        border-bottom-color: #F0D30E;
+        border-left-color: #F0D30E;
+    }
+    #backgroundthree button{
+        background-color:#F0D30E ;
     }
     .navbar{
        height:112px; 
@@ -623,7 +661,7 @@ width:500px;
     
     .content{
         width:100vw;
-        height:100vh;
+        height:120vh;
         background-color: antiquewhite;
         display:flex; 
         justify-content: center;
@@ -731,7 +769,8 @@ width:500px;
         left:21%;
     }
     .btwo{
-        left:12%;
+        position: relative;
+        left:13%;
     }
     .sub{
         border-radius: 0px;
@@ -833,7 +872,7 @@ width:95vw;
     background-color: #00D0F6;
         background-image: none;
         background-size: contain;
-        width:95vw;
+        width:97vw;
         height:60px;
         border-radius: 0px;
         border-bottom-left-radius:16px ;
@@ -841,6 +880,8 @@ width:95vw;
         display:flex;
         align-items: center;
         justify-content: center;
+        transition: 0.4s ease-in-out;
+        
 
 }
 .buttonarrowmobile{
@@ -872,7 +913,7 @@ width:95vw;
     background-color: #ff005d;
         background-image: none;
         background-size: contain;
-        width:95vw;
+        width:97vw;
         height:60px;
         border-radius: 0px;
         border-bottom-left-radius:16px ;
@@ -904,7 +945,7 @@ width:95vw;
     background-color: #F0D30E;
         background-image: none;
         background-size: contain;
-        width:95vw;
+        width:97vw;
         height:60px;
         border-radius: 0px;
         border-bottom-left-radius:16px ;
@@ -946,7 +987,7 @@ width:95vw;
     height:35px;
     display:flex;
     position:relative;
-left:32% }
+left:30% }
 .footer{
     margin-top: 30px;
     font-size: 12px;
