@@ -1,3 +1,20 @@
+const hamMenu = document.querySelector('.hamburger-menu');
+hamMenu.addEventListener('click', () => {
+    hamMenu.classList.toggle('active');
+    if (hamMenu.classList.contains('active')) {
+        shownav();
+        document.getElementById("content").style.display="none";
+        document.getElementById("footer").style.display="none";
+
+    } else {
+        closenav();
+        document.getElementById("content").style.display="flex";
+        document.getElementById("footer").style.display="flex";
+
+    }
+});
+
+
 var line = document.getElementById("navbar");
 var text1 = document.getElementById("navtextone");
 var text2= document.getElementById("navtexttwo");
@@ -72,7 +89,7 @@ function bigboxtwoopen(){
     document.getElementById("coverthreeadcover").style.display="flex";
     document.getElementById("parttwomobile").style.marginBottom="11vh"
     document.getElementById("backgroundtwo").style.height="400px";
-    document.getElementById("unitrowoneone").style.display="flex";
+    document.getElementById("coverthreeadcover").style.display="flex";
 
 
   }
@@ -123,28 +140,29 @@ mobilenav.style.display = "none";
 }
 var mobilenav=document.getElementById("mobilenavwhole");
 function closenav(){
-   
-    mobilenav.style.display="none";
+
+    mobilenav.style.opacity = "0";
+    setTimeout(() => {
+        mobilenav.style.display = "none";
+    }, 500);
     document.getElementById("hilogo").style.display="flex";
-    document.getElementById("menubar").style.display="flex";
-    document.getElementById("closeicon").style.display="none";
-    document.getElementById("content").style.display="flex";
-    document.getElementById("footer").style.display="flex";
 }
 function shownav(){
-   
-    mobilenav.style.display="flex";
-    document.getElementById("hilogo").style.display="none";
-    document.getElementById("menubar").style.display="none";
-    document.getElementById("closeicon").style.display="flex";
-    document.getElementById("content").style.display="none";
-    document.getElementById("footer").style.display="none";
-}
-// Add event listener to handle resizing
-window.addEventListener("resize", resetNavBarStyles);
 
-// Initial call to set correct styles on page load
+    mobilenav.style.display = "flex";
+    setTimeout(() => {
+        mobilenav.style.opacity = "1";
+    }, 10);
+    mobilenav.style.display="flex";
+    mobilenav.style.transition="0.5s";
+    document.getElementById("hilogo").style.display="none";
+   
+}
+
+window.addEventListener("resize", resetNavBarStyles);
 resetNavBarStyles();
+// Add event listener to handle resizing
+
 
 var boxone = document.getElementById("boxone");
 var boxtwo = document.getElementById("boxtwo");
