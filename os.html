@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,56 +13,58 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">   
-<title>OS</title>
+<title>TOC</title>
     <link rel="stylesheet" href="toc.css"/>
 </head>
 
 <script data-goatcounter="https://loki.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
+
 <body>
-    <div class="container">
+    <div class="container" id="container">
   
+        <nav>
+            <img class="mainlogo"src="cse_logo_1.png"/>
             <div class="navbar">
-                <img class="mainlogo"src="cse_logo_1.png"/>
-                <!-- <div class="navcontents"> -->
-                    <nav>
-                        <a class="a"id="navtextone" onclick ="homeline()" href="index.html">Home</a>
-                        <a class="a" id="navtexttwo" onclick ="assignline()" href="assignment.html">Assignment</a>
-                        <a class="a" id="navtextthree"  onclick ="taskline()" href="task.html">Task</a>
-                        <a class="a" id="navtextfour" onclick ="aboutline()" href="about.html">About</a>
-                      
-                        <div id="navbar" class="animation start-nav"></div>
-                    </nav>
-    
-                <!-- </div> -->
-                <img class="hilogo" id="hilogo"src="hi.gif">
-                <img class="menubar" id="menubar" onclick="shownav()" src="icon-menu.svg"/>
-                <img class="menubarclose" id="closeicon" onclick="closenav()" src="close-icon.png"/>
+                <a class="a"id="navtextone" onclick ="homeline()" href="index.html">Home</a>
+                <a class="a" id="navtexttwo" onclick ="assignline()" href="assignment.html">Assignment</a>
+                <a class="a" id="navtextthree"  onclick ="taskline()" href="task.html">Task</a>
+                <a class="a" id="navtextfour" onclick ="aboutline()" href="about.html">About</a>
+                <div id="navbar" class="animation start-nav"></div>
             </div>
-           <div class="mobilenavwhole" id="mobilenavwhole">
-    
-          
-            <div class="mobilenav">
-                <a class="amobile"id="navtextonemobile" onclick ="homeline()" href="index.html">Home</a>
-                <a class="amobile" id="navtexttwomobile" onclick ="assignline()" href="assignment.html">Assignment</a>
-                <a class="amobile" id="navtextthreemobile"  onclick ="taskline()" href="task.html">Task</a>
-                <a class="amobile" id="navtextfourmobile" onclick ="aboutline()" href="about.html">About</a>
-              
-             
+            <img class="hilogo" id="hilogo"src="hi.gif">
+            <div class="burger_menu">
+                <div class="hamburger-menu">
+                    <div class="hambar bar-top"></div> 
+                    <div class="hambar bar-middle"></div> 
+                    <div class="hambar bar-bottom"></div>
+                </div>
             </div>
-            <img class="hilogomobile"src="hi.gif">
+            <!-- <img class="menubar" id="menubar" onclick="shownav()" src="icon-menu.svg"/>
+            <img class="menubarclose" id="closeicon" onclick="closenav()" src="close-icon.png"/> -->
+        </nav>
+       <div class="mobilenavwhole" id="mobilenavwhole">
+
+
+        <div class="mobilenav">
+            <a class="amobile"id="navtextonemobile" onclick ="homeline()" href="index.html">Home</a>
+            <a class="amobile" id="navtexttwomobile" onclick ="assignline()" href="assignment.html">Assignment</a>
+            <a class="amobile" id="navtextthreemobile"  onclick ="taskline()" href="task.html">Task</a>
+            <a class="amobile" id="navtextfourmobile" onclick ="aboutline()" href="about.html">About</a>
         </div>
+        <img class="hilogomobile"src="hi.gif">
+    </div>
       
         <div class="content" id="content">
             <div class="partone">
-           <a class="backhome" href="index.html"><img id="backhome" src="Vector.png"></a>
-                <img class="wing leftwing" src="wingsleft.png">
-                <div class="wingtext">
-                    <p class="wingcontent">OPERATING SYSTEMS</p>
-                </div>
-                <img class="wing rightwing" src="wingsright.png">
-            </div>
+                <a class="backhome" href="index.html"><img id="backhome" src="Vector.png"></a>
+                     <img class="wing leftwing" src="wingsleft.png">
+                     <div class="wingtext">
+                         <p class="wingcontent">OPERATING SYSTEMS</p>
+                     </div>
+                     <img class="wing rightwing" src="wingsright.png">
+                 </div>
             <div class="parttwo">  
                 
                 <div onclick="bigboxone()" id="boxone" class="sub one">
@@ -168,6 +171,137 @@
 
                 </div> 
         </div>
+
+
+
+
+        <div class="parttwomobile" id="parttwomobile">  
+
+         <div  class="cardone">
+                <div onclick="bigboxoneopen()" class="bigonemobile" id="coveroneadcover">
+                    <p id="coveronemobile">CLASS WORK <img class=" bone" src="arrow_forward.svg"> </p>
+                </div>
+
+                <div class="background" id="backgroundone">
+                    <div onclick="bigboxoneclose()" class="bigonemobile" id="coveronead">
+                        <p id="coveronemobile">CLASS WORK <img class="buttonarrowmobile bone" src="arrow_forward.svg"> </p>
+                    </div>
+               
+                <div id="unitrow1" class="unitrow ">
+                    <div id="unitone" class="unit">
+                        <p>Unit 1</p>
+                       <a href="#" ><button>DOWNLOAD</button></a>
+                    </div>
+                    <div id="unitone" class="unit">
+                        <p>Unit 2</p>
+                       <a href="#" ><button>DOWNLOAD</button></a>
+                    </div>
+                </div>
+                <div  id="unitrow2" class="unitrow ">
+                    <div id="unitone" class="unit">
+                        <p>Unit 3</p>
+                       <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWDp35LNN6cTENmwMz3vfbnUM2NO2-Qebnkg&s" ><button>DOWNLOAD</button></a>
+                    </div>
+                    <div id="unitone" class="unit">
+                        <p>Unit 4</p>
+                       <a href="#" ><button>DOWNLOAD</button></a>
+                    </div>
+                </div>
+                <div id="unitrow3" class="unitrowthree">
+                    <div id="unitone" class="unit">
+                        <p>Unit 5</p>
+                       <a href="#" ><button>DOWNLOAD</button></a>
+                    </div>
+                </div>
+            </div>
+           
+
+
+        <div  class="cardone">
+            <div onclick="bigboxtwoopen()" class="bigtwomobile" id="covertwoadcover">
+                <p id="coveronemobile">STUDY MATERIALS <img class=" btwo" src="arrow_forward.svg"> </p>
+            </div>
+
+            <div class="background" id="backgroundtwo">
+                <div onclick="bigboxtwoclose()" class="bigtwomobile" id="coveronead">
+                    <p id="coveronemobile">STUDY MATERIALS <img class="buttonarrowmobile btwo" src="arrow_forward.svg"> </p>
+                </div>
+           
+            <div id="unitrow1" class="unitrow ">
+                <div id="unittwo" class="unit">
+                    <p>Unit 1</p>
+                   <a href="#" ><button>DOWNLOAD</button></a>
+                </div>
+                <div id="unittwo" class="unit">
+                    <p>Unit 2</p>
+                   <a href="#" ><button>DOWNLOAD</button></a>
+                </div>
+            </div>
+            <div  id="unitrow2" class="unitrow ">
+                <div id="unittwo" class="unit">
+                    <p>Unit 3</p>
+                   <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWDp35LNN6cTENmwMz3vfbnUM2NO2-Qebnkg&s" ><button>DOWNLOAD</button></a>
+                </div>
+                <div id="unittwo" class="unit">
+                    <p>Unit 4</p>
+                   <a href="#" ><button>DOWNLOAD</button></a>
+                </div>
+            </div>
+            <div id="unitrow3" class="unitrowthree">
+                <div id="unittwo" class="unit">
+                    <p>Unit 5</p>
+                   <a href="#" ><button>DOWNLOAD</button></a>
+                </div>
+            </div>
+        </div>
+       
+        
+
+    <div  class="cardone">
+        <div onclick="bigboxthreeopen()" class="bigthreemobile" id="coverthreeadcover">
+            <p id="coveronemobile">PYQ's<img class="bthree" src="arrow_forward.svg"> </p>
+        </div>
+
+        <div class="background" id="backgroundthree">
+            <div onclick="bigboxthreeclose()" class="bigthreemobile" id="coveronead">
+                <p id="coveronemobile">PYQ's<img class="buttonarrowmobile bthree" src="arrow_forward.svg"> </p>
+            </div>
+       
+        <div id="unitrow1" class="unitrow ">
+            <div id="unitthree" class="unit">
+                <p>Unit 1</p>
+               <a href="#" ><button>DOWNLOAD</button></a>
+            </div>
+            <div id="unitthree" class="unit">
+                <p>Unit 2</p>
+               <a href="#" ><button>DOWNLOAD</button></a>
+            </div>
+        </div>
+        <div  id="unitrow2" class="unitrow ">
+            <div id="unitthree" class="unit">
+                <p>Unit 3</p>
+               <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWDp35LNN6cTENmwMz3vfbnUM2NO2-Qebnkg&s" ><button>DOWNLOAD</button></a>
+            </div>
+            <div id="unitthree" class="unit">
+                <p>Unit 4</p>
+               <a href="#" ><button>DOWNLOAD</button></a>
+            </div>
+        </div>
+        <div id="unitrow3" class="unitrowthree">
+            <div id="unitthree" class="unit">
+                <p>Unit 5</p>
+               <a href="#" ><button>DOWNLOAD</button></a>
+            </div>
+        </div>
+    </div>
+    </div> 
+</div>
+    
+            </div>
+        </div>
+           
+           
+    
         <div class="footer" id="footer">
             <p>Any suggestion or problem contact via "<span>ucekcse2327@gmail.com"</span></p>
         </div>
