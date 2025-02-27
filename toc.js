@@ -1,5 +1,5 @@
 const hamMenu = document.querySelector('.hamburger-menu');
-hamMenu.addEventListener('click', () => {
+hamMenu.addEventListener('click',() => {
     hamMenu.classList.toggle('active');
     if (hamMenu.classList.contains('active')) {
         shownav();
@@ -61,63 +61,7 @@ function aboutline(){
 line.style.width="100px";
 line.style.left="0px";
 
-function bigboxoneopen(){
-  document.getElementById("backgroundone").style.display="flex";
-  document.getElementById("coveroneadcover").style.display="none";
-   document.getElementById("backgroundtwo").style.display="none";
-    document.getElementById("covertwoadcover").style.display="flex";
-    document.getElementById("backgroundthree").style.display="none";
-    document.getElementById("coverthreeadcover").style.display="flex";
-    document.getElementById("parttwomobile").style.marginBottom="11vh";
-    document.getElementById("backgroundone").style.height="400px";
 
-    
-}
-function bigboxoneclose(){
-    document.getElementById("backgroundone").style.display="none";
-    document.getElementById("coveroneadcover").style.display="flex";
-    document.getElementById("parttwomobile").style.marginBottom="50vh";
-
-}
-
-function bigboxtwoopen(){
-    document.getElementById("backgroundtwo").style.display="flex";
-    document.getElementById("covertwoadcover").style.display="none";
-    document.getElementById("backgroundone").style.display="none";
-    document.getElementById("coveroneadcover").style.display="flex";
-    document.getElementById("backgroundthree").style.display="none";
-    document.getElementById("coverthreeadcover").style.display="flex";
-    document.getElementById("parttwomobile").style.marginBottom="11vh"
-    document.getElementById("backgroundtwo").style.height="400px";
-    document.getElementById("coverthreeadcover").style.display="flex";
-
-
-  }
-  function bigboxtwoclose(){
-      document.getElementById("backgroundtwo").style.display="none";
-      document.getElementById("covertwoadcover").style.display="flex";
-      document.getElementById("parttwomobile").style.marginBottom="50vh";
-  
-  }
-
-  
-function bigboxthreeopen(){
-    document.getElementById("backgroundthree").style.display="flex";
-    document.getElementById("coverthreeadcover").style.display="none";
-    document.getElementById("backgroundtwo").style.display="none";
-    document.getElementById("covertwoadcover").style.display="flex";
-    document.getElementById("backgroundone").style.display="none";
-    document.getElementById("coveroneadcover").style.display="flex";
-    document.getElementById("parttwomobile").style.marginBottom="11vh"
-     document.getElementById("backgroundthree").style.height="400px";
-  }
-  function bigboxthreeclose(){
-      document.getElementById("backgroundthree").style.display="none";
-      document.getElementById("coverthreeadcover").style.display="flex";
-      document.getElementById("parttwomobile").style.marginBottom="50vh";
-  
-  }
-  
 
 
 function resetNavBarStyles() {
@@ -125,18 +69,7 @@ function resetNavBarStyles() {
     const closeicon = document.getElementById("closeicon");
     const mobilenav = document.getElementById("mobilenavwhole");
 
-    if (window.innerWidth < 900) {
-        
-         // Mobile view
-       menubar.style.display="flex"
-         closeicon.style.display = "none";
-         mobilenav.style.display = "none";
-    } else {
-// Desktop view
-menubar.style.display="none";
-closeicon.style.display = "none";
-mobilenav.style.display = "none";
-    }
+
 }
 var mobilenav=document.getElementById("mobilenavwhole");
 function closenav(){
@@ -164,16 +97,8 @@ resetNavBarStyles();
 // Add event listener to handle resizing
 
 
-var boxone = document.getElementById("boxone");
-var boxtwo = document.getElementById("boxtwo");
-var boxthree = document.getElementById("boxthree");
-var arrowdownone=document.getElementById("coveronead");
-var arrowdowntwo=document.getElementById("covertwoad");
-var arrowdownthree=document.getElementById("coverthreead");
 
-console.log("Current Width:", window.innerWidth);
-
-if (window.innerWidth < 1000) {
+/*if (window.innerWidth < 1000) {
    
    
        
@@ -236,6 +161,7 @@ function bigboxone(){
  
 
 }
+
 function bigboxtwo(){
 if(arrowdowntwo.style.display==="none"){
     boxtwo.style.height="398px";
@@ -357,16 +283,83 @@ function bigboxthree(){
 }
 
 
+function bigboxoneopen(){
+    document.getElementById("backgroundone").style.display="flex";
+    document.getElementById("coveroneadcover").style.display="none";
+     document.getElementById("backgroundtwo").style.display="none";
+      document.getElementById("covertwoadcover").style.display="flex";
+      document.getElementById("backgroundthree").style.display="none";
+      document.getElementById("coverthreeadcover").style.display="flex";
+      document.getElementById("parttwomobile").style.marginBottom="11vh";
+      document.getElementById("backgroundone").style.height="400px";
+  
+      
+  }
+  function bigboxoneclose(){
+      document.getElementById("backgroundone").style.display="none";
+      document.getElementById("coveroneadcover").style.display="flex";
+      document.getElementById("parttwomobile").style.marginBottom="50vh";
+  
+  }
+  
+  function bigboxtwoopen(){
+      document.getElementById("backgroundtwo").style.display="flex";
+      document.getElementById("covertwoadcover").style.display="none";
+      document.getElementById("backgroundone").style.display="none";
+      document.getElementById("coveroneadcover").style.display="flex";
+      document.getElementById("backgroundthree").style.display="none";
+      document.getElementById("coverthreeadcover").style.display="flex";
+      document.getElementById("parttwomobile").style.marginBottom="11vh"
+      document.getElementById("backgroundtwo").style.height="400px";
+      document.getElementById("coverthreeadcover").style.display="flex";
+  
+  
+    }
+    function bigboxtwoclose(){
+        document.getElementById("backgroundtwo").style.display="none";
+        document.getElementById("covertwoadcover").style.display="flex";
+        document.getElementById("parttwomobile").style.marginBottom="50vh";
     
     }
- else {
+  
+    
+  function bigboxthreeopen(){
+      document.getElementById("backgroundthree").style.display="flex";
+      document.getElementById("coverthreeadcover").style.display="none";
+      document.getElementById("backgroundtwo").style.display="none";
+      document.getElementById("covertwoadcover").style.display="flex";
+      document.getElementById("backgroundone").style.display="none";
+      document.getElementById("coveroneadcover").style.display="flex";
+      document.getElementById("parttwomobile").style.marginBottom="11vh"
+       document.getElementById("backgroundthree").style.height="400px";
+    }
+    function bigboxthreeclose(){
+        document.getElementById("backgroundthree").style.display="none";
+        document.getElementById("coverthreeadcover").style.display="flex";
+        document.getElementById("parttwomobile").style.marginBottom="50vh";
+    
+    }
+    
+
+    
+    }*/
+
+var boxone = document.getElementById("boxone");
+var boxtwo = document.getElementById("boxtwo");
+var boxthree = document.getElementById("boxthree");
+var arrowdownone=document.getElementById("coveronead");
+var arrowdowntwo=document.getElementById("covertwoad");
+var arrowdownthree=document.getElementById("coverthreead");
+
+
+ 
     function bigboxone(){
-        boxone.style.width="780px";
-       boxone.style.transition="0.4s all ease-in-out";  
-       boxtwo.style.width="194px";
-       boxtwo.style.transition="0.4s all ease-in-out";
-       boxthree.style.width="194px";
-       boxthree.style.transition="0.4s all ease-in-out";  
+        document.getElementById("boxone").style.width="780px";
+        document.getElementById("boxone").style.transition="0.4s all ease-in-out";  
+        document.getElementById("boxtwo").style.width="194px";
+        document.getElementById("boxtwo").style.transition="0.4s all ease-in-out";
+        document.getElementById("boxthree").style.width="194px";
+        document.getElementById("boxthree").style.transition="0.4s all ease-in-out";  
        document.getElementById("boxtwo").style.backgroundSize="cover";
        document.getElementById("cover").style.transform = "rotate(270deg)";
        document.getElementById("unitrowone").style.display = "none";  
@@ -398,12 +391,12 @@ function bigboxthree(){
     
     }
     function bigboxtwo(){
-        boxtwo.style.width="780px";
-       boxtwo.style.transition="0.4s all ease-in-out";  
-       boxone.style.width="194px";
-       boxone.style.transition="0.4s all ease-in-out";
-       boxthree.style.width="194px"
-       boxthree.style.transition="0.4 sall ease-in-out";  
+        document.getElementById("boxtwo").style.width="780px";
+       document.getElementById("boxtwo").style.transition="0.4s all ease-in-out";  
+       document.getElementById("boxone").style.width="194px";
+       document.getElementById("boxone").style.transition="0.4s all ease-in-out";
+       document.getElementById("boxthree").style.width="194px"
+       document.getElementById("boxthree").style.transition="0.4 sall ease-in-out";  
        document.getElementById("boxtwo").style.backgroundColor="#FFD9E7";
        document.getElementById("boxtwo").style.border = "4px dashed #FA005F";
        document.getElementById("boxtwo").style.backgroundImage="none";
@@ -436,12 +429,12 @@ function bigboxthree(){
     
     }
     function bigboxthree(){
-        boxthree.style.width="780px";
-       boxthree.style.transition="0.4s all ease-in-out";
-       boxone.style.width="194px";
-       boxone.style.transition="0.4s all ease-in-out";  
-       boxtwo.style.width="194px";;
-       boxtwo.style.transition="0.4s all ease-in-out";
+        document.getElementById("boxthree").style.width="780px";
+        document.getElementById("boxthree").style.transition="0.4s all ease-in-out";
+       document.getElementById("boxone").style.width="194px";
+       document.getElementById("boxone").style.transition="0.4s all ease-in-out";  
+       document.getElementById("boxtwo").style.width="194px";;
+       document.getElementById("boxtwo").style.transition="0.4s all ease-in-out";
        document.getElementById("boxtwo").style.backgroundSize="cover";
        document.getElementById("cover").style.transform = "rotate(270deg)";
        document.getElementById("unitrowone").style.display = "none";  
@@ -475,5 +468,63 @@ function bigboxthree(){
        document.getElementById("coverone").style.fontSize="36px";
     
     }
+
+    function bigboxoneopen(){
+        document.getElementById("backgroundone").style.display="flex";
+        document.getElementById("coveroneadcover").style.display="none";
+         document.getElementById("backgroundtwo").style.display="none";
+          document.getElementById("covertwoadcover").style.display="flex";
+          document.getElementById("backgroundthree").style.display="none";
+          document.getElementById("coverthreeadcover").style.display="flex";
+          document.getElementById("parttwomobile").style.marginBottom="11vh";
+          document.getElementById("backgroundone").style.height="400px";
+      
+          
+      }
+      function bigboxoneclose(){
+          document.getElementById("backgroundone").style.display="none";
+          document.getElementById("coveroneadcover").style.display="flex";
+          document.getElementById("parttwomobile").style.marginBottom="50vh";
+      
+      }
+      
+      function bigboxtwoopen(){
+          document.getElementById("backgroundtwo").style.display="flex";
+          document.getElementById("covertwoadcover").style.display="none";
+          document.getElementById("backgroundone").style.display="none";
+          document.getElementById("coveroneadcover").style.display="flex";
+          document.getElementById("backgroundthree").style.display="none";
+          document.getElementById("coverthreeadcover").style.display="flex";
+          document.getElementById("parttwomobile").style.marginBottom="11vh"
+          document.getElementById("backgroundtwo").style.height="400px";
+          document.getElementById("coverthreeadcover").style.display="flex";
+      
+      
+        }
+        function bigboxtwoclose(){
+            document.getElementById("backgroundtwo").style.display="none";
+            document.getElementById("covertwoadcover").style.display="flex";
+            document.getElementById("parttwomobile").style.marginBottom="50vh";
         
-}
+        }
+      
+        
+      function bigboxthreeopen(){
+          document.getElementById("backgroundthree").style.display="flex";
+          document.getElementById("coverthreeadcover").style.display="none";
+          document.getElementById("backgroundtwo").style.display="none";
+          document.getElementById("covertwoadcover").style.display="flex";
+          document.getElementById("backgroundone").style.display="none";
+          document.getElementById("coveroneadcover").style.display="flex";
+          document.getElementById("parttwomobile").style.marginBottom="11vh"
+           document.getElementById("backgroundthree").style.height="400px";
+        }
+        function bigboxthreeclose(){
+            document.getElementById("backgroundthree").style.display="none";
+            document.getElementById("coverthreeadcover").style.display="flex";
+            document.getElementById("parttwomobile").style.marginBottom="50vh";
+        
+        }
+        
+        
+

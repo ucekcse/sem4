@@ -245,10 +245,6 @@ nav{
     width: 100px;
 }
 
-nav a{
-    color:#d0d9e0d7 ;
-   
-}
 
 
 /* Specific for about */
@@ -350,6 +346,11 @@ button:hover{
 .hilogomobile{
     display:none;
 }
+nav a{
+    color:#d0d9e0d7 ;
+   
+}
+
 
 @media only screen and (max-width: 630px){
    

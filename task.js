@@ -6,6 +6,7 @@ hamMenu.addEventListener('click', () => {
         document.getElementById("taskmobile").style.display="none";
         document.getElementById("popup").style.display="none";
         document.getElementById("footer").style.display="none";
+    
 
     } else {
         closenav();
@@ -76,6 +77,106 @@ line.style.left="340px";
 var taskmain=document.getElementById("taskmain");
 var taskside=document.getElementById("taskside");
 var taskcontainer=document.getElementById("taskcontainer");
+
+
+
+
+function resetNavBarStyles() {
+   
+    const mobilenav = document.getElementById("mobilenavwhole");
+
+    if (window.innerWidth < 900) {
+        
+         // Mobile view
+         mobilenav.style.display = "none";
+    } else {
+// Desktop view
+
+mobilenav.style.display = "none";
+    }
+}
+var mobilenav=document.getElementById("mobilenavwhole");
+function closenav(){
+   
+    mobilenav.style.display="none";
+    document.getElementById("hilogo").style.display="flex";
+    
+    document.getElementById("taskcontainer").style.display="none";
+    document.getElementById("taskmobile").style.display="flex";
+
+    document.getElementById("footer").style.display="flex";
+}
+function shownav(){
+   
+    mobilenav.style.display="flex";
+    document.getElementById("hilogo").style.display="none";
+   ;
+    document.getElementById("taskcontainer").style.display="none";
+    document.getElementById("taskmobile").style.display="none";
+    document.getElementById("footer").style.display="none";
+  
+}
+// Add event listener to handle resizing
+window.addEventListener("resize", resetNavBarStyles);
+
+// Initial call to set correct styles on page load
+resetNavBarStyles();
+
+ 
+   
+if (window.innerWidth > 1700) 
+    {
+        
+        function shrink(){
+            taskmain.style.width="910px";
+            taskmain.style.height="500px";
+            taskmain.style.marginLeft="18%";
+            taskside.style.display="flex";
+            document.getElementById("sidehidden").style.display="flex";
+          
+            taskcontainer.style.justifyContent="space-between";
+            taskmain.classList.add('taskcontentsmall');
+            box1.classList.add('rowsmall');
+            daysmall.style.left="20px";
+            subsmall.style.top="2px"
+            subsmall.style.right="3px";
+            daysmall.style.bottom="2px";
+           datedetail.forEach(element => {
+            element.style.fontSize = '21px'; // Or set a specific font size
+            document.getElementById("allsubside").style.display="none";
+        });
+        daydetail.forEach(element => {
+            element.style.fontSize = '18px'; // Or set a specific font size
+        });
+           document.getElementById("daysmall").style.fontSize="18px";
+            document.getElementById("subsmall").style.fontSize="18px"
+        }
+        
+        function showallsubcontent(){
+            document.getElementById("sidehidden").style.display="none";
+            taskmain.style.width="910px";
+            taskmain.style.height="500px";
+            taskmain.style.marginLeft="18%";
+            taskside.style.display="flex";
+            taskmain.classList.add('taskcontentsmall');
+            box1.classList.add('rowsmall');
+            daysmall.style.left="20px";
+            subsmall.style.top="2px"
+            subsmall.style.right="3px";
+            daysmall.style.bottom="2px";
+        
+          
+            taskcontainer.style.justifyContent="space-between";
+            
+            document.getElementById("allsubside").style.display="flex";
+            document.getElementById("daysmall").style.fontSize="18px";
+            document.getElementById("subsmall").style.fontSize="18px";
+         
+        }
+     }
+else{
+
+
 function shrink(){
     taskmain.style.width="910px";
     taskmain.style.height="500px";
@@ -101,78 +202,6 @@ daydetail.forEach(element => {
     document.getElementById("subsmall").style.fontSize="18px"
 }
 
-
-
-function resetNavBarStyles() {
-    const menubar = document.getElementById("menubar");
-    const closeicon = document.getElementById("closeicon");
-    const mobilenav = document.getElementById("mobilenavwhole");
-
-    if (window.innerWidth < 900) {
-        
-         // Mobile view
-         mobilenav.style.display = "none";
-    } else {
-// Desktop view
-menubar.style.display="none";
-closeicon.style.display = "none";
-mobilenav.style.display = "none";
-    }
-}
-var mobilenav=document.getElementById("mobilenavwhole");
-function closenav(){
-   
-    mobilenav.style.display="none";
-    document.getElementById("hilogo").style.display="flex";
-    document.getElementById("menubar").style.display="flex";
-    document.getElementById("closeicon").style.display="none";
-    document.getElementById("taskcontainer").style.display="none";
-    document.getElementById("taskmobile").style.display="flex";
-
-    document.getElementById("footer").style.display="flex";
-}
-function shownav(){
-   
-    mobilenav.style.display="flex";
-    document.getElementById("hilogo").style.display="none";
-    document.getElementById("menubar").style.display="none";
-    document.getElementById("closeicon").style.display="flex";
-    document.getElementById("taskcontainer").style.display="none";
-    document.getElementById("taskmobile").style.display="none";
-    document.getElementById("footer").style.display="none";
-    alert("hope");
-}
-// Add event listener to handle resizing
-window.addEventListener("resize", resetNavBarStyles);
-
-// Initial call to set correct styles on page load
-resetNavBarStyles();
-
-
-function expandone(){
-    document.getElementById("allsubsidehide").style.display="flex";
-    document.getElementById("allsubsidehide").style.flexDirection = "column";
-   document.getElementById("allsubone").style.border="0px";
-   document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
-   document.getElementById("allsubsidehidetwo").style.display="none";
-    document.getElementById("arrow").style.transform = "rotate(0deg)";
-    document.getElementById("arrowtwo").style.transform = "rotate(-90deg)";
-    document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";
-
-    
-
-}
-function expandtwo(){
-    document.getElementById("allsubsidehide").style.display="none";
-    document.getElementById("allsubsidehidetwo").style.display="flex";
-    document.getElementById("allsubsidehidetwo").style.flexDirection = "column";
-   document.getElementById("allsubtwo").style.border="0px";
-   document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
-   document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
-    document.getElementById("arrowtwo").style.transform = "rotate(0deg)";
-    document.getElementById("arrow").style.transform = "rotate(-90deg)";
-}
-
 function showallsubcontent(){
     document.getElementById("sidehidden").style.display="none";
     taskmain.style.width="910px";
@@ -194,6 +223,173 @@ function showallsubcontent(){
     document.getElementById("subsmall").style.fontSize="18px";
  
 }
+}
+
+
+
+
+
+
+
+function expandone(){
+    if(document.getElementById("allsubsidehide").style.display==="none"){
+
+        document.getElementById("allsubsidehidetwo").style.display="none";
+        document.getElementById("allsubsidehidethree").style.display="none";
+        document.getElementById("allsubsidehidefour").style.display="none";
+        document.getElementById("allsubsidehidefive").style.display="none";
+        document.getElementById("allsubsidehidesix").style.display="none";
+    document.getElementById("allsubsidehide").style.display="flex";
+    document.getElementById("allsubsidehide").style.flexDirection = "column";
+ 
+   document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
+   document.getElementById("allsubsidehidetwo").style.display="none";
+    document.getElementById("arrow").style.transform = "rotate(0deg)";
+    document.getElementById("arrowtwo").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowthree").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowsix").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowfour").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowfive").style.transform = "rotate(-90deg)";
+
+    document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";}
+    else{
+        document.getElementById("allsubsidehide").style.display="none";
+          document.getElementById("arrow").style.transform = "rotate(-90deg)"
+      
+    }
+
+    
+
+}
+function expandtwo(){
+    if(document.getElementById("allsubsidehidetwo").style.display==="none"){
+    document.getElementById("allsubsidehide").style.display="none";
+    document.getElementById("allsubsidehidethree").style.display="none";
+    document.getElementById("allsubsidehidefour").style.display="none";
+    document.getElementById("allsubsidehidefive").style.display="none";
+    document.getElementById("allsubsidehidesix").style.display="none";
+    document.getElementById("allsubsidehidetwo").style.display="flex";
+    document.getElementById("allsubsidehidetwo").style.flexDirection = "column";
+  
+   document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
+   document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
+    document.getElementById("arrowtwo").style.transform = "rotate(0deg)";
+    document.getElementById("arrow").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowthree").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowtwo").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowsix").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowfour").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowfive").style.transform = "rotate(-90deg)";
+
+}
+else{
+    document.getElementById("allsubsidehidetwo").style.display="none";
+    document.getElementById("arrowtwo").style.transform = "rotate(-90deg)";
+}
+}
+
+
+function expandthree(){
+    if(document.getElementById("allsubsidehidethree").style.display==="none"){
+    document.getElementById("allsubsidehide").style.display="none";
+    document.getElementById("allsubsidehidefour").style.display="none";
+    document.getElementById("allsubsidehidefive").style.display="none";
+    document.getElementById("allsubsidehidesix").style.display="none";
+    document.getElementById("allsubsidehidethree").style.display="flex";
+    document.getElementById("allsubsidehidetwo").style.flexDirection = "column";
+  
+   document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
+   document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
+    document.getElementById("arrowthree").style.transform = "rotate(0deg)";
+    document.getElementById("arrow").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowtwo").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowsix").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowfour").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowfive").style.transform = "rotate(-90deg)";
+}
+else{
+    document.getElementById("allsubsidehidethree").style.display="none";
+    document.getElementById("arrowthree").style.transform = "rotate(-90deg)";
+}
+}
+
+
+function expandfour(){
+    if(document.getElementById("allsubsidehidefour").style.display==="none"){
+    document.getElementById("allsubsidehide").style.display="none";
+    document.getElementById("allsubsidehidetwo").style.display="none";
+    document.getElementById("allsubsidehidefour").style.display="flex";
+    document.getElementById("allsubsidehidefive").style.display="none";
+    document.getElementById("allsubsidehidesix").style.display="none";
+    document.getElementById("allsubsidehidethree").style.display="none";
+   
+    document.getElementById("allsubsidehidetwo").style.flexDirection = "column";
+  
+   document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
+   document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
+    document.getElementById("arrowfour").style.transform = "rotate(0deg)";
+    document.getElementById("arrow").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowtwo").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowthree").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowfive").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowsix").style.transform = "rotate(-90deg)";
+}
+else{
+    document.getElementById("allsubsidehidefour").style.display="none";
+    document.getElementById("arrowfour").style.transform = "rotate(-90deg)";
+}
+}
+
+function expandfive(){
+    if(document.getElementById("allsubsidehidefive").style.display==="none"){
+    document.getElementById("allsubsidehide").style.display="none";
+    document.getElementById("allsubsidehidetwo").style.display="none";
+    document.getElementById("allsubsidehidefour").style.display="none";
+    document.getElementById("allsubsidehidethree").style.display="none";
+    document.getElementById("allsubsidehidesix").style.display="none";
+    document.getElementById("allsubsidehidefive").style.display="flex";
+    document.getElementById("allsubsidehidetwo").style.flexDirection = "column";
+  
+   document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
+   document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
+    document.getElementById("arrowfive").style.transform = "rotate(0deg)";
+    document.getElementById("arrowsix").style.transform = "rotate(-90deg)";
+    document.getElementById("arrow").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowtwo").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowthree").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowfour").style.transform = "rotate(-90deg)";
+}
+else{
+    document.getElementById("allsubsidehidefive").style.display="none";
+    document.getElementById("arrowfive").style.transform = "rotate(-90deg)";
+}
+}
+
+function expandsix(){
+    if(document.getElementById("allsubsidehidesix").style.display==="none"){
+    document.getElementById("allsubsidehide").style.display="none";
+    document.getElementById("allsubsidehidetwo").style.display="none";
+    document.getElementById("allsubsidehidefour").style.display="none";
+    document.getElementById("allsubsidehidethree").style.display="none";
+    document.getElementById("allsubsidehidefive").style.display="none";
+    document.getElementById("allsubsidehidesix").style.display="flex";
+    document.getElementById("allsubsidehidetwo").style.flexDirection = "column";
+  
+   document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
+   document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
+    document.getElementById("arrowsix").style.transform = "rotate(0deg)";
+    document.getElementById("arrow").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowtwo").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowthree").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowfour").style.transform = "rotate(-90deg)";
+    document.getElementById("arrowfive").style.transform = "rotate(-90deg)";
+}
+else{
+    document.getElementById("allsubsidehidesix").style.display="none";
+    document.getElementById("arrowsix").style.transform = "rotate(-90deg)";
+}
+}
+
 
    
     
@@ -206,12 +402,10 @@ function expandonepop(){
    document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
    document.getElementById("allsubsidehidetwo").style.display="none";
    document.getElementById("allsubone").style.borderBottom="0px solid #9F9FD6";
-
-    document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";
     }
     else{
         document.getElementById("allsubsidehidepopone").style.display="none";
-        document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
+        document.getElementById("allsubone").style.borderBottom="0px solid #9F9FD6";
         document.getElementById("arrowone").style.transform = "rotate(-90deg)";
 
     }
@@ -435,4 +629,3 @@ resetNavBarStyles();
 
  
 
- 

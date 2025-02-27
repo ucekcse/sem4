@@ -62,6 +62,7 @@ function aboutline(){
 
 line.style.width="100px";
 line.style.left="0px";
+
 var line = document.getElementById("navbar");
 var text1 = document.getElementById("navtextone");
 var text2= document.getElementById("navtexttwo");
@@ -108,22 +109,10 @@ function aboutline(){
 line.style.width="100px";
 line.style.left="0px";
 function resetNavBarStyles() {
-    const menubar = document.getElementById("menubar");
-    const closeicon = document.getElementById("closeicon");
+   
     const mobilenav = document.getElementById("mobilenavwhole");
 
-    if (window.innerWidth < 900) {
-        
-         // Mobile view
-       menubar.style.display="flex"
-         closeicon.style.display = "none";
-         mobilenav.style.display = "none";
-    } else {
-// Desktop view
-menubar.style.display="none";
-closeicon.style.display = "none";
-mobilenav.style.display = "none";
-    }
+   
 }
 var mobilenav=document.getElementById("mobilenavwhole");
 
