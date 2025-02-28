@@ -511,6 +511,7 @@ width:500px;
        
        
     }
+    
     .parttwo{
         display:none;
     }
@@ -580,6 +581,7 @@ width:500px;
      
      .content{
          margin-top:112px;
+        
      }
    .mobilenavwhole{
      margin-top:112px;
@@ -676,12 +678,12 @@ width:500px;
         display:none;
     }
     .container{
-        height:100vh;
+        height:120vh;
     }
     .content{
         padding-top:30px;
         width:100vw;
-        height:100vh;
+        height:115vh;
         background-color: antiquewhite;
         display:flex; 
         justify-content: center;
