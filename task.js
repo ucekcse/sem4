@@ -779,7 +779,6 @@ function expandtwo(){
     document.getElementById("arrowtwo").style.transform = "rotate(0deg)";
     document.getElementById("arrow").style.transform = "rotate(-90deg)";
     document.getElementById("arrowthree").style.transform = "rotate(-90deg)";
-    document.getElementById("arrowtwo").style.transform = "rotate(-90deg)";
     document.getElementById("arrowsix").style.transform = "rotate(-90deg)";
     document.getElementById("arrowfour").style.transform = "rotate(-90deg)";
     document.getElementById("arrowfive").style.transform = "rotate(-90deg)";
