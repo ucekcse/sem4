@@ -228,8 +228,13 @@ function expandonepop(){
     document.getElementById("popup").style.display="flex";
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
     document.getElementById("popup").style.height="800px";
-    document.getElementById("taskdayinner").innerText="MONDAY";
-
-    
-
+    document.getElementById("spandate").innerText="MONDAY";
+    document.getElementById("assignmentphonedownload").setAttribute("href","https://im.rediff.com/cricket/2022/sep/08vk.gif");
+  }
+  function tuesdaypopup(){
+    document.getElementById("popup").style.display="flex";
+    document.getElementById("popup").style.transition="0.4s all ease-in-out";
+    document.getElementById("popup").style.height="800px";
+    document.getElementById("spandate").innerText="TUESDAY";
+    document.getElementById("assignmentphonedownload").setAttribute("href","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS8Wt6_DP68aT9Jq6RbuFzRxvim_YBADgWUftNlT-zlW2DBbXnGqK7EBd_-q90Ynry7ok&usqp=CAU");
   }
