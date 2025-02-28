@@ -143,6 +143,7 @@
     width:100%;
     height:178px;
     height:76px;
+    text-align: center;
 }
 
 #DB:hover{
@@ -518,6 +519,17 @@ nav{
     }
     .hilogomobile{
         display:none;
+    }
+    #pcdownload{
+        color:black;
+        height: 100%;
+        width:100%;
+        padding-top:10%;
+       
+    }
+    #pcdownload:hover{
+        color:white;
+
     }
     @media only screen and (max-width: 630px){
         .partone{
@@ -1095,6 +1107,9 @@ table {
     font-size: 12px;
     width: 100%;
     height: 60;
+}
+#assignmentphonedownload{
+    color:white;
 }
 
 }

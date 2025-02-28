@@ -126,33 +126,76 @@ resetNavBarStyles();
    
 if (window.innerWidth > 1700) 
     {
-        
-        function shrink(){
+        function showallsubcontentone(){
+            document.getElementById("sidehidden").style.display="none";
             taskmain.style.width="910px";
             taskmain.style.height="500px";
             taskmain.style.marginLeft="18%";
             taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
             taskmain.classList.add('taskcontentsmall');
             box1.classList.add('rowsmall');
             daysmall.style.left="20px";
             subsmall.style.top="2px"
             subsmall.style.right="3px";
             daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
         
-        function showallsubcontent(){
+          
+            taskcontainer.style.justifyContent="space-between";
+            
+            document.getElementById("allsubside").style.display="none";
+            document.getElementById("daysmall").style.fontSize="18px";
+            document.getElementById("subsmall").style.fontSize="18px";
+          
+            
+        
+            
+        }
+        function showallsubcontenttwo(){
+            document.getElementById("sidehidden").style.display="none";
+            taskmain.style.width="910px";
+            taskmain.style.height="500px";
+            taskmain.style.marginLeft="18%";
+            taskside.style.display="flex";
+            taskmain.classList.add('taskcontentsmall');
+            box1.classList.add('rowsmall');
+            daysmall.style.left="20px";
+            subsmall.style.top="2px"
+            subsmall.style.right="3px";
+            daysmall.style.bottom="2px";
+        
+          
+            taskcontainer.style.justifyContent="space-between";
+            
+            document.getElementById("allsubside").style.display="none";
+            document.getElementById("daysmall").style.fontSize="18px";
+            document.getElementById("subsmall").style.fontSize="18px";
+            document.getElementById("allsubpara").innerText="two";
+         
+        }
+        function showallsubcontentthree(){
+            document.getElementById("sidehidden").style.display="none";
+            taskmain.style.width="910px";
+            taskmain.style.height="500px";
+            taskmain.style.marginLeft="18%";
+            taskside.style.display="flex";
+            taskmain.classList.add('taskcontentsmall');
+            box1.classList.add('rowsmall');
+            daysmall.style.left="20px";
+            subsmall.style.top="2px"
+            subsmall.style.right="3px";
+            daysmall.style.bottom="2px";
+        
+          
+            taskcontainer.style.justifyContent="space-between";
+            
+            document.getElementById("allsubside").style.display="none";
+            document.getElementById("daysmall").style.fontSize="18px";
+            document.getElementById("subsmall").style.fontSize="18px";
+        
+            document.getElementById("allsubpara").innerText="three";
+         
+        }
+        function showallsubcontentfour(){
             document.getElementById("sidehidden").style.display="none";
             taskmain.style.width="910px";
             taskmain.style.height="500px";
@@ -171,13 +214,221 @@ if (window.innerWidth > 1700)
             document.getElementById("allsubside").style.display="flex";
             document.getElementById("daysmall").style.fontSize="18px";
             document.getElementById("subsmall").style.fontSize="18px";
+            document.querySelectorAll(".allsubpara")[0].innerText="AIML lab";
+            document.querySelectorAll(".allsubpara")[1].innerText="DBMS lab";
+            document.querySelectorAll(".sidecontentpara")[0].innerText="Write full lab observation";
+            document.querySelectorAll(".sidecontentpara")[1].innerText="Write 1st 4 program in observation";
+            document.querySelectorAll(".sidecontentdate")[0].innerText="04.03.2025";
+            document.querySelectorAll(".sidecontentdate")[1].innerText="03.03.2025";
+            document.querySelectorAll(".downloada")[0].setAttribute("href","https://aliabdaal.com/studying/");
+            document.querySelectorAll(".downloada")[1].setAttribute("href","https://aliabdaal.com/studying/")
+        
+        
+            document.getElementById("allsubthree").style.display="none";
+            document.getElementById("allsubfour").style.display="none";
+            document.getElementById("allsubfive").style.display="none";
+            document.getElementById("allsubsix").style.display="none";
          
         }
+        function showallsubcontentfive(){
+            document.getElementById("sidehidden").style.display="none";
+            taskmain.style.width="910px";
+            taskmain.style.height="500px";
+            taskmain.style.marginLeft="18%";
+            taskside.style.display="flex";
+            taskmain.classList.add('taskcontentsmall');
+            box1.classList.add('rowsmall');
+            daysmall.style.left="20px";
+            subsmall.style.top="2px"
+            subsmall.style.right="3px";
+            daysmall.style.bottom="2px";
+        
+          
+            taskcontainer.style.justifyContent="space-between";
+            
+            document.getElementById("allsubside").style.display="flex";
+            document.getElementById("daysmall").style.fontSize="18px";
+            document.getElementById("subsmall").style.fontSize="18px";
+            document.getElementById("allsubpara").innerText="five";
+            document.querySelectorAll(".allsubpara")[0].innerText="DBMS";
+            document.querySelectorAll(".allsubpara")[1].innerText="Algorithms";
+            document.querySelectorAll(".sidecontentpara")[0].innerText="Write the notes on the thing which out man though today which is from the PDF send by her";
+            document.querySelectorAll(".sidecontentpara")[1].innerText="Get the print out of the syllabus of AL and also colour print out of Big O notion pdf.";
+            document.querySelectorAll(".sidecontentdate")[0].innerText="01.03.2025";
+            document.querySelectorAll(".sidecontentdate")[1].innerText="03.03.2025";
+            document.querySelectorAll(".downloada")[0].setAttribute("href","https://aliabdaal.com/studying/");
+            document.querySelectorAll(".downloada")[1].setAttribute("href","https://aliabdaal.com/studying/")
+        
+        
+            document.getElementById("allsubthree").style.display="none";
+            document.getElementById("allsubfour").style.display="none";
+            document.getElementById("allsubfive").style.display="none";
+            document.getElementById("allsubsix").style.display="none";
+           
+         
+        }
+        function showallsubcontentsix(){
+            document.getElementById("sidehidden").style.display="none";
+            taskmain.style.width="910px";
+            taskmain.style.height="500px";
+            taskmain.style.marginLeft="18%";
+            taskside.style.display="flex";
+            taskmain.classList.add('taskcontentsmall');
+            box1.classList.add('rowsmall');
+            daysmall.style.left="20px";
+            subsmall.style.top="2px"
+            subsmall.style.right="3px";
+            daysmall.style.bottom="2px";
+        
+          
+            taskcontainer.style.justifyContent="space-between";
+            
+            document.getElementById("allsubside").style.display="none";
+            document.getElementById("daysmall").style.fontSize="18px";
+            document.getElementById("subsmall").style.fontSize="18px";
+            document.getElementById("allsubpara").innerText="six";
+            document.querySelectorAll(".downloada")[3].setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
+        
+         
+        }
+        
+      
+
+        
+
+        function shrinkrowfivethree(){
+            taskmain.style.width="910px";
+            taskmain.style.height="500px";
+            taskmain.style.marginLeft="18%";
+            taskside.style.display="flex";
+            document.getElementById("sidehidden").style.display="flex";
+          
+            taskcontainer.style.justifyContent="space-between";
+            taskmain.classList.add('taskcontentsmall');
+            box1.classList.add('rowsmall');
+            daysmall.style.left="20px";
+            subsmall.style.top="2px"
+            subsmall.style.right="3px";
+            daysmall.style.bottom="2px";
+           datedetail.forEach(element => {
+            element.style.fontSize = '21px'; // Or set a specific font size
+            document.getElementById("allsubside").style.display="none";
+            document.querySelector(".sidecontentsubname").innerText="AIML lab";
+            document.querySelector(".minorboxpara").innerText="Write full lab observation";
+            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
+          
+            document.querySelector(".minorboxdate").innerText="04.03.2025";
+            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
+        
+            
+        
+        });
+        daydetail.forEach(element => {
+            element.style.fontSize = '18px'; // Or set a specific font size
+        });
+           document.getElementById("daysmall").style.fontSize="18px";
+            document.getElementById("subsmall").style.fontSize="18px"
+        }
+        
+        function shrinkrowfivefour(){
+            taskmain.style.width="910px";
+            taskmain.style.height="500px";
+            taskmain.style.marginLeft="18%";
+            taskside.style.display="flex";
+            document.getElementById("sidehidden").style.display="flex";
+          
+            taskcontainer.style.justifyContent="space-between";
+            taskmain.classList.add('taskcontentsmall');
+            box1.classList.add('rowsmall');
+            daysmall.style.left="20px";
+            subsmall.style.top="2px"
+            subsmall.style.right="3px";
+            daysmall.style.bottom="2px";
+           datedetail.forEach(element => {
+            element.style.fontSize = '21px'; // Or set a specific font size
+            document.getElementById("allsubside").style.display="none";
+            document.querySelector(".sidecontentsubname").innerText="DBMS lab";
+            document.querySelector(".minorboxpara").innerText="Write 1st 4 program in observation";
+            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
+          
+            document.querySelector(".minorboxdate").innerText="03.03.2025";
+            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
+          
+        });
+        daydetail.forEach(element => {
+            element.style.fontSize = '18px'; // Or set a specific font size
+        });
+           document.getElementById("daysmall").style.fontSize="18px";
+            document.getElementById("subsmall").style.fontSize="18px"
+        }
+        
+        function shrinkrowsixfour(){
+            taskmain.style.width="910px";
+            taskmain.style.height="500px";
+            taskmain.style.marginLeft="18%";
+            taskside.style.display="flex";
+            document.getElementById("sidehidden").style.display="flex";
+          
+            taskcontainer.style.justifyContent="space-between";
+            taskmain.classList.add('taskcontentsmall');
+            box1.classList.add('rowsmall');
+            daysmall.style.left="20px";
+            subsmall.style.top="2px"
+            subsmall.style.right="3px";
+            daysmall.style.bottom="2px";
+           datedetail.forEach(element => {
+            element.style.fontSize = '21px'; // Or set a specific font size
+            document.getElementById("allsubside").style.display="none";
+            document.querySelector(".sidecontentsubname").innerText="DBMS";
+            document.querySelector(".minorboxpara").innerText="Write the notes on the thing which out man though today which is from the PDF send by her.";
+            document.querySelector(".sidecontentdaydate").innerText="FRIDAY ‎ ‎ ‎28.02.2025";
+          
+            document.querySelector(".minorboxdate").innerText="01.03.2025";
+            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
+        });
+        daydetail.forEach(element => {
+            element.style.fontSize = '18px'; // Or set a specific font size
+        });
+           document.getElementById("daysmall").style.fontSize="18px";
+            document.getElementById("subsmall").style.fontSize="18px"
+        }
+        
+        function shrinkrowsixsix(){
+            taskmain.style.width="910px";
+            taskmain.style.height="500px";
+            taskmain.style.marginLeft="18%";
+            taskside.style.display="flex";
+            document.getElementById("sidehidden").style.display="flex";
+          
+            taskcontainer.style.justifyContent="space-between";
+            taskmain.classList.add('taskcontentsmall');
+            box1.classList.add('rowsmall');
+            daysmall.style.left="20px";
+            subsmall.style.top="2px"
+            subsmall.style.right="3px";
+            daysmall.style.bottom="2px";
+           datedetail.forEach(element => {
+            element.style.fontSize = '21px'; // Or set a specific font size
+            document.getElementById("allsubside").style.display="none";
+            document.querySelector(".sidecontentsubname").innerText="Algorithms";
+            document.querySelector(".minorboxpara").innerText=" Get the print out of the syllabus of AL and also colour print out of Big O notion pdf.";
+            document.querySelector(".sidecontentdaydate").innerText="FRIDAY ‎ ‎ ‎28.02.2025";
+          
+            document.querySelector(".minorboxdate").innerText="03.03.2025";
+            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
+        });
+        daydetail.forEach(element => {
+            element.style.fontSize = '18px'; // Or set a specific font size
+        });
+           document.getElementById("daysmall").style.fontSize="18px";
+            document.getElementById("subsmall").style.fontSize="18px"
+        }
+        
      }
 else{
 
 
-function shrink(){
+function shrinkrowfivethree(){
     taskmain.style.width="910px";
     taskmain.style.height="500px";
     taskmain.style.marginLeft="33px";
@@ -194,6 +445,15 @@ function shrink(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+    document.querySelector(".sidecontentsubname").innerText="AIML lab";
+    document.querySelector(".minorboxpara").innerText="Write full lab observation";
+    document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
+  
+    document.querySelector(".minorboxdate").innerText="04.03.2025";
+    document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
+
+    
+
 });
 daydetail.forEach(element => {
     element.style.fontSize = '18px'; // Or set a specific font size
@@ -202,7 +462,173 @@ daydetail.forEach(element => {
     document.getElementById("subsmall").style.fontSize="18px"
 }
 
-function showallsubcontent(){
+function shrinkrowfivefour(){
+    taskmain.style.width="910px";
+    taskmain.style.height="500px";
+    taskmain.style.marginLeft="33px";
+    taskside.style.display="flex";
+    document.getElementById("sidehidden").style.display="flex";
+  
+    taskcontainer.style.justifyContent="space-between";
+    taskmain.classList.add('taskcontentsmall');
+    box1.classList.add('rowsmall');
+    daysmall.style.left="20px";
+    subsmall.style.top="2px"
+    subsmall.style.right="3px";
+    daysmall.style.bottom="2px";
+   datedetail.forEach(element => {
+    element.style.fontSize = '21px'; // Or set a specific font size
+    document.getElementById("allsubside").style.display="none";
+    document.querySelector(".sidecontentsubname").innerText="DBMS lab";
+    document.querySelector(".minorboxpara").innerText="Write 1st 4 program in observation";
+    document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
+  
+    document.querySelector(".minorboxdate").innerText="03.03.2025";
+    document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
+  
+});
+daydetail.forEach(element => {
+    element.style.fontSize = '18px'; // Or set a specific font size
+});
+   document.getElementById("daysmall").style.fontSize="18px";
+    document.getElementById("subsmall").style.fontSize="18px"
+}
+
+function shrinkrowsixfour(){
+    taskmain.style.width="910px";
+    taskmain.style.height="500px";
+    taskmain.style.marginLeft="33px";
+    taskside.style.display="flex";
+    document.getElementById("sidehidden").style.display="flex";
+  
+    taskcontainer.style.justifyContent="space-between";
+    taskmain.classList.add('taskcontentsmall');
+    box1.classList.add('rowsmall');
+    daysmall.style.left="20px";
+    subsmall.style.top="2px"
+    subsmall.style.right="3px";
+    daysmall.style.bottom="2px";
+   datedetail.forEach(element => {
+    element.style.fontSize = '21px'; // Or set a specific font size
+    document.getElementById("allsubside").style.display="none";
+    document.querySelector(".sidecontentsubname").innerText="DBMS";
+    document.querySelector(".minorboxpara").innerText="Write the notes on the thing which out man though today which is from the PDF send by her.";
+    document.querySelector(".sidecontentdaydate").innerText="FRIDAY ‎ ‎ ‎28.02.2025";
+  
+    document.querySelector(".minorboxdate").innerText="01.03.2025";
+    document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
+});
+daydetail.forEach(element => {
+    element.style.fontSize = '18px'; // Or set a specific font size
+});
+   document.getElementById("daysmall").style.fontSize="18px";
+    document.getElementById("subsmall").style.fontSize="18px"
+}
+
+function shrinkrowsixsix(){
+    taskmain.style.width="910px";
+    taskmain.style.height="500px";
+    taskmain.style.marginLeft="33px";
+    taskside.style.display="flex";
+    document.getElementById("sidehidden").style.display="flex";
+  
+    taskcontainer.style.justifyContent="space-between";
+    taskmain.classList.add('taskcontentsmall');
+    box1.classList.add('rowsmall');
+    daysmall.style.left="20px";
+    subsmall.style.top="2px"
+    subsmall.style.right="3px";
+    daysmall.style.bottom="2px";
+   datedetail.forEach(element => {
+    element.style.fontSize = '21px'; // Or set a specific font size
+    document.getElementById("allsubside").style.display="none";
+    document.querySelector(".sidecontentsubname").innerText="Algorithms";
+    document.querySelector(".minorboxpara").innerText=" Get the print out of the syllabus of AL and also colour print out of Big O notion pdf.";
+    document.querySelector(".sidecontentdaydate").innerText="FRIDAY ‎ ‎ ‎28.02.2025";
+  
+    document.querySelector(".minorboxdate").innerText="03.03.2025";
+    document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
+});
+daydetail.forEach(element => {
+    element.style.fontSize = '18px'; // Or set a specific font size
+});
+   document.getElementById("daysmall").style.fontSize="18px";
+    document.getElementById("subsmall").style.fontSize="18px"
+}
+
+
+
+
+function showallsubcontentone(){
+    document.getElementById("sidehidden").style.display="none";
+    taskmain.style.width="910px";
+    taskmain.style.height="500px";
+    taskmain.style.marginLeft="33px";
+    taskside.style.display="flex";
+    taskmain.classList.add('taskcontentsmall');
+    box1.classList.add('rowsmall');
+    daysmall.style.left="20px";
+    subsmall.style.top="2px"
+    subsmall.style.right="3px";
+    daysmall.style.bottom="2px";
+
+  
+    taskcontainer.style.justifyContent="space-between";
+    
+    document.getElementById("allsubside").style.display="none";
+    document.getElementById("daysmall").style.fontSize="18px";
+    document.getElementById("subsmall").style.fontSize="18px";
+  
+    
+
+    
+}
+function showallsubcontenttwo(){
+    document.getElementById("sidehidden").style.display="none";
+    taskmain.style.width="910px";
+    taskmain.style.height="500px";
+    taskmain.style.marginLeft="33px";
+    taskside.style.display="flex";
+    taskmain.classList.add('taskcontentsmall');
+    box1.classList.add('rowsmall');
+    daysmall.style.left="20px";
+    subsmall.style.top="2px"
+    subsmall.style.right="3px";
+    daysmall.style.bottom="2px";
+
+  
+    taskcontainer.style.justifyContent="space-between";
+    
+    document.getElementById("allsubside").style.display="none";
+    document.getElementById("daysmall").style.fontSize="18px";
+    document.getElementById("subsmall").style.fontSize="18px";
+    document.getElementById("allsubpara").innerText="two";
+ 
+}
+function showallsubcontentthree(){
+    document.getElementById("sidehidden").style.display="none";
+    taskmain.style.width="910px";
+    taskmain.style.height="500px";
+    taskmain.style.marginLeft="33px";
+    taskside.style.display="flex";
+    taskmain.classList.add('taskcontentsmall');
+    box1.classList.add('rowsmall');
+    daysmall.style.left="20px";
+    subsmall.style.top="2px"
+    subsmall.style.right="3px";
+    daysmall.style.bottom="2px";
+
+  
+    taskcontainer.style.justifyContent="space-between";
+    
+    document.getElementById("allsubside").style.display="none";
+    document.getElementById("daysmall").style.fontSize="18px";
+    document.getElementById("subsmall").style.fontSize="18px";
+
+    document.getElementById("allsubpara").innerText="three";
+ 
+}
+function showallsubcontentfour(){
     document.getElementById("sidehidden").style.display="none";
     taskmain.style.width="910px";
     taskmain.style.height="500px";
@@ -221,8 +647,85 @@ function showallsubcontent(){
     document.getElementById("allsubside").style.display="flex";
     document.getElementById("daysmall").style.fontSize="18px";
     document.getElementById("subsmall").style.fontSize="18px";
+    document.querySelectorAll(".allsubpara")[0].innerText="AIML lab";
+    document.querySelectorAll(".allsubpara")[1].innerText="DBMS lab";
+    document.querySelectorAll(".sidecontentpara")[0].innerText="Write full lab observation";
+    document.querySelectorAll(".sidecontentpara")[1].innerText="Write 1st 4 program in observation";
+    document.querySelectorAll(".sidecontentdate")[0].innerText="04.03.2025";
+    document.querySelectorAll(".sidecontentdate")[1].innerText="03.03.2025";
+    document.querySelectorAll(".downloada")[0].setAttribute("href","https://aliabdaal.com/studying/");
+    document.querySelectorAll(".downloada")[1].setAttribute("href","https://aliabdaal.com/studying/")
+
+
+    document.getElementById("allsubthree").style.display="none";
+    document.getElementById("allsubfour").style.display="none";
+    document.getElementById("allsubfive").style.display="none";
+    document.getElementById("allsubsix").style.display="none";
  
 }
+function showallsubcontentfive(){
+    document.getElementById("sidehidden").style.display="none";
+    taskmain.style.width="910px";
+    taskmain.style.height="500px";
+    taskmain.style.marginLeft="33px";
+    taskside.style.display="flex";
+    taskmain.classList.add('taskcontentsmall');
+    box1.classList.add('rowsmall');
+    daysmall.style.left="20px";
+    subsmall.style.top="2px"
+    subsmall.style.right="3px";
+    daysmall.style.bottom="2px";
+
+  
+    taskcontainer.style.justifyContent="space-between";
+    
+    document.getElementById("allsubside").style.display="flex";
+    document.getElementById("daysmall").style.fontSize="18px";
+    document.getElementById("subsmall").style.fontSize="18px";
+    document.getElementById("allsubpara").innerText="five";
+    document.querySelectorAll(".allsubpara")[0].innerText="DBMS";
+    document.querySelectorAll(".allsubpara")[1].innerText="Algorithms";
+    document.querySelectorAll(".sidecontentpara")[0].innerText="Write the notes on the thing which out man though today which is from the PDF send by her";
+    document.querySelectorAll(".sidecontentpara")[1].innerText="Get the print out of the syllabus of AL and also colour print out of Big O notion pdf.";
+    document.querySelectorAll(".sidecontentdate")[0].innerText="01.03.2025";
+    document.querySelectorAll(".sidecontentdate")[1].innerText="03.03.2025";
+    document.querySelectorAll(".downloada")[0].setAttribute("href","https://aliabdaal.com/studying/");
+    document.querySelectorAll(".downloada")[1].setAttribute("href","https://aliabdaal.com/studying/")
+
+
+    document.getElementById("allsubthree").style.display="none";
+    document.getElementById("allsubfour").style.display="none";
+    document.getElementById("allsubfive").style.display="none";
+    document.getElementById("allsubsix").style.display="none";
+   
+ 
+}
+function showallsubcontentsix(){
+    document.getElementById("sidehidden").style.display="none";
+    taskmain.style.width="910px";
+    taskmain.style.height="500px";
+    taskmain.style.marginLeft="33px";
+    taskside.style.display="flex";
+    taskmain.classList.add('taskcontentsmall');
+    box1.classList.add('rowsmall');
+    daysmall.style.left="20px";
+    subsmall.style.top="2px"
+    subsmall.style.right="3px";
+    daysmall.style.bottom="2px";
+
+  
+    taskcontainer.style.justifyContent="space-between";
+    
+    document.getElementById("allsubside").style.display="flex";
+    document.getElementById("daysmall").style.fontSize="18px";
+    document.getElementById("subsmall").style.fontSize="18px";
+    document.getElementById("allsubpara").innerText="six";
+    document.querySelectorAll(".downloada")[3].setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
+
+ 
+}
+
+
 }
 
 
@@ -402,6 +905,8 @@ function expandonepop(){
    document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
    document.getElementById("allsubsidehidetwo").style.display="none";
    document.getElementById("allsubone").style.borderBottom="0px solid #9F9FD6";
+  
+
     }
     else{
         document.getElementById("allsubsidehidepopone").style.display="none";
@@ -538,10 +1043,20 @@ function popdown(){
   }
 
   function mondaypopup(){
+    document.getElementById("allsubone").style.display="none";
     document.getElementById("popup").style.display="flex";
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
     document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="MONDAY";
+     document.querySelector(".phonepopupone").style.display="none";
+    document.querySelector(".phonepopuptwo").style.display="none";
+    document.querySelector(".phonepopupthree").style.display="none";
+    document.querySelector(".phonepopupfour").style.display="none";
+    document.querySelector(".phonepopupfive").style.display="none";
+    document.querySelector(".phonepopupsix").style.display="none";
+
+    document.getElementById("phonedownloadone").setAttribute("href","https://chatgpt.com/");
+  
 
     
 
@@ -551,6 +1066,13 @@ function popdown(){
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
     document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="TUESDAY";
+    document.getElementById("phonedownloadone").setAttribute("href","https://github.com/");
+    document.querySelector(".phonepopupone").style.display="none";
+    document.querySelector(".phonepopuptwo").style.display="none";
+    document.querySelector(".phonepopupthree").style.display="none";
+    document.querySelector(".phonepopupfour").style.display="none";
+    document.querySelector(".phonepopupfive").style.display="none";
+    document.querySelector(".phonepopupsix").style.display="none";
 
   }
 
@@ -559,6 +1081,12 @@ function popdown(){
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
     document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="WEDNESDAY";
+    document.querySelector(".phonepopupone").style.display="none";
+    document.querySelector(".phonepopuptwo").style.display="none";
+    document.querySelector(".phonepopupthree").style.display="none";
+    document.querySelector(".phonepopupfour").style.display="none";
+    document.querySelector(".phonepopupfive").style.display="none";
+    document.querySelector(".phonepopupsix").style.display="none";
 
   }
 
@@ -568,6 +1096,20 @@ function popdown(){
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
     document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="THURSDAY";
+    document.querySelector(".allsubparaphoneone").innerText="AIML lab";
+    document.querySelector(".allsubparaphonetwo").innerText="DBMS lab";
+    document.querySelector(".sidecontentparaphoneone").innerText="Write full lab observation";
+    document.querySelector(".sidecontentparaphonetwo").innerText="Write 1st 4 program in observation";
+    document.querySelector(".sidecontentdatephoneone").innerText="04.03.2025";
+    document.querySelector(".sidecontentdatephonetwo").innerText="03.03.2025";
+    document.querySelector("#phonedownloadone").setAttribute("href","https://www.youtube.com/");
+    document.querySelector("#phonedownloadtwo").setAttribute("href","https://www.youtube.com/")
+    
+    document.querySelector(".phonepopupthree").style.display="none";
+    document.querySelector(".phonepopupfour").style.display="none";
+    document.querySelector(".phonepopupfive").style.display="none";
+    document.querySelector(".phonepopupsix").style.display="none";
+
 
   }
 
@@ -577,6 +1119,20 @@ function popdown(){
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
     document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="FRIDAY";
+    document.querySelector(".allsubparaphoneone").innerText="DBMS";
+    document.querySelector(".allsubparaphonetwo").innerText="Algorithms";
+    document.querySelector(".sidecontentparaphoneone").innerText="Write the notes on the thing which out man though today which is from the PDF send by her";
+    document.querySelector(".sidecontentparaphonetwo").innerText="Get the print out of the syllabus of AL and also colour print out of Big O notion pdf.";
+    document.querySelector(".sidecontentdatephoneone").innerText="01.03.2025";
+    document.querySelector(".sidecontentdatephonetwo").innerText="03.03.2025";
+    document.querySelector("#phonedownloadone").setAttribute("href","https://aliabdaal.com/studying/");
+    document.querySelector("#phonedownloadtwo").setAttribute("href","https://aliabdaal.com/studying/")
+    document.querySelector(".phonepopupthree").style.display="none";
+    document.querySelector(".phonepopupfour").style.display="none";
+    document.querySelector(".phonepopupfive").style.display="none";
+    document.querySelector(".phonepopupsix").style.display="none";
+
+    
 
   }
 
@@ -586,6 +1142,12 @@ function popdown(){
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
     document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="SATURDAY";
+    document.querySelector(".phonepopupone").style.display="none";
+    document.querySelector(".phonepopuptwo").style.display="none";
+    document.querySelector(".phonepopupthree").style.display="none";
+    document.querySelector(".phonepopupfour").style.display="none";
+    document.querySelector(".phonepopupfive").style.display="none";
+    document.querySelector(".phonepopupsix").style.display="none";
 
   }
 
@@ -595,6 +1157,12 @@ function popdown(){
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
     document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="SUNDAY";
+    document.querySelector(".phonepopupone").style.display="none";
+    document.querySelector(".phonepopuptwo").style.display="none";
+    document.querySelector(".phonepopupthree").style.display="none";
+    document.querySelector(".phonepopupfour").style.display="none";
+    document.querySelector(".phonepopupfive").style.display="none";
+    document.querySelector(".phonepopupsix").style.display="none";
 
   }
 
