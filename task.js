@@ -1096,6 +1096,8 @@ function popdown(){
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
     document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="THURSDAY";
+    document.querySelector(".phonepopupone").style.display="flex";
+    document.querySelector(".phonepopuptwo").style.display="flex";
     document.querySelector(".allsubparaphoneone").innerText="AIML lab";
     document.querySelector(".allsubparaphonetwo").innerText="DBMS lab";
     document.querySelector(".sidecontentparaphoneone").innerText="Write full lab observation";
@@ -1119,6 +1121,8 @@ function popdown(){
     document.getElementById("popup").style.transition="0.4s all ease-in-out";
     document.getElementById("popup").style.height="950px";
     document.getElementById("taskdayinner").innerText="FRIDAY";
+    document.querySelector(".phonepopupone").style.display="flex";
+    document.querySelector(".phonepopuptwo").style.display="flex";
     document.querySelector(".allsubparaphoneone").innerText="DBMS";
     document.querySelector(".allsubparaphonetwo").innerText="Algorithms";
     document.querySelector(".sidecontentparaphoneone").innerText="Write the notes on the thing which out man though today which is from the PDF send by her";
