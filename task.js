@@ -1704,6 +1704,8 @@ function showallsubcontentfour(){
     document.querySelectorAll(".downloada")[1].setAttribute("href","https://aliabdaal.com/studying/")
 
 
+    document.getElementById("allsubone").style.display="flex";
+    document.getElementById("allsubtwo").style.display="flex"
     document.getElementById("allsubthree").style.display="none";
     document.getElementById("allsubfour").style.display="none";
     document.getElementById("allsubfive").style.display="none";
@@ -1746,6 +1748,8 @@ function showallsubcontentfive(){
     document.querySelectorAll(".downloada")[0].setAttribute("href","https://aliabdaal.com/studying/");
     document.querySelectorAll(".downloada")[1].setAttribute("href","https://aliabdaal.com/studying/")
 
+    document.getElementById("allsubone").style.display="flex";
+    document.getElementById("allsubtwo").style.display="flex";
 
     document.getElementById("allsubthree").style.display="none";
     document.getElementById("allsubfour").style.display="none";
