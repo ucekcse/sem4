@@ -138,19 +138,19 @@ function mondaypopup() {
     popup.classList.remove("hide");
     popup.classList.add("show");
     document.getElementById("sliderarrow").style.transform = "translate(-50%, -50%) rotate(0deg)"; 
-   // document.querySelector(".sidecontentsubname").innerText="TOC"; 
-   // document.querySelector(".sidecontentdaydate").innerText="MONDAY ‎ ‎ ‎28.02.2025";
-   // document.querySelector(".sidecontentpara").innerText="Nothing to do"; 
-   // document.querySelector(".sidecontentdate").innerText="--"; 
-   // document.querySelector(".sidecontentdownload").setAttribute("href","https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg") 
-   document.querySelector(".sidecontentdaydate").innerText="Nothing to do";
-   document.querySelector(".sidecontentsubname").style.display="none";
-   document.querySelector(".sidecontentwork").style.display="none";
-   document.querySelector(".sidecontentpara").style.display="none";
-   document.querySelector(".sidecontentdeadline").style.display="none"; 
-   document.querySelector(".sidecontentdate").style.display="none";
-   document.querySelector(".sidecontentsource").style.display="none";
-   document.querySelector(".sidecontentdownload").style.display="none";
+    document.querySelector(".sidecontentsubname").innerText="TOC"; 
+    document.querySelector(".sidecontentdaydate").innerText="MONDAY ‎ ‎ ‎28.02.2025";
+    document.querySelector(".sidecontentpara").innerText="Nothing to do"; 
+    document.querySelector(".sidecontentdate").innerText="--"; 
+   document.querySelector(".assignmentdownload").setAttribute("href","https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg") 
+   //document.querySelector(".sidecontentdaydate").innerText="Nothing to do";
+   document.querySelector(".sidecontentsubname").style.display="flex";
+   document.querySelector(".sidecontentwork").style.display="flex";
+   document.querySelector(".sidecontentpara").style.display="flex";
+   document.querySelector(".sidecontentdeadline").style.display="flex"; 
+   document.querySelector(".sidecontentdate").style.display="flex";
+   document.querySelector(".sidecontentsource").style.display="flex";
+   document.querySelector(".sidecontentdownload").style.display="flex";
 
 
 

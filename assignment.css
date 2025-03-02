@@ -18,6 +18,10 @@
     display:none;
 }
 
+#DB{
+    color:black;
+}
+
 @font-face {
     font-family: 'Supercell';
     src: url(supercell-magic-webfont.ttf) format('truetype');
@@ -752,8 +756,8 @@ nav {
         position: absolute;
         left: 50%;
         top: clamp(-25px, -4vw, -40px);
-        width: clamp(40px, 10vw, 65px);
-        height: clamp(20px, 5vw, 35px);
+        width:65px;
+        height: 35px;
         transform: translate(-50%, -50%) rotate(-180deg);
         z-index: 1001;
         transition: transform 0.3s ease;
