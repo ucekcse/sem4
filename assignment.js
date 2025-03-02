@@ -14,51 +14,7 @@ hamMenu.addEventListener('click', () => {
     }
 });
 
-function openPopup(assignment) {
-    let title = document.getElementById("popup-title");
-    let desc = document.getElementById("popup-desc");
-    let deadline = document.getElementById("popup-deadline");
 
-    if (assignment === "oop") {
-        title.innerText = "OOP’s";
-        desc.innerText = "Detailed explanation about Object-Oriented Programming assignment.";
-        deadline.innerText = "23.09.2005";
-    } else if (assignment === "DPCO") {
-        title.innerText = "DPCO";
-        desc.innerText = "Detailed explanation about Digital Principle computer organization assignment.";
-        deadline.innerText = "16.10.2024";
-    } else if (assignment === "DM") {
-        title.innerText = "DISCRETE MATHEMATICS";
-        desc.innerText = "Detailed explanation about discrete mathematics assignment.";
-        deadline.innerText = "16.10.2024";
-    } else if (assignment === "DS") {
-        title.innerText = "DATA STRUCTURES";
-        desc.innerText = "Detailed explanation about DATA STRUCTURES assignment.";
-        deadline.innerText = "16.10.2024";
-    } else if (assignment === "FDS") {
-        title.innerText = "FOUNDATION OF DATA SCIENCE";
-        desc.innerText = "Detailed explanation about FOUNDATION OF DATA SCIENCE assignment.";
-        deadline.innerText = "16.10.2024";
-    } else if (assignment === "DSI") {
-        title.innerText = "FOUNDATION OF DATA SCIENCE";
-        desc.innerText = "Detailed explanation about FOUNDATION OF DATA SCIENCE assignment.";
-        deadline.innerText = "16.10.2024";
-    }
-
-    const popup = document.getElementById("popup"); 
-    popup.style.display = "block";
-    popup.classList.remove("hide");
-    popup.classList.add("show");
-}
-
-function closePopup() {
-    const popup = document.getElementById("popup");
-    popup.classList.remove("show");
-    popup.classList.add("hide");
-    setTimeout(() => {
-        popup.style.display = "none";
-    }, 600); // Match animation duration
-}
 
 var line = document.getElementById("navbar");
 var text1 = document.getElementById("navtextone");
@@ -182,7 +138,129 @@ function mondaypopup() {
     popup.classList.remove("hide");
     popup.classList.add("show");
     document.getElementById("sliderarrow").style.transform = "translate(-50%, -50%) rotate(0deg)"; 
-    if (document.getElementById("taskdayinner")) {
-        document.getElementById("taskdayinner").innerText = "MONDAY";
-    }
+   // document.querySelector(".sidecontentsubname").innerText="TOC"; 
+   // document.querySelector(".sidecontentdaydate").innerText="MONDAY ‎ ‎ ‎28.02.2025";
+   // document.querySelector(".sidecontentpara").innerText="Nothing to do"; 
+   // document.querySelector(".sidecontentdate").innerText="--"; 
+   // document.querySelector(".sidecontentdownload").setAttribute("href","https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg") 
+   document.querySelector(".sidecontentdaydate").innerText="Nothing to do";
+   document.querySelector(".sidecontentsubname").style.display="none";
+   document.querySelector(".sidecontentwork").style.display="none";
+   document.querySelector(".sidecontentpara").style.display="none";
+   document.querySelector(".sidecontentdeadline").style.display="none"; 
+   document.querySelector(".sidecontentdate").style.display="none";
+   document.querySelector(".sidecontentsource").style.display="none";
+   document.querySelector(".sidecontentdownload").style.display="none";
+
+
+
+}
+
+function tuesdaypopup() {
+    const popup = document.getElementById("popup"); 
+    popup.style.display = "flex";
+    popup.classList.remove("hide");
+    popup.classList.add("show");
+    document.getElementById("sliderarrow").style.transform = "translate(-50%, -50%) rotate(0deg)"; 
+   // document.querySelector(".sidecontentsubname").innerText="AIML"; 
+    //document.querySelector(".sidecontentdaydate").innerText="TUESDAY ‎ ‎ ‎28.02.2025";
+    //document.querySelector(".sidecontentpara").innerText="Nothing to do"; 
+    //document.querySelector(".sidecontentdate").innerText="--"; 
+    //document.querySelector(".assignmentdownload").setAttribute("href","https://ucekcse.github.io/sem4/task.html");
+    document.querySelector(".sidecontentdaydate").innerText="Nothing to do";
+   document.querySelector(".sidecontentsubname").style.display="none";
+   document.querySelector(".sidecontentwork").style.display="none";
+   document.querySelector(".sidecontentpara").style.display="none";
+   document.querySelector(".sidecontentdeadline").style.display="none"; 
+   document.querySelector(".sidecontentdate").style.display="none";
+   document.querySelector(".sidecontentsource").style.display="none";
+   document.querySelector(".sidecontentdownload").style.display="none"; 
+
+}
+
+function wednesdaypopup() {
+    const popup = document.getElementById("popup"); 
+    popup.style.display = "flex";
+    popup.classList.remove("hide");
+    popup.classList.add("show");
+    document.getElementById("sliderarrow").style.transform = "translate(-50%, -50%) rotate(0deg)"; 
+   // document.querySelector(".sidecontentsubname").innerText="AIML"; 
+    //document.querySelector(".sidecontentdaydate").innerText="TUESDAY ‎ ‎ ‎28.02.2025";
+    //document.querySelector(".sidecontentpara").innerText="Nothing to do"; 
+    //document.querySelector(".sidecontentdate").innerText="--"; 
+    //document.querySelector(".assignmentdownload").setAttribute("href","https://ucekcse.github.io/sem4/task.html");
+    document.querySelector(".sidecontentdaydate").innerText="Nothing to do";
+   document.querySelector(".sidecontentsubname").style.display="none";
+   document.querySelector(".sidecontentwork").style.display="none";
+   document.querySelector(".sidecontentpara").style.display="none";
+   document.querySelector(".sidecontentdeadline").style.display="none"; 
+   document.querySelector(".sidecontentdate").style.display="none";
+   document.querySelector(".sidecontentsource").style.display="none";
+   document.querySelector(".sidecontentdownload").style.display="none"; 
+
+}
+
+function thursdaypopup() {
+    const popup = document.getElementById("popup"); 
+    popup.style.display = "flex";
+    popup.classList.remove("hide");
+    popup.classList.add("show");
+    document.getElementById("sliderarrow").style.transform = "translate(-50%, -50%) rotate(0deg)"; 
+   // document.querySelector(".sidecontentsubname").innerText="AIML"; 
+    //document.querySelector(".sidecontentdaydate").innerText="TUESDAY ‎ ‎ ‎28.02.2025";
+    //document.querySelector(".sidecontentpara").innerText="Nothing to do"; 
+    //document.querySelector(".sidecontentdate").innerText="--"; 
+    //document.querySelector(".assignmentdownload").setAttribute("href","https://ucekcse.github.io/sem4/task.html");
+    document.querySelector(".sidecontentdaydate").innerText="Nothing to do";
+   document.querySelector(".sidecontentsubname").style.display="none";
+   document.querySelector(".sidecontentwork").style.display="none";
+   document.querySelector(".sidecontentpara").style.display="none";
+   document.querySelector(".sidecontentdeadline").style.display="none"; 
+   document.querySelector(".sidecontentdate").style.display="none";
+   document.querySelector(".sidecontentsource").style.display="none";
+   document.querySelector(".sidecontentdownload").style.display="none"; 
+
+}
+function fridaypopup() {
+    const popup = document.getElementById("popup"); 
+    popup.style.display = "flex";
+    popup.classList.remove("hide");
+    popup.classList.add("show");
+    document.getElementById("sliderarrow").style.transform = "translate(-50%, -50%) rotate(0deg)"; 
+   // document.querySelector(".sidecontentsubname").innerText="aa"; 
+    //document.querySelector(".sidecontentdaydate").innerText="TUESDAY ‎ ‎ ‎28.02.2025";
+    //document.querySelector(".sidecontentpara").innerText="Nothing to do"; 
+   // document.querySelector(".sidecontentdate").innerText="--"; 
+   // document.querySelector(".assignmentdownload").setAttribute("href","https://ucekcse.github.io/sem4/task.html");
+   document.querySelector(".sidecontentdaydate").innerText="Nothing to do";
+   document.querySelector(".sidecontentsubname").style.display="none";
+   document.querySelector(".sidecontentwork").style.display="none";
+   document.querySelector(".sidecontentpara").style.display="none";
+   document.querySelector(".sidecontentdeadline").style.display="none"; 
+   document.querySelector(".sidecontentdate").style.display="none";
+   document.querySelector(".sidecontentsource").style.display="none";
+   document.querySelector(".sidecontentdownload").style.display="none";
+
+}
+function saturdaypopup() {
+    const popup = document.getElementById("popup"); 
+    popup.style.display = "flex";
+    popup.classList.remove("hide");
+    popup.classList.add("show");
+    document.getElementById("sliderarrow").style.transform = "translate(-50%, -50%) rotate(0deg)"; 
+  // document.querySelector(".sidecontentsubname").innerText="EVS"; 
+    //document.querySelector(".sidecontentdaydate").innerText="TUESDAY ‎ ‎ ‎28.02.2025";
+//document.querySelector(".sidecontentpara").innerText="Nothing to do"; 
+   // document.querySelector(".sidecontentdate").innerText="22/22/2222"; 
+   // document.querySelector(".assignmentdownload").setAttribute("") ;
+   document.querySelector(".sidecontentdaydate").innerText="Nothing to do";
+   document.querySelector(".sidecontentsubname").style.display="none";
+   document.querySelector(".sidecontentwork").style.display="none";
+   document.querySelector(".sidecontentpara").style.display="none";
+   document.querySelector(".sidecontentdeadline").style.display="none"; 
+   document.querySelector(".sidecontentdate").style.display="none";
+   document.querySelector(".sidecontentsource").style.display="none";
+   document.querySelector(".sidecontentdownload").style.display="none";
+
+
 }
