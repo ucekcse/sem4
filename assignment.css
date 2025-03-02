@@ -14,6 +14,9 @@
 .allsubside {
     display: none;
 }
+#row7{
+    display:none;
+}
 
 @font-face {
     font-family: 'Supercell';
@@ -826,7 +829,7 @@ nav {
 
     .sidecontentsmain {
         width: 100%;
-       margin-left:15vw;
+       margin-left:11vw;
         display: flex;
         margin-top:30px;
 ;
@@ -966,7 +969,7 @@ nav {
 
     .assignment-card {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         width: 320px;
         height: 120px;
@@ -1023,6 +1026,7 @@ nav {
         background-color: #ffffff;
         border-radius: 15px;
         padding: 20px;
+        padding-bottom:20px;
     }
 
     .close-btn {
@@ -1069,12 +1073,15 @@ nav {
         margin-left: 10px;
         text-align: center;
     }
-
+    .card-content{
+        padding-right:70px;
+    }
     .card-content-subname {
         font-size: 24px;
         font-family: "Anton", sans-serif;
         border-left: 2px solid black;
         padding-left: 16px;
+        padding-top:6px;
     }
 
     .card-content-summary {
@@ -1082,6 +1089,7 @@ nav {
         font-family: "Poppins", serif;
         border-left: 2px solid black;
         padding-left: 16px;
+        padding-top:6px;
     }
 
     .card-content-deadline {
@@ -1091,6 +1099,7 @@ nav {
         color: #FF3025;
         border-left: 2px solid black;
         padding-left: 16px;
+        padding-top:6px;
     }
 
     .footer {
