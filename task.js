@@ -122,1691 +122,7 @@ window.addEventListener("resize", resetNavBarStyles);
 // Initial call to set correct styles on page load
 resetNavBarStyles();
 
- 
-   
-if (window.innerWidth > 1700) 
-    {
-        function showallsubcontentone(){
-            document.getElementById("sidehidden").style.display="none";
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-        
-          
-            taskcontainer.style.justifyContent="space-between";
-            
-            document.getElementById("allsubside").style.display="none";
-            document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px";
-            
-            datedetail.forEach(element => {
-                element.style.fontSize = '21px'; // Or set a specific font size
-            });
-            daydetail.forEach(element => {
-                element.style.fontSize = '18px'; // Or set a specific font size
-            });
-            
-        
-            
-        }
-        function showallsubcontenttwo(){
-            document.getElementById("sidehidden").style.display="none";
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-        
-          
-            taskcontainer.style.justifyContent="space-between";
-            
-            document.getElementById("allsubside").style.display="none";
-            document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px";
-            document.getElementById("allsubpara").innerText="two";
-            datedetail.forEach(element => {
-                element.style.fontSize = '21px'; // Or set a specific font size
-            });
-            daydetail.forEach(element => {
-                element.style.fontSize = '18px'; // Or set a specific font size
-            });
-            
-         
-        }
-        function showallsubcontentthree(){
-            document.getElementById("sidehidden").style.display="none";
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-        
-          
-            taskcontainer.style.justifyContent="space-between";
-            
-            document.getElementById("allsubside").style.display="none";
-            document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px";
-        
-            document.getElementById("allsubpara").innerText="three";
 
-            datedetail.forEach(element => {
-                element.style.fontSize = '21px'; // Or set a specific font size
-            });
-            daydetail.forEach(element => {
-                element.style.fontSize = '18px'; // Or set a specific font size
-            });
-            
-         
-        }
-        function showallsubcontentfour(){
-            document.getElementById("sidehidden").style.display="none";
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-        
-          
-            taskcontainer.style.justifyContent="space-between";
-            
-            document.getElementById("allsubside").style.display="flex";
-            document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px";
-            document.querySelectorAll(".allsubpara")[0].innerText="AIML lab";
-            document.querySelectorAll(".allsubpara")[1].innerText="DBMS lab";
-            document.querySelectorAll(".sidecontentpara")[0].innerText="Write full lab observation";
-            document.querySelectorAll(".sidecontentpara")[1].innerText="Write 1st 4 program in observation";
-            document.querySelectorAll(".sidecontentdate")[0].innerText="04.03.2025";
-            document.querySelectorAll(".sidecontentdate")[1].innerText="03.03.2025";
-            document.querySelectorAll(".downloada")[0].setAttribute("href","https://aliabdaal.com/studying/");
-            document.querySelectorAll(".downloada")[1].setAttribute("href","https://aliabdaal.com/studying/")
-            document.getElementById("allsubone").style.display="flex";
-            document.getElementById("allsubtwo").style.display="flex";
-        
-            document.getElementById("allsubthree").style.display="none";
-            document.getElementById("allsubfour").style.display="none";
-            document.getElementById("allsubfive").style.display="none";
-            document.getElementById("allsubsix").style.display="none";
-
-            datedetail.forEach(element => {
-                element.style.fontSize = '21px'; // Or set a specific font size
-            });
-            daydetail.forEach(element => {
-                element.style.fontSize = '18px'; // Or set a specific font size
-            });
-            
-         
-        }
-        function showallsubcontentfive(){
-            document.getElementById("sidehidden").style.display="none";
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-        
-          
-            taskcontainer.style.justifyContent="space-between";
-            
-            document.getElementById("allsubside").style.display="flex";
-            document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px";
-            document.getElementById("allsubpara").innerText="five";
-            document.querySelectorAll(".allsubpara")[0].innerText="DBMS";
-            document.querySelectorAll(".allsubpara")[1].innerText="Algorithms";
-            document.querySelectorAll(".sidecontentpara")[0].innerText="Write the notes on the thing which out man though today which is from the PDF send by her";
-            document.querySelectorAll(".sidecontentpara")[1].innerText="Get the print out of the syllabus of AL and also colour print out of Big O notion pdf.";
-            document.querySelectorAll(".sidecontentdate")[0].innerText="01.03.2025";
-            document.querySelectorAll(".sidecontentdate")[1].innerText="03.03.2025";
-            document.querySelectorAll(".downloada")[0].setAttribute("href","https://aliabdaal.com/studying/");
-            document.querySelectorAll(".downloada")[1].setAttribute("href","https://aliabdaal.com/studying/")
-            document.getElementById("allsubone").style.display="flex";
-            document.getElementById("allsubtwo").style.display="flex";
-        
-            document.getElementById("allsubthree").style.display="none";
-            document.getElementById("allsubfour").style.display="none";
-            document.getElementById("allsubfive").style.display="none";
-            document.getElementById("allsubsix").style.display="none";
-
-            datedetail.forEach(element => {
-                element.style.fontSize = '21px'; // Or set a specific font size
-            });
-            daydetail.forEach(element => {
-                element.style.fontSize = '18px'; // Or set a specific font size
-            });
-           
-            
-        }
-        function showallsubcontentsix(){
-            document.getElementById("sidehidden").style.display="none";
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-        
-          
-            taskcontainer.style.justifyContent="space-between";
-            
-            document.getElementById("allsubside").style.display="flex";
-          
-            document.getElementById("allsubpara").innerText="six";
-            
-            document.querySelectorAll(".downloada")[3].setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-            document.getElementById("allsubone").style.display="flex";
-            document.getElementById("allsubtwo").style.display="none";
-            document.getElementById("allsubthree").style.display="none";
-            document.getElementById("allsubfour").style.display="none";
-            document.getElementById("allsubfive").style.display="none";
-            document.getElementById("allsubsix").style.display="none";
-            datedetail.forEach(element => {
-                element.style.fontSize = '21px'; // Or set a specific font size
-            });
-            daydetail.forEach(element => {
-                element.style.fontSize = '18px'; // Or set a specific font size
-            });
-            document.querySelectorAll(".allsubpara")[0].innerText="OS LAB";
-  
-            document.querySelectorAll(".sidecontentpara")[0].innerText="Write 1st four experiments";
-           
-            document.querySelectorAll(".sidecontentdate")[0].innerText="02.03.2025";
-           
-            document.querySelectorAll(".downloada")[0].setAttribute("href","https://drive.google.com/file/d/10zFvsle9dxieBIJjiNGPzrOSQMBvUKPS/view?usp=drivesdk");
-            document.getElementById("allsubtwo").style.display="none";
-            document.getElementById("allsubthree").style.display="none";
-            document.getElementById("allsubfour").style.display="none";
-            document.getElementById("allsubfive").style.display="none";
-            document.getElementById("allsubsix").style.display="none";
-               
-        }
-        
-      
-        function shrinkrowtwotwo(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px";
-        }
-
-        function shrinkrowtwothree(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowtwofour(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowtwofive(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowtwosix(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowtwoseven(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowthreetwo(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowthreethree(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowthreefour(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowthreefive(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowthreesix(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowthreeseven(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowfourtwo(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowfourthree(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowfourfour(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowfourfive(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowfoursix(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowfourseven(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowfivetwo(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowfivethree(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowfivefour(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="hope";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowfivefive(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowfivesix(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-        function shrinkrowfiveseven(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-        function shrinkrowsixtwo(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowsixthree(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowsixfour(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowsixfive(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowsixsix(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowsixseven(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowseventwo(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowseventhree(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowsevenfour(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-
-        function shrinkrowsevenfive(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="OS";
-    document.querySelector(".minorboxpara").innerText="Write 1st four program";
-    document.querySelector(".sidecontentdaydate").innerText="SATURDAY ‎ ‎ ‎01.03.2025";
-  
-    document.querySelector(".minorboxdate").innerText="03.03.2025";
-    document.querySelector(".downloadminor").setAttribute("href","https://drive.google.com/file/d/10zFvsle9dxieBIJjiNGPzrOSQMBvUKPS/view?usp=drivesdk");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-        
-
-        function shrinkrowsevensix(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="AIML lab";
-            document.querySelector(".minorboxpara").innerText="Write full lab observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="04.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-        
-            
-        
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-        
-        function shrinkrowsevenseven(){
-            taskmain.style.width="910px";
-            taskmain.style.height="500px";
-            taskmain.style.marginLeft="18%";
-            taskside.style.display="flex";
-            document.getElementById("sidehidden").style.display="flex";
-          
-            taskcontainer.style.justifyContent="space-between";
-            taskmain.classList.add('taskcontentsmall');
-            box1.classList.add('rowsmall');
-            daysmall.style.left="20px";
-            subsmall.style.top="2px"
-            subsmall.style.right="3px";
-            daysmall.style.bottom="2px";
-           datedetail.forEach(element => {
-            element.style.fontSize = '21px'; // Or set a specific font size
-            document.getElementById("allsubside").style.display="none";
-            document.querySelector(".sidecontentsubname").innerText="DBMS lab";
-            document.querySelector(".minorboxpara").innerText="Write 1st 4 program in observation";
-            document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-          
-            document.querySelector(".minorboxdate").innerText="03.03.2025";
-            document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
-          
-        });
-        daydetail.forEach(element => {
-            element.style.fontSize = '18px'; // Or set a specific font size
-        });
-           document.getElementById("daysmall").style.fontSize="18px";
-            document.getElementById("subsmall").style.fontSize="18px"
-        }
-        
-       
-        
-    }
-else{
-
-
-
-
-
-
-function showallsubcontentone(){
-    document.getElementById("sidehidden").style.display="none";
-    taskmain.style.width="910px";
-    taskmain.style.height="500px";
-    taskmain.style.marginLeft="33px";
-    taskside.style.display="flex";
-    taskmain.classList.add('taskcontentsmall');
-    box1.classList.add('rowsmall');
-    daysmall.style.left="20px";
-    subsmall.style.top="2px"
-    subsmall.style.right="3px";
-    daysmall.style.bottom="2px";
-
-  
-    taskcontainer.style.justifyContent="space-between";
-    
-    document.getElementById("allsubside").style.display="none";
-    document.getElementById("daysmall").style.fontSize="18px";
-    document.getElementById("subsmall").style.fontSize="18px";
-
-    datedetail.forEach(element => {
-        element.style.fontSize = '21px'; // Or set a specific font size
-    });
-    daydetail.forEach(element => {
-        element.style.fontSize = '18px'; // Or set a specific font size
-    });
-    
-    
-
-    
-}
-function showallsubcontenttwo(){
-    document.getElementById("sidehidden").style.display="none";
-    taskmain.style.width="910px";
-    taskmain.style.height="500px";
-    taskmain.style.marginLeft="33px";
-    taskside.style.display="flex";
-    taskmain.classList.add('taskcontentsmall');
-    box1.classList.add('rowsmall');
-    daysmall.style.left="20px";
-    subsmall.style.top="2px"
-    subsmall.style.right="3px";
-    daysmall.style.bottom="2px";
-
-  
-    taskcontainer.style.justifyContent="space-between";
-    
-    document.getElementById("allsubside").style.display="none";
-    document.getElementById("daysmall").style.fontSize="18px";
-    document.getElementById("subsmall").style.fontSize="18px";
-    document.getElementById("allsubpara").innerText="two";
-    datedetail.forEach(element => {
-        element.style.fontSize = '21px'; // Or set a specific font size
-    });
-    daydetail.forEach(element => {
-        element.style.fontSize = '18px'; // Or set a specific font size
-    });
-    
- 
-}
-function showallsubcontentthree(){
-    document.getElementById("sidehidden").style.display="none";
-    taskmain.style.width="910px";
-    taskmain.style.height="500px";
-    taskmain.style.marginLeft="33px";
-    taskside.style.display="flex";
-    taskmain.classList.add('taskcontentsmall');
-    box1.classList.add('rowsmall');
-    daysmall.style.left="20px";
-    subsmall.style.top="2px"
-    subsmall.style.right="3px";
-    daysmall.style.bottom="2px";
-
-  
-    taskcontainer.style.justifyContent="space-between";
-    
-    document.getElementById("allsubside").style.display="none";
-    document.getElementById("daysmall").style.fontSize="18px";
-    document.getElementById("subsmall").style.fontSize="18px";
-
-    document.getElementById("allsubpara").innerText="three";
-    datedetail.forEach(element => {
-        element.style.fontSize = '21px'; // Or set a specific font size
-    });
-    daydetail.forEach(element => {
-        element.style.fontSize = '18px'; // Or set a specific font size
-    });
-    
- 
-}
-function showallsubcontentfour(){
-    document.getElementById("sidehidden").style.display="none";
-    taskmain.style.width="910px";
-    taskmain.style.height="500px";
-    taskmain.style.marginLeft="33px";
-    taskside.style.display="flex";
-    taskmain.classList.add('taskcontentsmall');
-    box1.classList.add('rowsmall');
-    daysmall.style.left="20px";
-    subsmall.style.top="2px"
-    subsmall.style.right="3px";
-    daysmall.style.bottom="2px";
-
-  
-    taskcontainer.style.justifyContent="space-between";
-    
-    document.getElementById("allsubside").style.display="flex";
-    document.getElementById("daysmall").style.fontSize="18px";
-    document.getElementById("subsmall").style.fontSize="18px";
-    document.querySelectorAll(".allsubpara")[0].innerText="AIML lab";
-    document.querySelectorAll(".allsubpara")[1].innerText="DBMS lab";
-    document.querySelectorAll(".sidecontentpara")[0].innerText="Write full lab observation";
-    document.querySelectorAll(".sidecontentpara")[1].innerText="Write 1st 4 program in observation";
-    document.querySelectorAll(".sidecontentdate")[0].innerText="04.03.2025";
-    document.querySelectorAll(".sidecontentdate")[1].innerText="03.03.2025";
-    document.querySelectorAll(".downloada")[0].setAttribute("href","https://aliabdaal.com/studying/");
-    document.querySelectorAll(".downloada")[1].setAttribute("href","https://aliabdaal.com/studying/")
-
-
-    document.getElementById("allsubone").style.display="flex";
-    document.getElementById("allsubtwo").style.display="flex"
-    document.getElementById("allsubthree").style.display="none";
-    document.getElementById("allsubfour").style.display="none";
-    document.getElementById("allsubfive").style.display="none";
-    document.getElementById("allsubsix").style.display="none";
-    datedetail.forEach(element => {
-        element.style.fontSize = '21px'; // Or set a specific font size
-    });
-    daydetail.forEach(element => {
-        element.style.fontSize = '18px'; // Or set a specific font size
-    });
-    
- 
-}
-function showallsubcontentfive(){
-    document.getElementById("sidehidden").style.display="none";
-    taskmain.style.width="910px";
-    taskmain.style.height="500px";
-    taskmain.style.marginLeft="33px";
-    taskside.style.display="flex";
-    taskmain.classList.add('taskcontentsmall');
-    box1.classList.add('rowsmall');
-    daysmall.style.left="20px";
-    subsmall.style.top="2px"
-    subsmall.style.right="3px";
-    daysmall.style.bottom="2px";
-
-  
-    taskcontainer.style.justifyContent="space-between";
-    
-    document.getElementById("allsubside").style.display="flex";
-    document.getElementById("daysmall").style.fontSize="18px";
-    document.getElementById("subsmall").style.fontSize="18px";
-    document.getElementById("allsubpara").innerText="five";
-    document.querySelectorAll(".allsubpara")[0].innerText="DBMS";
-    document.querySelectorAll(".allsubpara")[1].innerText="Algorithms";
-    document.querySelectorAll(".sidecontentpara")[0].innerText="Write the notes on the thing which out man though today which is from the PDF send by her";
-    document.querySelectorAll(".sidecontentpara")[1].innerText="Get the print out of the syllabus of AL and also colour print out of Big O notion pdf.";
-    document.querySelectorAll(".sidecontentdate")[0].innerText="01.03.2025";
-    document.querySelectorAll(".sidecontentdate")[1].innerText="03.03.2025";
-    document.querySelectorAll(".downloada")[0].setAttribute("href","https://aliabdaal.com/studying/");
-    document.querySelectorAll(".downloada")[1].setAttribute("href","https://aliabdaal.com/studying/")
-
-    document.getElementById("allsubone").style.display="flex";
-    document.getElementById("allsubtwo").style.display="flex";
-
-    document.getElementById("allsubthree").style.display="none";
-    document.getElementById("allsubfour").style.display="none";
-    document.getElementById("allsubfive").style.display="none";
-    document.getElementById("allsubsix").style.display="none";
-    datedetail.forEach(element => {
-        element.style.fontSize = '21px'; // Or set a specific font size
-    });
-    daydetail.forEach(element => {
-        element.style.fontSize = '18px'; // Or set a specific font size
-    });
-
-    
-   
- 
-}
-function showallsubcontentsix(){
-    document.getElementById("sidehidden").style.display="none";
-    taskmain.style.width="910px";
-    taskmain.style.height="500px";
-    taskmain.style.marginLeft="33px";
-    taskside.style.display="flex";
-    taskmain.classList.add('taskcontentsmall');
-    box1.classList.add('rowsmall');
-    daysmall.style.left="20px";
-    subsmall.style.top="2px"
-    subsmall.style.right="3px";
-    daysmall.style.bottom="2px";
-
-  
-    taskcontainer.style.justifyContent="space-between";
-    
-    document.getElementById("allsubside").style.display="flex";
-    document.getElementById("daysmall").style.fontSize="18px";
-    document.getElementById("subsmall").style.fontSize="18px";
-    document.getElementById("allsubpara").innerText="six";
-   
-    datedetail.forEach(element => {
-        element.style.fontSize = '21px'; // Or set a specific font size
-    });
-    daydetail.forEach(element => {
-        element.style.fontSize = '18px'; // Or set a specific font size
-    });
-
-    document.querySelectorAll(".allsubpara")[0].innerText="OS LAB";
-  
-    document.querySelectorAll(".sidecontentpara")[0].innerText="Write 1st four experiments";
-   
-    document.querySelectorAll(".sidecontentdate")[0].innerText="02.03.2025";
-   
-    document.querySelectorAll(".downloada")[0].setAttribute("href","https://drive.google.com/file/d/10zFvsle9dxieBIJjiNGPzrOSQMBvUKPS/view?usp=drivesdk");
-    document.getElementById("allsubtwo").style.display="none";
-    document.getElementById("allsubthree").style.display="none";
-    document.getElementById("allsubfour").style.display="none";
-    document.getElementById("allsubfive").style.display="none";
-    document.getElementById("allsubsix").style.display="none";
-}
 
 function shrinkrowtwotwo(){
     taskmain.style.width="910px";
@@ -1815,7 +131,7 @@ function shrinkrowtwotwo(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -1849,7 +165,7 @@ function shrinkrowtwothree(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -1883,7 +199,7 @@ function shrinkrowtwofour(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -1917,7 +233,7 @@ function shrinkrowtwofive(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -1951,7 +267,7 @@ function shrinkrowtwosix(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -1985,7 +301,7 @@ function shrinkrowtwoseven(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2019,7 +335,7 @@ function shrinkrowthreetwo(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2053,7 +369,7 @@ function shrinkrowthreethree(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2087,7 +403,7 @@ function shrinkrowthreefour(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2121,7 +437,7 @@ function shrinkrowthreefive(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2155,7 +471,7 @@ function shrinkrowthreesix(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2189,7 +505,7 @@ function shrinkrowthreeseven(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2223,7 +539,7 @@ function shrinkrowfourtwo(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2257,7 +573,7 @@ function shrinkrowfourthree(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2291,7 +607,7 @@ function shrinkrowfourfour(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2325,7 +641,7 @@ function shrinkrowfourfive(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2359,7 +675,7 @@ function shrinkrowfoursix(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2393,7 +709,7 @@ function shrinkrowfourseven(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2427,7 +743,7 @@ function shrinkrowfivetwo(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2461,7 +777,7 @@ function shrinkrowfivethree(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2495,7 +811,7 @@ function shrinkrowfivefour(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2529,7 +845,7 @@ function shrinkrowfivefive(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2563,7 +879,7 @@ function shrinkrowfivesix(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2596,7 +912,7 @@ function shrinkrowfiveseven(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2629,7 +945,7 @@ function shrinkrowsixtwo(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2663,7 +979,7 @@ function shrinkrowsixthree(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2697,7 +1013,7 @@ function shrinkrowsixfour(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2731,7 +1047,7 @@ function shrinkrowsixfive(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2765,7 +1081,7 @@ function shrinkrowsixsix(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2799,7 +1115,7 @@ function shrinkrowsixseven(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2833,7 +1149,7 @@ function shrinkrowseventwo(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2867,7 +1183,7 @@ function shrinkrowseventhree(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2901,7 +1217,7 @@ function shrinkrowsevenfour(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2935,7 +1251,7 @@ function shrinkrowsevenfive(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -2970,7 +1286,7 @@ function shrinkrowsevensix(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -3004,7 +1320,7 @@ function shrinkrowsevenseven(){
     taskside.style.display="flex";
     document.getElementById("sidehidden").style.display="flex";
   
-    taskcontainer.style.justifyContent="space-between";
+   
     taskmain.classList.add('taskcontentsmall');
     box1.classList.add('rowsmall');
     daysmall.style.left="20px";
@@ -3029,7 +1345,7 @@ daydetail.forEach(element => {
     document.getElementById("subsmall").style.fontSize="18px"
 }
 
-}
+
 
 
 

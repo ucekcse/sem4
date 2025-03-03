@@ -313,6 +313,8 @@ nav a{
     
     display:none;
     overflow-x:scroll;
+    position: absolute;
+    right:0;
    
 }
 .sidecontentsmain{
@@ -671,6 +673,7 @@ color:#000016;
 }
 #taskmain{
     cursor:pointer;
+    position: absolute;
 }
 
 
@@ -732,99 +735,6 @@ color:#000016;
 }
 
 
-
-
-
-.rowtwo1,.rowthree1,.rowfour1,.rowfive1,.rowsix1,.rowseven1 {
-   
-   
-    
-   
-    
-   
-    background: linear-gradient(45deg, #9AABFF 40%, #ffffff13 50%, #9AABFF 60%);
-    background-size: 200% 100%;
-    border: none;
-  
-    position: relative;
-    
-    animation: shine 2.1s infinite linear; 
-     
-}
-
-.rowtwo1:hover {
-   
-    background: linear-gradient(45deg, #6A83FF 40%, #ffffff13 50%, #6A83FF 60%);
-    background-size: 200% 100%;
-   
-  
-    position: relative;
-    
-    animation: shine 3s infinite linear; 
-    
-  
-}
-
-.rowthree1:hover{
-
-    background: linear-gradient(45deg, #6A83FF 40%, #ffffff13 50%, #6A83FF 60%);
-    background-size: 200% 100%;
-   
-  
-    position: relative;
-    
-    animation: shine 3s infinite linear; 
-
-}
-
-.rowfour1:hover{
-
-    background: linear-gradient(45deg, #6A83FF 40%, #ffffff13 50%, #6A83FF 60%);
-    background-size: 200% 100%;
-   
-  
-    position: relative;
-    
-    animation: shine 3s infinite linear; 
-
-}
-
-.rowfive1:hover{
-
-    background: linear-gradient(45deg, #6A83FF 40%, #ffffff13 50%, #6A83FF 60%);
-    background-size: 200% 100%;
-   
-  
-    position: relative;
-    
-    animation: shine 3s infinite linear; 
-
-}
-
-
-.rowsix1:hover{
-
-    background: linear-gradient(45deg, #6A83FF 40%, #ffffff13 50%, #6A83FF 60%);
-    background-size: 200% 100%;
-   
-  
-    position: relative;
-    
-    animation: shine 3s infinite linear; 
-
-}
-
-.rowseven1:hover{
-
-
-    background: linear-gradient(45deg, #6A83FF 40%, #ffffff13 50%, #6A83FF 60%);
-    background-size: 200% 100%;
-   
-  
-    position: relative;
-    
-    animation: shine 3s infinite linear; 
-}
 
 
 
