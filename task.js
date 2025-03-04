@@ -150,7 +150,7 @@ function updateSidebar(subject, task, dayDate, deadline, downloadLink) {
 }
 
 function shrinkrowthreetwo() {
-    updateSidebar("TOC","Finish today's Homework", "TUESDAY 04.03.2025", "06.03.2025", "https://drive.google.com/file/d/1318W2I39822bcL6xWs6L4U0xqtVN6D0d/view?usp=drive_link");
+    updateSidebar("TOC","Finish today's Homework", "TUESDAY 04.03.2025", "06.03.2025", "https://drive.google.com/file/d/12ww4ni_drQUgopMLHdgoy24gr4joFBmh/view?usp=drive_link");
 }
 
 function shrinkrowthreefive() {
@@ -307,7 +307,7 @@ function tuesdaypopup() {
         document.querySelector(".sidecontentparaphonetwo").innerText = "Write experiments till 4A,4B";
         document.querySelector(".sidecontentdatephoneone").innerText = "06.03.2025";
         document.querySelector(".sidecontentdatephonetwo").innerText = "05.03.2025";
-        document.querySelector("#phonedownloadone").setAttribute("href", "https://drive.google.com/file/d/1318W2I39822bcL6xWs6L4U0xqtVN6D0d/view");
+        document.querySelector("#phonedownloadone").setAttribute("href", "https://drive.google.com/file/d/12ww4ni_drQUgopMLHdgoy24gr4joFBmh/view?usp=drive_link");
         document.querySelector("#phonedownloadtwo").setAttribute("href", "https://drive.google.com/file/d/1-pGfrSVHRHqth14F7ZRKOpnJlFJSUiZa/view");
         const popup = document.getElementById("popup");
         popup.classList.remove("hide");
