@@ -141,6 +141,9 @@ function shrinkrowtwotwo(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
+    document.getElementById("taskmain").style.marginRight="30%";
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -156,6 +159,8 @@ daydetail.forEach(element => {
 });
    document.getElementById("daysmall").style.fontSize="18px";
     document.getElementById("subsmall").style.fontSize="18px"
+
+
 }
 
 function shrinkrowtwothree(){
@@ -175,6 +180,8 @@ function shrinkrowtwothree(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -209,6 +216,8 @@ function shrinkrowtwofour(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -243,6 +252,8 @@ function shrinkrowtwofive(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -277,6 +288,8 @@ function shrinkrowtwosix(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -311,6 +324,8 @@ function shrinkrowtwoseven(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -345,6 +360,8 @@ function shrinkrowthreetwo(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -379,6 +396,8 @@ function shrinkrowthreethree(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -413,6 +432,8 @@ function shrinkrowthreefour(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -447,6 +468,8 @@ function shrinkrowthreefive(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -481,6 +504,8 @@ function shrinkrowthreesix(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -515,6 +540,8 @@ function shrinkrowthreeseven(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -549,6 +576,8 @@ function shrinkrowfourtwo(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -583,6 +612,8 @@ function shrinkrowfourthree(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -617,6 +648,8 @@ function shrinkrowfourfour(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -651,6 +684,8 @@ function shrinkrowfourfive(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -685,6 +720,8 @@ function shrinkrowfoursix(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -719,6 +756,8 @@ function shrinkrowfourseven(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -753,6 +792,8 @@ function shrinkrowfivetwo(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -787,6 +828,8 @@ function shrinkrowfivethree(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -821,6 +864,8 @@ function shrinkrowfivefour(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="hope";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -855,6 +900,8 @@ function shrinkrowfivefive(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -889,6 +936,8 @@ function shrinkrowfivesix(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -922,6 +971,8 @@ function shrinkrowfiveseven(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -955,6 +1006,8 @@ function shrinkrowsixtwo(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -989,6 +1042,8 @@ function shrinkrowsixthree(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -1023,6 +1078,8 @@ function shrinkrowsixfour(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -1057,6 +1114,8 @@ function shrinkrowsixfive(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -1091,6 +1150,8 @@ function shrinkrowsixsix(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -1125,6 +1186,8 @@ function shrinkrowsixseven(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -1159,6 +1222,8 @@ function shrinkrowseventwo(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -1193,6 +1258,8 @@ function shrinkrowseventhree(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -1227,6 +1294,8 @@ function shrinkrowsevenfour(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -1261,10 +1330,13 @@ function shrinkrowsevenfive(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="OS";
     document.querySelector(".minorboxpara").innerText="Write 1st four program";
     document.querySelector(".sidecontentdaydate").innerText="SATURDAY ‎ ‎ ‎01.03.2025";
-  
+    document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".minorboxdate").innerText="03.03.2025";
     document.querySelector(".downloadminor").setAttribute("href","https://drive.google.com/file/d/10zFvsle9dxieBIJjiNGPzrOSQMBvUKPS/view?usp=drivesdk");
 
@@ -1296,6 +1368,8 @@ function shrinkrowsevensix(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="AIML lab";
     document.querySelector(".minorboxpara").innerText="Write full lab observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
@@ -1330,10 +1404,13 @@ function shrinkrowsevenseven(){
    datedetail.forEach(element => {
     element.style.fontSize = '21px'; // Or set a specific font size
     document.getElementById("allsubside").style.display="none";
+        document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".sidecontentsubname").innerText="DBMS lab";
     document.querySelector(".minorboxpara").innerText="Write 1st 4 program in observation";
     document.querySelector(".sidecontentdaydate").innerText="THURSDAY ‎ ‎ ‎27.02.2025";
-  
+    document.getElementById("taskmain").style.marginRight="30%";
+
     document.querySelector(".minorboxdate").innerText="03.03.2025";
     document.querySelector(".downloadminor").setAttribute("href","https://imgk.timesnownews.com/story/1542697236-Kohli-roar-AP.jpg");
   
