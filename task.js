@@ -1596,11 +1596,20 @@ function expandonepop(){
         document.getElementById("arrowone").style.transform = "rotate(0deg)";
 
     document.getElementById("allsubsidehidepopone").style.display="flex";
+    document.getElementById("allsubsidehidepoptwo").style.display="none";
+    document.getElementById("allsubsidehidepopthree").style.display="none";
+    document.getElementById("allsubsidehidepopfour").style.display="none";
+    document.getElementById("allsubsidehidepopfive").style.display="none";
+    document.getElementById("allsubsidehidepopsix").style.display="none";
     document.getElementById("allsubsidehide").style.flexDirection = "column";
    document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
    document.getElementById("allsubsidehidetwo").style.display="none";
    document.getElementById("allsubone").style.borderBottom="0px solid #9F9FD6";
-  
+    document.getElementById("arrtwo").style.transform = "rotate(-90deg)";
+    document.getElementById("arrthree").style.transform = "rotate(-90deg)";
+    document.getElementById("arrsix").style.transform = "rotate(-90deg)";
+    document.getElementById("arrfour").style.transform = "rotate(-90deg)";
+    document.getElementById("arrfive").style.transform = "rotate(-90deg)";
 
     }
     else{
@@ -1621,7 +1630,17 @@ function expandtwopop(){
    document.getElementById("allsubone").style.border="0px";
    document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
    document.getElementById("allsubsidehidetwo").style.display="none";
-    
+   document.getElementById("allsubsidehidepopone").style.display="none";
+   document.getElementById("allsubsidehidepoptwo").style.display="flex";
+   document.getElementById("allsubsidehidepopthree").style.display="none";
+   document.getElementById("allsubsidehidepopfour").style.display="none";
+   document.getElementById("allsubsidehidepopfive").style.display="none";
+   document.getElementById("allsubsidehidepopsix").style.display="none";
+   document.getElementById("arrowone").style.transform = "rotate(-90deg)";
+   document.getElementById("arrthree").style.transform = "rotate(-90deg)";
+   document.getElementById("arrsix").style.transform = "rotate(-90deg)";
+   document.getElementById("arrfour").style.transform = "rotate(-90deg)";
+   document.getElementById("arrfive").style.transform = "rotate(-90deg)";
     document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";
     }
     else{
@@ -1643,7 +1662,18 @@ function expandtwopop(){
    document.getElementById("allsubone").style.border="0px";
    document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
    document.getElementById("allsubsidehidetwo").style.display="none";
-    
+   document.getElementById("allsubsidehidepopone").style.display="none";
+   document.getElementById("allsubsidehidepoptwo").style.display="none";
+   document.getElementById("allsubsidehidepopthree").style.display="flex";
+   document.getElementById("allsubsidehidepopfour").style.display="none";
+   document.getElementById("allsubsidehidepopfive").style.display="none";
+   document.getElementById("allsubsidehidepopsix").style.display="none";
+   document.getElementById("arrowone").style.transform = "rotate(-90deg)";
+   document.getElementById("arrtwo").style.transform = "rotate(-90deg)";
+   document.getElementById("arrsix").style.transform = "rotate(-90deg)";
+   document.getElementById("arrfour").style.transform = "rotate(-90deg)";
+   document.getElementById("arrfive").style.transform = "rotate(-90deg)";
+
     document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";
     }
     else{
@@ -1665,7 +1695,17 @@ function expandtwopop(){
    document.getElementById("allsubone").style.border="0px";
    document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
    document.getElementById("allsubsidehidetwo").style.display="none";
-    
+   document.getElementById("allsubsidehidepopone").style.display="none";
+   document.getElementById("allsubsidehidepoptwo").style.display="none";
+   document.getElementById("allsubsidehidepopthree").style.display="none";
+   document.getElementById("allsubsidehidepopfour").style.display="flex";
+   document.getElementById("allsubsidehidepopfive").style.display="none";
+   document.getElementById("allsubsidehidepopsix").style.display="none";
+   document.getElementById("arrowone").style.transform = "rotate(-90deg)";
+   document.getElementById("arrtwo").style.transform = "rotate(-90deg)";
+   document.getElementById("arrthree").style.transform = "rotate(-90deg)";
+   document.getElementById("arrfive").style.transform = "rotate(-90deg)";
+   document.getElementById("arrsix").style.transform = "rotate(-90deg)";
     document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";
     }
     else{
@@ -1687,7 +1727,17 @@ function expandtwopop(){
    document.getElementById("allsubone").style.border="0px";
    document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
    document.getElementById("allsubsidehidetwo").style.display="none";
-    
+   document.getElementById("allsubsidehidepopone").style.display="none";
+   document.getElementById("allsubsidehidepoptwo").style.display="none";
+   document.getElementById("allsubsidehidepopthree").style.display="none";
+   document.getElementById("allsubsidehidepopfour").style.display="none";
+   document.getElementById("allsubsidehidepopfive").style.display="flex";
+   document.getElementById("allsubsidehidepopsix").style.display="none";
+   document.getElementById("arrsix").style.transform = "rotate(-90deg)";
+   document.getElementById("arrowone").style.transform = "rotate(-90deg)";
+   document.getElementById("arrtwo").style.transform = "rotate(-90deg)";
+   document.getElementById("arrthree").style.transform = "rotate(-90deg)";
+   document.getElementById("arrfour").style.transform = "rotate(-90deg)";
     document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";
     }
     else{
@@ -1709,9 +1759,19 @@ function expandtwopop(){
    document.getElementById("allsubone").style.border="0px";
    document.getElementById("allsubsidehide").style.transition="0.4s all ease-in-out";
    document.getElementById("allsubsidehidetwo").style.display="none";
-    
+   document.getElementById("allsubsidehidepopone").style.display="none";
+   document.getElementById("allsubsidehidepoptwo").style.display="none";
+   document.getElementById("allsubsidehidepopthree").style.display="none";
+   document.getElementById("allsubsidehidepopfour").style.display="none";
+   document.getElementById("allsubsidehidepopfive").style.display="none";
+   document.getElementById("allsubsidehidepopsix").style.display="flex";
     document.getElementById("allsubtwo").style.borderBottom="5px solid #9F9FD6";
-    }
+    document.getElementById("arrowone").style.transform = "rotate(-90deg)";
+    document.getElementById("arrtwo").style.transform = "rotate(-90deg)";
+    document.getElementById("arrthree").style.transform = "rotate(-90deg)";
+    document.getElementById("arrfour").style.transform = "rotate(-90deg)";
+    document.getElementById("arrfive").style.transform = "rotate(-90deg)";
+}
     else{
         document.getElementById("allsubsidehidepopsix").style.display="none";
         document.getElementById("allsubone").style.borderBottom="5px solid #9F9FD6";
