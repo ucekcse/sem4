@@ -120,6 +120,12 @@ function resetPopupContent() {
     document.getElementById("allsubsidehidepopfour").style.display = "none";
     document.getElementById("allsubsidehidepopfive").style.display = "none";
     document.getElementById("allsubsidehidepopsix").style.display = "none";
+document.getElementById("arrtwo").style.transform = "rotate(-90deg)";
+        document.getElementById("arrowone").style.transform = "rotate(-90deg)";
+        document.getElementById("arrthree").style.transform = "rotate(-90deg)";
+        document.getElementById("arrsix").style.transform = "rotate(-90deg)";
+        document.getElementById("arrfour").style.transform = "rotate(-90deg)";
+        document.getElementById("arrfive").style.transform = "rotate(-90deg)";
 }
 
 function updateSidebar(subject, task, dayDate, deadline, downloadLink) {
