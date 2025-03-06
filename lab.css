@@ -242,7 +242,7 @@ nav a{
 }
 .pracsub{
     width:400px;
-    height:450px;
+    height:100vh;
     background-color: #EAF5FA;
     display:flex;
     justify-content: center;
