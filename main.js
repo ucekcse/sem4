@@ -7,13 +7,30 @@ hamMenu.addEventListener('click', () => {
         document.getElementById("footer").style.display="none";
 
     } else {
-        closenav();
+        closenav();ped
         document.getElementById("content").style.display="flex";
         document.getElementById("footer").style.display="flex";
 
     }
 });
 
+
+function checkScreenWidth() {
+    if (window.innerWidth >= 631 && window.innerWidth <= 1259) {
+        // Code to execute if the screen width is between 631 and 1259
+       document.querySelector(".container").style.display="none";
+       alert("Haven't developed yet!")
+    } else {
+        // Code to execute if the screen width is outside this range
+        document.querySelector(".container").style.display="flex";
+    }
+}
+
+// Call the function initially to check screen width when the page loads
+checkScreenWidth();
+
+// Attach event listener to check whenever the window is resized
+window.addEventListener('resize', checkScreenWidth);
 
 
 
