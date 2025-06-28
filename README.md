@@ -38,3 +38,8 @@ Materials and Resources
 
 ## Site Link
 [Check it out here](https://ucekcse.github.io/sem4/) 
+## Purpose
+To bring all our study materials together in one place so it’s easier for everyone in our class to find and use them.
+
+## Site Link
+[Check it out here](https://ucekcse.github.io/sem4/)
