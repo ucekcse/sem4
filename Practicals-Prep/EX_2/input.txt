@@ -1,7 +1,0 @@
-int main(){
-    int a, b;
-    printf("hello");
-    float c;
-    char d;
-    return 0;
-}
