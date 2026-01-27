@@ -3,9 +3,6 @@
 This site is created to make it easier for everyone in our class to access and share study materials.  
 It’s meant to be a simple, shared space where we can keep all our notes and resources together in one place for everyone to use.
 
-## Site Link
-[Check it out here](https://ucekcse.github.io/sem4/)
-
 ## 📌 Pages and Their Purpose
 
 ### 🏠 Home
@@ -39,3 +36,5 @@ Coding
 Materials and Resources  
 - [Kiruthigaa](https://github.com/Krithiikaa)
 
+## Site Link
+[Check it out here](https://ucekcse.github.io/sem4/)
