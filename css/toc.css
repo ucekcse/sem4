@@ -8,7 +8,7 @@
 
     font-family: 'Supercell'; /* Choose a name for your font family */
 
-    src:url(supercell-magic-webfont.ttf) format('truetype'); /* Include multiple formats for compatibility */
+    src:url(../fonts/supercell-magic-webfont.ttf) format('truetype'); /* Include multiple formats for compatibility */
 
     font-weight: normal;
 
@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("world_cloud.jpg");
+    background: url("../images/world_cloud.jpg");
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -51,7 +51,7 @@
     flex-direction: column;
     justify-content: space-between;
     
-    background: url("world_cloud.jpg");
+    background: url("../images/world_cloud.jpg");
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -227,20 +227,20 @@ nav{
 }
 #boxone{
     border: 4px dashed #5ADCF9;
-    background-image: url(class_bg.jpg);
+    background-image: url(../images/class_bg.jpg);
     background-size: contain;
 }
 
 .two{
     background-color: #FFD9E7;
-    background-image: url(sd_mat_bg_test.jpg);
+    background-image: url(../images/sd_mat_bg_test.jpg);
     background-size: contain;
 
 }
 #boxthree{
     border: 4px dashed #F3DC3F;
     background-color: #FDF8DB;
-    background-image: url(pyq_bg_test.jpg);
+    background-image: url(../images/pyq_bg_test.jpg);
     background-size: contain;
     
 }
@@ -691,7 +691,7 @@ width:500px;
         flex-direction: column;
         justify-content: space-between;
         
-        background: url("world_cloud.jpg");
+        background: url("../images/world_cloud.jpg");
         background-repeat:no-repeat;
         background-attachment: fixed;
         background-position: center; 

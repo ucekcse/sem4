@@ -8,7 +8,7 @@
 
     font-family: 'Supercell'; /* Choose a name for your font family */
 
-    src:url(supercell-magic-webfont.ttf) format('truetype'); /* Include multiple formats for compatibility */
+    src:url(../fonts/supercell-magic-webfont.ttf) format('truetype'); /* Include multiple formats for compatibility */
 
     font-weight: normal;
 
@@ -23,7 +23,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("world_cloud.jpg");
+    background: url("../images/world_cloud.jpg");
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -55,7 +55,7 @@
     flex-direction: column;
     justify-content: space-between;
     
-    background: url("world_cloud.jpg");
+    background: url("../images/world_cloud.jpg");
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -404,7 +404,7 @@ button:hover{
         flex-direction: column;
         justify-content: space-between;
         
-        background: url("world_cloud.jpg");
+        background: url("../images/world_cloud.jpg");
         background-repeat:no-repeat;
         background-attachment: fixed;
         background-position: center; 

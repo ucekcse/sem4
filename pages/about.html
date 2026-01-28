@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">   
     <title>About</title>
-    <link rel="stylesheet" href="about.css"/>
+    <link rel="stylesheet" href="../css/about.css"/>
     <script 
         type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
@@ -50,15 +50,15 @@
 <body>
     <div class="container">
         <nav>
-            <img class="mainlogo"src="cse_logo_1.png"/>
+            <img class="mainlogo"src="../images/cse_logo_1.png"/>
             <div class="navbar">
-                <a class="a"id="navtextone" onclick ="homeline()" href="index.html">Home</a>
+                <a class="a"id="navtextone" onclick ="homeline()" href="../index.html">Home</a>
                 <a class="a" id="navtexttwo" onclick ="assignline()" href="assignment.html">Assignment</a>
                 <a class="a" id="navtextthree"  onclick ="taskline()" href="task.html">Task</a>
                 <a class="a" id="navtextfour" onclick ="aboutline()" href="about.html">About</a>
                 <div id="navbar" class="animation start-nav"></div>
             </div>
-            <img class="hilogo" id="hilogo"src="hi.gif">
+            <img class="hilogo" id="hilogo"src="../images/hi.gif">
             <div class="burger_menu">
                 <div class="hamburger-menu">
                     <div class="hambar bar-top"></div> 
@@ -66,19 +66,19 @@
                     <div class="hambar bar-bottom"></div>
                 </div>
             </div>
-            <!-- <img class="menubar" id="menubar" onclick="shownav()" src="icon-menu.svg"/>
-            <img class="menubarclose" id="closeicon" onclick="closenav()" src="close-icon.png"/> -->
+            <!-- <img class="menubar" id="menubar" onclick="shownav()" src="../images/icon-menu.svg"/>
+            <img class="menubarclose" id="closeicon" onclick="closenav()" src="../images/close-icon.png"/> -->
         </nav>
        <div class="mobilenavwhole" id="mobilenavwhole">
 
 
         <div class="mobilenav">
-            <a class="amobile"id="navtextonemobile" onclick ="homeline()" href="index.html">Home</a>
+            <a class="amobile"id="navtextonemobile" onclick ="homeline()" href="../index.html">Home</a>
             <a class="amobile" id="navtexttwomobile" onclick ="assignline()" href="assignment.html">Assignment</a>
             <a class="amobile" id="navtextthreemobile"  onclick ="taskline()" href="task.html">Task</a>
             <a class="amobile" id="navtextfourmobile" onclick ="aboutline()" href="about.html">About</a>
         </div>
-        <img class="hilogomobile"src="hi.gif">
+        <img class="hilogomobile"src="../images/hi.gif">
     </div>
   
         <div class="aboutcontent" id="content">
@@ -159,21 +159,14 @@ line.style.width="100px";
 line.style.left="470px";
 text4.style.color="#8e98f7";
 function resetNavBarStyles() {
-    const menubar = document.getElementById("menubar");
-    const closeicon = document.getElementById("closeicon");
     const mobilenav = document.getElementById("mobilenavwhole");
 
     if (window.innerWidth < 900) {
-        
-         // Mobile view
-       menubar.style.display="flex"
-         closeicon.style.display = "none";
-         mobilenav.style.display = "none";
+        // Mobile view
+        mobilenav.style.display = "none";
     } else {
-// Desktop view
-menubar.style.display="none";
-closeicon.style.display = "none";
-mobilenav.style.display = "none";
+        // Desktop view
+        mobilenav.style.display = "none";
     }
 }
 

@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("world_cloud.jpg");
+    background: url("../images/world_cloud.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -38,7 +38,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 32px;
-    background: url("world_cloud.jpg");
+    background: url("../images/world_cloud.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -226,7 +226,7 @@ nav a {
 }
 @font-face {
     font-family: 'Supercell';
-    src: url(supercell-magic-webfont.ttf) format('truetype');
+    src: url(../fonts/supercell-magic-webfont.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -237,7 +237,7 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("world_cloud.jpg");
+    background: url("../images/world_cloud.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="assignment.css" />
+    <link rel="stylesheet" href="../css/assignment.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,15 +18,15 @@
 <body>
     <div class="container">
         <nav>
-            <img class="mainlogo" src="cse_logo_1.png"/>
+            <img class="mainlogo" src="../images/cse_logo_1.png"/>
             <div class="navbar">
-                <a class="a" id="navtextone" onclick="homeline()" href="index.html">Home</a>
+                <a class="a" id="navtextone" onclick="homeline()" href="../index.html">Home</a>
                 <a class="a" id="navtexttwo" onclick="assignline()" href="assignment.html">Assignment</a>
                 <a class="a" id="navtextthree" onclick="taskline()" href="task.html">Task</a>
                 <a class="a" id="navtextfour" onclick="aboutline()" href="about.html">About</a>
                 <div id="navbar" class="animation start-nav"></div>
             </div>
-            <img class="hilogo" id="hilogo" src="hi.gif">
+            <img class="hilogo" id="hilogo" src="../images/hi.gif">
             <div class="burger_menu">
                 <div class="hamburger-menu">
                     <div class="hambar bar-top"></div> 
@@ -37,12 +37,12 @@
         </nav>
         <div class="mobilenavwhole" id="mobilenavwhole">
             <div class="mobilenav">
-                <a class="amobile" id="navtextonemobile" onclick="homeline()" href="index.html">Home</a>
+                <a class="amobile" id="navtextonemobile" onclick="homeline()" href="../index.html">Home</a>
                 <a class="amobile" id="navtexttwomobile" onclick="assignline()" href="assignment.html">Assignment</a>
                 <a class="amobile" id="navtextthreemobile" onclick="taskline()" href="task.html">Task</a>
                 <a class="amobile" id="navtextfourmobile" onclick="aboutline()" href="about.html">About</a>
             </div>
-            <img class="hilogomobile" src="hi.gif">
+            <img class="hilogomobile" src="../images/hi.gif">
         </div>
         
         <div class="box" id="content">
@@ -108,11 +108,11 @@
 
         <div class="mobile-view" id="mobile-view">
             <div class="partone">
-                <img class="wing leftwing" src="wingsleft.png">
+                <img class="wing leftwing" src="../images/wingsleft.png">
                 <div class="wingtext">
                     <p class="wingcontent">Assignment</p>
                 </div>
-                <img class="wing rightwing" src="wingsright.png">
+                <img class="wing rightwing" src="../images/wingsright.png">
             </div>
 
             <div class="assignment-card" onclick="mondaypopup()">
@@ -177,7 +177,7 @@
         </div>
 
         <div id="popup" class="popuppage">
-            <img onclick="togglePopup()" id="sliderarrow" src="slider arrow.svg">
+            <img onclick="togglePopup()" id="sliderarrow" src="../images/slider arrow.svg">
             <div class="allsubside" id="allsubside">
                 <div id="sidehidden" class="sidecontentsmain">
                     <p id="sidehidden" class="sidecontentsubname"></p>
@@ -202,6 +202,6 @@
     </div>
     
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="./assignment.js"></script>
+    <script src="../js/assignment.js"></script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'919a67467fe2c009',t:'MTc0MDg1MDQ0OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>

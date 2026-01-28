@@ -8,6 +8,9 @@ It’s meant to be a simple, shared space where we can keep all our notes and re
 
 ## 📌 Pages and Their Purpose
 
+## Purpose
+To bring all our study materials together in one place so it’s easier for everyone in our class to find and use them.
+
 ### 🏠 Home
 - Contains previous year question papers (PYQs), study materials to prepare for exams, and class notes given by the college.
 - Helps everyone easily find and use the materials they need for exam preparation and daily classwork.
